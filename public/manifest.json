@@ -1,0 +1,33 @@
+{
+  "short_name": "ZOR",
+  "name": "ZOR",
+  "description": "Complete offline-capable learning management system",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "124x124",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#5DC23E",
+  "background_color": "#ffffff",
+  "categories": ["education", "learning"],
+  "scope": "/",
+  "lang": "en-US"
+}

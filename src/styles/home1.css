@@ -1,0 +1,691 @@
+/* Import Noto Nastaliq Urdu font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap');
+
+/* Home1 Container with RTL/LTR support */
+.home1-container {
+  font-family: "Inter", sans-serif;
+}
+
+.home1-container.rtl {
+  direction: rtl;
+}
+
+.home1-container.ltr {
+  direction: ltr;
+}
+
+/* Background Section */
+.background-section-home1 {
+  /* Background styles are inline in the component */
+}
+
+/* Cards Overlay Section */
+.cards-overlay-section-home1 {
+  position: relative;
+  z-index: 1;
+  margin-top: -80px;
+  font-family: "Inter", sans-serif;
+}
+
+/* Profile Card Styles */
+.profile-card-home1 {
+  background: rgba(255, 255, 255, 0.95);
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 10px !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 4px 12px 0 rgba(0, 0, 0, 0.10);
+  font-family: "Inter", sans-serif;
+}
+
+.profile-image-wrapper-home1 {
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.profile-image-home1 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name-home1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for profile name */
+.rtl .profile-name-home1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 19px;
+}
+
+.profile-email-home1 {
+  color: #61656C;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.course-completed-info-home1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  color: #535862;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for course completion info */
+.rtl .course-completed-info-home1 {
+  flex-direction: row-reverse;
+  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 12px;
+}
+
+.completion-icon-home1 {
+  display: flex;
+  align-items: center;
+  color: #6b7280;
+  font-family: "Inter", sans-serif;
+}
+
+.completion-text-home1 strong {
+  font-weight: 600;
+  color: #000;
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for completion text */
+.rtl .completion-text-home1,
+.rtl .completion-text-home1 strong {
+  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 12px;
+}
+
+.view-profile-btn-home1 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  border-radius: 100px !important;
+  background-color: #5DC23E !important;
+  border: none !important;
+  width: fit-content !important;
+  padding: 8px 30px !important;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for view profile button */
+.rtl .view-profile-btn-home1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+
+.view-profile-btn-home1:hover {
+  background: #16a34a !important;
+}
+
+.view-profile-btn-home1:focus {
+  background: #16a34a !important;
+  box-shadow: none !important;
+}
+
+
+/* Progress Card Styles */
+.progress-card-home1 {
+  background: transparent;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  box-shadow: 1px 4px 12px 0 rgba(0, 0, 0, 0.10);
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.progress-card-background1 {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.progress-content-home1 {
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  font-family: "Inter", sans-serif;
+}
+
+.no-course-container-home1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+.course-book-icon-home1 {
+  margin-bottom: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.no-course-title-home1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for no course title */
+.rtl .no-course-title-home1 {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Pak Nastaleeq", "Urdu Typesetting", serif;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.no-course-subtitle-home1 {
+  font-size: 14px;
+  color: #61656C;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+/* RTL specific styling for Urdu subtitle */
+.rtl .no-course-subtitle-home1 {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Pak Nastaleeq", "Urdu Typesetting", serif;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  unicode-bidi: isolate;
+  font-size: 15px;
+}
+
+.browse-courses-btn-home1 {
+  background: #5DC23E !important;
+  border: none !important;
+  border-radius: 25px !important;
+  padding: 10px 32px !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: white !important;
+  margin-top: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for browse courses button */
+.rtl .browse-courses-btn-home1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+
+.browse-courses-btn-home1:hover {
+  background: #16a34a !important;
+}
+
+.browse-courses-btn-home1:focus {
+  background: #16a34a !important;
+  box-shadow: none !important;
+}
+
+/* Progress Circle Styles */
+.progress-circle-container-home1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for progress circle */
+.rtl .progress-circle-container-home1 {
+  justify-content: flex-start;
+}
+
+.progress-circle-home1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.progress-ring-home1 {
+  transform: rotate(-90deg);
+}
+
+.progress-ring-background-home1 {
+  opacity: 0.2;
+}
+
+.progress-ring-progress-home1 {
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.progress-text-home1 {
+  position: absolute;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.progress-percentage-home1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+}
+
+.progress-label-home1 {
+  font-size: 11px;
+  color: #61656C;
+  font-weight: 400;
+  margin-top: 4px;
+  font-family: "Inter", sans-serif;
+}
+
+/* Explore Courses Section Styles */
+.explore-courses-section-home1 {
+  padding: 60px 0;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.section-header-home1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for section header */
+.rtl .section-header-home1 {
+  flex-direction: row-reverse;
+}
+
+.section-title-home1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for section title */
+.rtl .section-title-home1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 26px;
+}
+
+.section-controls-home1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for section controls */
+.rtl .section-controls-home1 {
+  flex-direction: row-reverse;
+}
+
+.view-all-btn-home1 {
+  background: none;
+  border: none;
+  color: #78BF52;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  text-decoration: underline;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for view all button */
+.rtl .view-all-btn-home1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+
+.view-all-btn-home1:hover {
+  color: #16a34a;
+  text-decoration: underline;
+}
+
+.slider-controls-home1 {
+  display: flex;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for slider controls */
+.rtl .slider-controls-home1 {
+  flex-direction: row-reverse;
+}
+
+.slider-btn-home1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #EAECF0;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #6b7280;
+  font-family: "Inter", sans-serif;
+}
+
+.slider-btn-home1:hover:not(.disabled) {
+  border-color: #5DC23E;
+  color: #5DC23E;
+  background: #f0fdf4;
+}
+
+.slider-btn-home1.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.courses-slider-home1 {
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.courses-container-home1 {
+  font-family: "Inter", sans-serif;
+}
+
+.courses-container-mobile-home1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: all 0.3s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.course-card-home1 {
+  border: 1px solid #E9EAEB !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease;
+  height: 100%;
+  padding: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+.course-card-home1:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.course-image-container-home1 {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.course-image-home1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.course-device-mockup-home1 {
+  width: 80px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: "Inter", sans-serif;
+}
+
+.device-screen-home1 {
+  width: 60px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+}
+
+.course-content-home1 {
+  padding: 20px 0px !important;
+  padding-bottom: 0px !important;
+  font-family: "Inter", sans-serif;
+}
+
+.course-card-title-home1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for course card title */
+.rtl .course-card-title-home1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: right;
+}
+
+.course-number-home1 {
+  color: #475467;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for course number */
+.rtl .course-number-home1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+  text-align: right;
+}
+
+.course-lessons-home1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6b7280;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for course lessons */
+.rtl .course-lessons-home1 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.lessons-icon-home1 {
+  color: #6b7280;
+}
+
+.lessons-text-home1 {
+  font-size: 11px;
+  font-weight: 400;
+  color: #475467;
+  font-family: "Inter", sans-serif;
+}
+
+/* RTL support for lessons text */
+.rtl .lessons-text-home1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+
+/* Mobile Course Slide Styles */
+.mobile-course-slide1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.mobile-course-slide1 .course-card-home1 {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+  .section-header-home1 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  /* RTL responsive adjustments */
+  .rtl .section-header-home1 {
+    align-items: flex-end;
+  }
+
+  .section-controls-home1 {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  /* RTL responsive adjustments */
+  .rtl .section-controls-home1 {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cards-overlay-section-home1 {
+    padding: 20px 0px;
+  }
+  
+  .background-section-home1 {
+    background-size: cover !important;
+    height: 15vh !important;
+  }
+
+  .progress-content-home1 {
+    min-height: 250px;
+    padding: 20px;
+  }
+
+  .course-book-icon-home1 img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .no-course-title-home1 {
+    font-size: 18px;
+  }
+
+  /* RTL responsive adjustments */
+  .rtl .no-course-title-home1 {
+    font-size: 20px;
+  }
+
+  .no-course-subtitle-home1 {
+    font-size: 13px;
+  }
+
+  /* RTL responsive adjustments */
+  .rtl .no-course-subtitle-home1 {
+    font-size: 14px;
+  }
+
+  .browse-courses-btn-home1 {
+    padding: 10px 28px !important;
+    font-size: 13px !important;
+  }
+
+  .explore-courses-section-home1 {
+    padding: 40px 0;
+  }
+
+  .section-title-home1 {
+    font-size: 24px;
+  }
+
+  /* RTL responsive adjustments */
+  .rtl .section-title-home1 {
+    font-size: 26px;
+  }
+
+  .course-image-container-home1 {
+    height: 160px;
+  }
+
+  .course-device-mockup-home1 {
+    width: 60px;
+    height: 45px;
+  }
+
+  .device-screen-home1 {
+    width: 45px;
+    height: 30px;
+  }
+
+  /* Mobile slider - only affects mobile container */
+  .courses-container-mobile-home1 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* Keep desktop container unchanged */
+  .courses-container-home1 {
+    display: block;
+  }
+
+  .mobile-course-slide1 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile-card-home1 {
+    padding: 20px 16px;
+  }
+  
+  .progress-card-home1 {
+    padding: 24px 0px;
+  }
+
+  .section-controls-home1 {
+    gap: 16px;
+  }
+
+  .slider-controls-home1 {
+    align-self: flex-end;
+  }
+
+  /* RTL responsive adjustments */
+  .rtl .slider-controls-home1 {
+    align-self: flex-start;
+  }
+}

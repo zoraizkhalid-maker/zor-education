@@ -1,0 +1,515 @@
+/* ZOR Login Component Styles */
+.zor-login-wrapper {
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+}
+
+.zor-signup-link {
+  color: #5DC23E;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.zor-signup-link:hover {
+  color: #16a34a;
+}
+
+.zor-login-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.zor-logo-circle img{
+    width: 62px;
+    height: 62px;
+}
+
+/* Left Side - Login Form Section */
+.zor-login-form-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.zor-login-form-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Brand Section */
+.zor-brand-section {
+  text-align: center;
+  margin-bottom: 2rem;
+      gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zor-logo-circle {
+  width: 48px;
+  height: 48px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+}
+
+.zor-welcome-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #181D27;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.zor-welcome-subtitle {
+  color: #8D8D8D;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+/* Form Styles */
+.zor-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.zor-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.zor-form-label {
+  display: block;
+  color: #414651;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.zor-form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #EAECF0;
+  border-radius: 12px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: 400;
+  background-color: white !important;
+  color: #181D27 !important;
+}
+
+.zor-form-input::placeholder {
+  color: #9ca3af !important;
+}
+
+/* Disable autofill styling */
+.zor-form-input:-webkit-autofill,
+.zor-form-input:-webkit-autofill:hover,
+.zor-form-input:-webkit-autofill:focus,
+.zor-form-input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #181D27 !important;
+  background-color: white !important;
+}
+
+.zor-form-input:focus {
+  border-color: #5DC23E;
+}
+
+/* Form Options */
+.zor-form-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.zor-remember-container {
+  display: flex;
+  align-items: center;
+}
+
+.zor-remember-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #EAECF0;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.zor-remember-checkbox:focus {
+  ring: 2px;
+  ring-color: #22c55e;
+}
+
+.zor-remember-label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #414651;
+}
+
+.zor-forgot-link {
+  font-size: 14px;
+  color: #5DC23E;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.zor-forgot-link:hover {
+  color: #16a34a;
+}
+
+/* Buttons */
+.zor-signin-btn {
+  width: 100%;
+  background-color: #5DC23E;
+  color: white;
+  padding: 0.95rem 1rem;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.zor-signin-btn:hover {
+  background-color: #16a34a;
+}
+
+.zor-google-btn {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #EAECF0;
+  color: #414651;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  outline: none;
+  margin-top: 20px;
+}
+
+.zor-google-btn img{
+    width: 24px;
+    height: 24px;
+}
+
+.zor-google-btn:hover {
+  background-color: #f9fafb;
+}
+
+.zor-google-icon {
+  flex-shrink: 0;
+}
+
+/* Signup Link */
+.zor-signup-text {
+  text-align: center;
+  font-size: 14px;
+  color: #8D8D8D;
+  margin: 0;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.zor-signup-link {
+  color: #5DC23E;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.zor-signup-link:hover {
+  color: #16a34a;
+}
+
+/* Right Side - Hero Section */
+.zor-hero-section {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.zor-hero-background {
+  position: absolute;
+  inset: 0;
+  width: 95%;
+  height: 95%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  border-radius: 24px;
+}
+
+/* Text Overlay */
+.zor-text-overlay {
+  position: absolute;
+  bottom: 55px;
+  left: 0;
+  right: 0;
+  padding: 0px 60px;
+  color: white;
+  z-index: 3;
+  text-align: right;
+}
+
+.rtl-overlay {
+  text-align: right;
+}
+
+/* For LTR (English), align text to left */
+.zor-login-wrapper:not(.rtl-login) .zor-text-overlay {
+  text-align: left;
+}
+
+.zor-hero-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 2.2;
+}
+
+.zor-hero-highlight {
+  padding: 0.1rem 0.75rem;
+  border-radius: 24px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  display: inline-block;
+  background-color: #5DC23E;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+.zor-hero-subtitle {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* RTL Support - Minimal additions only */
+.rtl-login {
+  direction: rtl;
+  font-family: 'Noto Nastaliq Urdu', 'Noto Sans', Arial, sans-serif;
+}
+
+.rtl-form {
+  text-align: right;
+}
+
+.rtl-form .zor-form-label {
+  text-align: right;
+}
+
+.rtl-input {
+  text-align: right;
+  direction: rtl;
+}
+
+.rtl-form-options {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.rtl-remember {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.rtl-remember .zor-remember-checkbox {
+  margin-left: 0.5rem;
+  margin-right: 0;
+  order: 2;
+}
+
+.rtl-remember .zor-remember-label {
+  order: 1;
+  text-align: right;
+}
+
+.rtl-google-btn {
+  flex-direction: row-reverse;
+}
+
+.rtl-overlay {
+  text-align: right;
+}
+
+.rtl-overlay .zor-hero-highlight {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .zor-login-container {
+    flex-direction: column-reverse;
+  }
+  
+  .zor-hero-section {
+    min-height: 400px;
+    order: -1;
+  }
+  
+  .zor-hero-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .zor-login-form-section {
+    padding: 2.5rem 0.75rem;
+  }
+  
+  .zor-login-form-container{
+    max-width: 450px;
+  }
+  
+  .zor-hero-background {
+    position: absolute;
+    inset: 0;
+    width: 95%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    border-radius: 24px;
+    margin: auto;
+  }
+  
+  .zor-hero-highlight{
+    font-size: 20px;
+  }
+  
+  .zor-hero-section {
+    padding: 1.5rem;
+    min-height: 350px;
+  }
+  
+  .zor-welcome-title {
+    font-size: 1.5rem;
+  }
+  
+  .zor-hero-title {
+    font-size: 1.75rem;
+  }
+  
+  .zor-hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .zor-form-options {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .rtl-form-options {
+    flex-direction: row-reverse;
+  }
+  
+  .zor-text-overlay {
+    padding: 1.5rem;
+  }
+  .zor-signup-text{
+    margin-top: 20px;
+  }
+  .zor-text-overlay {
+    bottom: 20px !important;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .zor-hero-section {
+    min-height: 300px;
+  }
+  
+  .zor-welcome-title {
+    font-size: 1.25rem;
+  }
+  
+  .zor-hero-title {
+    font-size: 1.5rem;
+  }
+  
+  .zor-text-overlay {
+    padding: 1rem;
+  }
+}
+
+/* Accessibility and Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .zor-form-input {
+    border-width: 2px;
+  }
+  
+  .zor-signin-btn,
+  .zor-google-btn {
+    border-width: 2px;
+  }
+}
+
+/* Import Noto Nastaliq Urdu font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap');
+
+/* Enhanced Urdu text styling */
+.no-course-subtitle-home1 {
+  font-size: 14px;
+  color: #61656C;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Noto Nastaliq Urdu", serif;
+  direction: rtl;
+  text-align: center;
+  /* Additional properties for better Urdu rendering */
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  unicode-bidi: isolate;
+}
+
+/* Alternative font stack if primary doesn't load */
+.no-course-subtitle-home1 {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Pak Nastaleeq", "Urdu Typesetting", serif;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 767.98px) {
+  .no-course-subtitle-home1 {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "timestamp": "2025-11-28T12:20:54.921Z",
+  "comparison_type": "Admin vs Script Upload",
+  "admin_course": {
+    "id": "W6P2YU0ljSRF9B2OCAgJ",
+    "title": "Computer Science",
+    "course_number": "0001",
+    "levels_count": 3,
+    "sample_course_data": {
+      "updated_at": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1764326127,
+        "nanoseconds": 464000000
+      },
+      "active": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/zor-education-app.firebasestorage.app/o/courses%2F1764326120925_Featured%20Image1.jpg?alt=media&token=9c70906b-adf0-4de7-83e5-dc82b020eb8a",
+      "descriptions": {
+        "en": "Computer Science is the study of computers, computing systems, and how they work. It focuses on understanding how information is processed, how software and hardware are designed, and how problems can be solved using algorithms, programming, and technology. Computer science includes areas such as programming, data structures, artificial intelligence, networks, databases, cybersecurity, and software development. It teaches how to create efficient, secure, and innovative technological solutions used in everyday life and modern industries.",
+        "ur": "کمپیوٹر سائنس کمپیوٹرز، کمپیوٹنگ سسٹمز اور وہ کیسے کام کرتے ہیں کا مطالعہ ہے۔ یہ اس بات کو سمجھنے پر توجہ مرکوز کرتا ہے کہ معلومات پر کارروائی کیسے کی جاتی ہے، سافٹ ویئر اور ہارڈ ویئر کو کس طرح ڈیزائن کیا جاتا ہے، اور الگورتھم، پروگرامنگ اور ٹیکنالوجی کا استعمال کرتے ہوئے مسائل کو کیسے حل کیا جا سکتا ہے۔ کمپیوٹر سائنس میں پروگرامنگ، ڈیٹا ڈھانچے، مصنوعی ذہانت، نیٹ ورکس، ڈیٹا بیس، سائبرسیکیوریٹی، اور سافٹ ویئر ڈویلپمنٹ جیسے شعبے شامل ہیں۔ یہ سکھاتا ہے کہ روزمرہ کی زندگی اور جدید صنعتوں میں استعمال ہونے والے موثر، محفوظ، اور جدید تکنیکی حل کیسے بنائے جائیں۔"
+      },
+      "titles": {
+        "en": "Computer Science",
+        "ur": "کمپیوٹر سائنس"
+      },
+      "created_at": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1764326127,
+        "nanoseconds": 464000000
+      },
+      "courseNumber": "0001"
+    },
+    "sample_level_data": {
+      "lessons": [
+        {
+          "subtitleKey": "lesson",
+          "titles": {
+            "en": "What is Computer Science?",
+            "ur": "کمپیوٹر سائنس کیا ہے؟"
+          },
+          "created_at": "2025-11-28T10:55:50.463Z",
+          "order": 1,
+          "id": "1764327350462_0",
+          "content": {
+            "descriptions": {
+              "ur": "کمپیوٹر سائنس کمپیوٹرز، اُن کے کام کرنے کے طریقے، اور مسائل حل کرنے کے لیے ان کے استعمال کے بارے میں علم ہے۔ اس میں پروگرامنگ، الگورتھمز، ڈیٹا، اور کمپیوٹر سسٹمز شامل ہیں۔",
+              "en": "Computer Science is the study of computers, how they work, and how we use them to solve problems. It includes programming, algorithms, data, and computer systems."
+            },
+            "points": [
+              {
+                "en": "",
+                "ur": ""
+              }
+            ]
+          },
+          "type": "lesson"
+        },
+        {
+          "order": 2,
+          "subtitleKey": "mcq",
+          "created_at": "2025-11-28T10:55:50.463Z",
+          "id": "1764327350462_1",
+          "titles": {
+            "ur": "کوئز",
+            "en": "Quiz"
+          },
+          "parentLessonId": "1764327350462_0",
+          "type": "quiz",
+          "content": {
+            "descriptions": {
+              "en": "Quiz",
+              "ur": "کوئز"
+            },
+            "questions": [
+              {
+                "correctAnswer": 2,
+                "explanations": {
+                  "en": "Computer Science focuses on understanding computers and using them to solve real-world problems through programming, algorithms, and data processing. That is why “computers and problem-solving” is the correct answer.",
+                  "ur": "کمپیوٹر سائنس کا بنیادی مقصد کمپیوٹرز کو سمجھنا اور انہیں حقیقی دنیا کے مسائل حل کرنے کے لیے استعمال کرنا ہے۔ اسی لیے \"کمپیوٹرز اور مسئلہ حل کرنا\" درست جواب ہے۔"
+                },
+                "options": [
+                  {
+                    "ur": "جانور",
+                    "en": "Animals"
+                  },
+                  {
+                    "ur": "موسم",
+                    "en": "Weather"
+                  },
+                  {
+                    "ur": "کمپیوٹر اور مسئلہ حل کرنا",
+                    "en": "Computers and problem-solving"
+                  },
+                  {
+                    "ur": "کھیل",
+                    "en": "Sports"
+                  }
+                ],
+                "questions": {
+                  "ur": "کمپیوٹر سائنس بنیادی طور پر کس چیز کا مطالعہ کرتی ہے؟",
+                  "en": "What does Computer Science mainly study?"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "updated_at": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1764327352,
+        "nanoseconds": 958000000
+      },
+      "estimated_duration": "30 - 45 minutes",
+      "subtitles": {
+        "ur": "کمپیوٹر کی بنیادی معلومات اور کمپیوٹر سائنس کے کام کرنے کا طریقہ سیکھیں",
+        "en": "vLearn the basics of computers and how computer science works."
+      },
+      "titles": {
+        "ur": "کمپیوٹر سائنس کا تعارف",
+        "en": "Introduction to Computer Science"
+      },
+      "level": 1,
+      "courseId": "W6P2YU0ljSRF9B2OCAgJ",
+      "created_at": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1764326547,
+        "nanoseconds": 795000000
+      }
+    },
+    "sample_lesson_data": {
+      "subtitleKey": "lesson",
+      "titles": {
+        "en": "What is Computer Science?",
+        "ur": "کمپیوٹر سائنس کیا ہے؟"
+      },
+      "created_at": "2025-11-28T10:55:50.463Z",
+      "order": 1,
+      "id": "1764327350462_0",
+      "content": {
+        "descriptions": {
+          "ur": "کمپیوٹر سائنس کمپیوٹرز، اُن کے کام کرنے کے طریقے، اور مسائل حل کرنے کے لیے ان کے استعمال کے بارے میں علم ہے۔ اس میں پروگرامنگ، الگورتھمز، ڈیٹا، اور کمپیوٹر سسٹمز شامل ہیں۔",
+          "en": "Computer Science is the study of computers, how they work, and how we use them to solve problems. It includes programming, algorithms, data, and computer systems."
+        },
+        "points": [
+          {
+            "en": "",
+            "ur": ""
+          }
+        ]
+      },
+      "type": "lesson"
+    }
+  },
+  "script_course": {
+    "id": "r0jnoq8EWDMcmBFpxNc8",
+    "title": "Basics of Computer Science",
+    "course_number": "0002",
+    "levels_count": 16,
+    "sample_course_data": {
+      "titles": {
+        "ur": "کمپیوٹر سائنس کی بنیادیں",
+        "en": "Basics of Computer Science"
+      },
+      "created_at": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1764331230,
+        "nanoseconds": 705000000
+      },
+      "updated_at": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1764331251,
+        "nanoseconds": 700000000
+      },
+      "image": null,
+      "active": true,
+      "descriptions": {
+        "en": "This comprehensive course introduces students to fundamental computer science concepts through interactive lessons, practical examples, and engaging quizzes. Students will learn about computer basics, hardware and software, input/output devices, memory, storage, binary language, and responsible computer use.",
+        "ur": "یہ جامع کورس طلباء کو کمپیوٹر سائنس کے بنیادی تصورات سے روشناس کراتا ہے۔ اس میں انٹرایکٹو اسباق، عملی مثالیں، اور دلچسپ کوئزز شامل ہیں۔ طلباء کمپیوٹر کی بنیادیں، ہارڈویئر اور سافٹ ویئر، ان پٹ/آؤٹ پٹ ڈیوائسز، میموری، اسٹوریج، بائنری زبان، اور ذمہ دارانہ استعمال سیکھیں گے۔"
+      },
+      "estimated_duration": "25-30 hours",
+      "courseNumber": "0002"
+    },
+    "sample_level_data": {
+      "courseName": "Basics of Computer Science",
+      "level": 1,
+      "lessons": [
+        {
+          "subtitleKey": "lesson",
+          "titles": {
+            "ur": "کمپیوٹر سائنس میں خوش آمدید",
+            "en": "Welcome to Computer Science"
+          },
+          "created_at": "2025-11-28T11:57:55.143Z",
+          "content": {
+            "descriptions": {
+              "en": "You may have used a mobile phone, maybe even a computer. But have you ever thought about what a computer actually does? It's not just an ordinary machine – it thinks, calculates, and makes our lives easier. Let's start this journey.",
+              "ur": "آپ نے موبائل تو استعمال کیا ہوگا، شاید کمپیوٹر بھی۔ لیکن کیا آپ نے کبھی سوچا کہ کمپیوٹر اصل میں کیا کرتا ہے؟ یہ ایک عام مشین نہیں – یہ سوچتا ہے، حساب کرتا ہے، اور ہماری زندگی آسان بناتا ہے۔ آئیے، اس سفر کی شروعات کرتے ہیں۔"
+            }
+          },
+          "order": 1,
+          "type": "lesson",
+          "id": "lesson_1732787200001"
+        },
+        {
+          "content": {
+            "descriptions": {
+              "en": "A computer is a machine that receives information (Data), processes it (Processing), and gives results (Output). It is fast, reliable, and doesn't get tired. But remember – a computer doesn't do anything on its own, humans give it instructions.",
+              "ur": "کمپیوٹر ایک مشین ہے جو معلومات (Data) کو وصول کرتا ہے، اس پر عمل (Processing) کرتا ہے، اور نتیجہ (Output) دیتا ہے۔ یہ تیز رفتار، قابل اعتماد، اور تھکتا نہیں۔ لیکن یاد رکھیں – کمپیوٹر خود سے کچھ نہیں کرتا، اسے انسان ہدایات دیتا ہے۔"
+            },
+            "analogy": {
+              "ur": "جیسے آپ استاد کو سوال کرتے ہیں، وہ جواب دیتا ہے۔ ویسے ہی آپ کمپیوٹر کو سوال (Input) دیتے ہیں، اور وہ جواب (Output) دیتا ہے۔",
+              "en": "Just like you ask a teacher a question and they give an answer, similarly you give input to the computer and it gives output."
+            }
+          },
+          "order": 1,
+          "id": "lesson_1732787200002",
+          "titles": {
+            "ur": "کمپیوٹر کیا ہے؟",
+            "en": "What is Computer?"
+          },
+          "type": "lesson",
+          "created_at": "2025-11-28T11:57:55.143Z",
+          "subtitleKey": "lesson"
+        },
+        {
+          "subtitleKey": "mcq",
+          "type": "quiz",
+          "order": 1,
+          "created_at": "2025-11-28T11:57:55.143Z",
+          "titles": {
+            "en": "Computer Decision Making",
+            "ur": "کمپیوٹر کے فیصلے"
+          },
+          "id": "quiz_1732787200003",
+          "content": {
+            "questions": [
+              {
+                "question": {
+                  "ur": "کمپیوٹر خود سے فیصلے کرتا ہے؟",
+                  "en": "Does a computer make decisions on its own?"
+                },
+                "explanation": {
+                  "correct": {
+                    "en": "Absolutely correct! Computer only does what humans tell it to do.",
+                    "ur": "بالکل درست! کمپیوٹر صرف وہی کرتا ہے جو انسان اسے بتاتا ہے۔"
+                  },
+                  "incorrect": {
+                    "ur": "غلط! کمپیوٹر انسان کی دی گئی ہدایات پر عمل کرتا ہے، خود سے نہیں سوچتا۔",
+                    "en": "Wrong! Computer follows human instructions and doesn't think on its own."
+                  }
+                },
+                "id": "q_1732787200001",
+                "correctAnswer": 1,
+                "options": [
+                  {
+                    "ur": "ہاں",
+                    "en": "Yes"
+                  },
+                  {
+                    "ur": "نہیں",
+                    "en": "No"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "lesson",
+          "titles": {
+            "en": "Computer Working Process",
+            "ur": "کمپیوٹر کا کام کا عمل"
+          },
+          "id": "lesson_1732787200004",
+          "content": {
+            "analogy": {
+              "ur": "جیسے آپ ATM میں رقم کی درخواست (Input) کرتے ہیں، مشین حساب لگا کر پیسے نکالتی ہے (Processing)، اور آپ کو رقم دیتی ہے (Output)۔",
+              "en": "Like when you make a request for money at ATM (Input), machine calculates and dispenses cash (Processing), and gives you money (Output)."
+            },
+            "descriptions": {
+              "ur": "کمپیوٹر 3 بنیادی مراحل میں کام کرتا ہے: 1. Input (معلومات حاصل کرنا) 2. Processing (حساب کرنا) 3. Output (نتیجہ دکھانا)",
+              "en": "Computer works in 3 basic stages: 1. Input (receiving information) 2. Processing (calculation) 3. Output (showing results)"
+            }
+          },
+          "subtitleKey": "lesson",
+          "order": 1,
+          "created_at": "2025-11-28T11:57:55.143Z"
+        },
+        {
+          "id": "quiz_1732787200005",
+          "type": "quiz",
+          "order": 1,
+          "subtitleKey": "mcq",
+          "titles": {
+            "ur": "پروسیسنگ کی شناخت",
+            "en": "Processing Identification"
+          },
+          "content": {
+            "questions": [
+              {
+                "question": {
+                  "ur": "درج ذیل میں سے کون سا Processing ہے؟",
+                  "en": "Which of the following is Processing?"
+                },
+                "explanation": {
+                  "correct": {
+                    "ur": "Processing کا مطلب ہے حساب یا تجزیہ۔ شاندار!",
+                    "en": "Processing means calculation or analysis. Excellent!"
+                  },
+                  "incorrect": {
+                    "en": "Wrong answer. The process of calculation is called Processing.",
+                    "ur": "غلط جواب۔ حساب کرنے کے عمل کو Processing کہتے ہیں۔"
+                  }
+                },
+                "id": "q_1732787200002",
+                "correctAnswer": 2,
+                "options": [
+                  {
+                    "ur": "کی بورڈ دبانا",
+                    "en": "Pressing keyboard"
+                  },
+                  {
+                    "ur": "ماؤس ہلانا",
+                    "en": "Moving mouse"
+                  },
+                  {
+                    "ur": "حساب کرنا",
+                    "en": "Calculation"
+                  },
+                  {
+                    "en": "Viewing image on monitor",
+                    "ur": "مانیٹر پر تصویر دیکھنا"
+                  }
+                ]
+              }
+            ]
+          },
+          "created_at": "2025-11-28T11:57:55.143Z"
+        },
+        {
+          "subtitleKey": "lesson",
+          "created_at": "2025-11-28T11:57:55.143Z",
+          "type": "lesson",
+          "id": "lesson_1732787200006",
+          "titles": {
+            "ur": "کمپیوٹر کی اقسام",
+            "en": "Types of Computers"
+          },
+          "order": 1,
+          "content": {
+            "descriptions": {
+              "en": "Computers come in different shapes: 1. Desktop - for homes or offices 2. Laptop - easy to carry 3. Supercomputer - millions of times more powerful, for science and weather prediction 4. Mobile/Tablet - computer that fits in hands",
+              "ur": "کمپیوٹر مختلف شکلوں میں آتے ہیں: 1. Desktop – گھروں یا دفاتر میں 2. Laptop – لے جانے میں آسان 3. Supercomputer – لاکھوں گنا طاقتور، سائنس اور موسم کی پیش گوئی کے لیے 4. Mobile/Tablet – ہاتھوں میں آ جانے والا کمپیوٹر"
+            },
+            "analogy": {
+              "en": "Just like small bulb for home lighting and big light for station lighting, similarly computer type depends on the work.",
+              "ur": "جیسے گھر کی لائٹ کے لیے چھوٹا بلب اور اسٹیشن کی لائٹ کے لیے بڑا، ویسے ہی کمپیوٹر کی قسم کام پر منحصر ہے۔"
+            }
+          }
+        },
+        {
+          "content": {
+            "questions": [
+              {
+                "id": "q_1732787200003",
+                "correctAnswer": 1,
+                "options": [
+                  {
+                    "ur": "ویڈیو دیکھنے کے لیے",
+                    "en": "For watching videos"
+                  },
+                  {
+                    "en": "For weather prediction",
+                    "ur": "موسم کی پیش گوئی کے لیے"
+                  },
+                  {
+                    "en": "For listening to music",
+                    "ur": "گانے سننے کے لیے"
+                  },
+                  {
+                    "ur": "گیم کھیلنے کے لیے",
+                    "en": "For playing games"
+                  }
+                ],
+                "question": {
+                  "ur": "Supercomputer کہاں استعمال ہوتا ہے؟",
+                  "en": "Where is Supercomputer used?"
+                },
+                "explanation": {
+                  "incorrect": {
+                    "ur": "نہیں! سپر کمپیوٹرز روزمرہ کے کاموں کے لیے نہیں بلکہ سائنس اور تجزیہ کے لیے استعمال ہوتے ہیں۔",
+                    "en": "No! Supercomputers are not for daily tasks but for science and analysis."
+                  },
+                  "correct": {
+                    "en": "Absolutely correct! Supercomputers are meant for complex calculations.",
+                    "ur": "بالکل درست! سپر کمپیوٹرز کا کام پیچیدہ حساب کتاب ہوتا ہے۔"
+                  }
+                }
+              }
+            ]
+          },
+          "id": "quiz_1732787200007",
+          "subtitleKey": "mcq",
+          "created_at": "2025-11-28T11:57:55.143Z",
+          "order": 1,
+          "type": "quiz",
+          "titles": {
+            "ur": "سپر کمپیوٹر کا استعمال",
+            "en": "Supercomputer Usage"
+          }
+        }
+      ],
+      "estimated_duration": "1.5-2 hours",
+      "subtitles": {
+        "ur": "کمپیوٹر کی بنیادی تعارف",
+        "en": "Introduction to Computer Basics"
+      },
+      "titles": {
+        "ur": "کمپیوٹر کیا ہے؟",
+        "en": "What is Computer?"
+      },
+      "courseId": "r0jnoq8EWDMcmBFpxNc8"
+    },
+    "sample_lesson_data": {
+      "subtitleKey": "lesson",
+      "titles": {
+        "ur": "کمپیوٹر سائنس میں خوش آمدید",
+        "en": "Welcome to Computer Science"
+      },
+      "created_at": "2025-11-28T11:57:55.143Z",
+      "content": {
+        "descriptions": {
+          "en": "You may have used a mobile phone, maybe even a computer. But have you ever thought about what a computer actually does? It's not just an ordinary machine – it thinks, calculates, and makes our lives easier. Let's start this journey.",
+          "ur": "آپ نے موبائل تو استعمال کیا ہوگا، شاید کمپیوٹر بھی۔ لیکن کیا آپ نے کبھی سوچا کہ کمپیوٹر اصل میں کیا کرتا ہے؟ یہ ایک عام مشین نہیں – یہ سوچتا ہے، حساب کرتا ہے، اور ہماری زندگی آسان بناتا ہے۔ آئیے، اس سفر کی شروعات کرتے ہیں۔"
+        }
+      },
+      "order": 1,
+      "type": "lesson",
+      "id": "lesson_1732787200001"
+    }
+  },
+  "analysis": {
+    "course_comparison": {
+      "admin_fields": [
+        "active",
+        "courseNumber",
+        "descriptions",
+        "image",
+        "titles"
+      ],
+      "script_fields": [
+        "active",
+        "courseNumber",
+        "descriptions",
+        "estimated_duration",
+        "image",
+        "titles"
+      ],
+      "matching_fields": [
+        "active",
+        "image",
+        "descriptions",
+        "titles",
+        "courseNumber"
+      ],
+      "missing_in_script": [],
+      "extra_in_script": [
+        "estimated_duration"
+      ]
+    },
+    "level_comparison": {
+      "admin_fields": [
+        "courseId",
+        "estimated_duration",
+        "lessons",
+        "level",
+        "subtitles",
+        "titles"
+      ],
+      "script_fields": [
+        "courseId",
+        "courseName",
+        "estimated_duration",
+        "lessons",
+        "level",
+        "subtitles",
+        "titles"
+      ],
+      "matching_fields": [
+        "lessons",
+        "estimated_duration",
+        "subtitles",
+        "titles",
+        "level",
+        "courseId"
+      ],
+      "missing_in_script": [],
+      "extra_in_script": [
+        "courseName"
+      ]
+    },
+    "lesson_comparison": {
+      "admin_fields": [
+        "content",
+        "id",
+        "order",
+        "subtitleKey",
+        "titles",
+        "type"
+      ],
+      "script_fields": [
+        "content",
+        "id",
+        "order",
+        "subtitleKey",
+        "titles",
+        "type"
+      ],
+      "matching_fields": [
+        "subtitleKey",
+        "titles",
+        "order",
+        "id",
+        "content",
+        "type"
+      ],
+      "missing_in_script": [],
+      "extra_in_script": []
+    },
+    "field_consistency": {},
+    "structure_match": true,
+    "issues": []
+  }
+}

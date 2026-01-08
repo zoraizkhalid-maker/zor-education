@@ -1,0 +1,764 @@
+/* styles/CourseLevel.css */
+
+.cs-structure-container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.back-arrow {
+  color: #6c757d;
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 22px;
+}
+
+.back-arrow-img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.CourseLevel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.CourseLevel-item {
+    padding: 20px 0;
+    margin: 0;
+    border: 1px solid #EAECF0;
+    gap: 10px;
+    margin-bottom: 16px;
+    border-radius: 22px;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.2s ease;
+}
+
+.CourseLevel-item:hover {
+    border-color: #d0d5dd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.CourseLevel-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.CourseLevel-profile{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.CourseLevel-icon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#courselevel-card{
+    justify-content: space-between !important;
+}
+
+.CourseLevel-content {
+  flex: 1;
+  min-width: 0;
+  margin-right: 20px;
+}
+
+.CourseLevel-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 4px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.CourseLevel-subtitle {
+  font-size: 14px;
+  color: #667085;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.CourseLevel-duration-section {
+  flex: 0 0 200px;
+  text-align: left;
+  margin: 0 20px;
+  padding: 0 10px;
+}
+
+.duration-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 4px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.duration-time {
+  font-size: 14px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.level-section {
+  flex: 0 0 100px;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.level-badge {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  background-color: rgba(164, 167, 174, 0.10);
+  color: #A4A7AE;
+  font-family: 'Inter', sans-serif;
+}
+
+.level-badge.level-1 {
+  background-color: rgba(93, 194, 62, 0.10);
+  color: #5DC23E;
+  border-radius: 100px;
+}
+
+.level-badge.level-2 {
+  background-color: rgba(93, 194, 62, 0.10);
+  color: #5DC23E;
+    border-radius: 100px;
+
+}
+
+
+
+.status-section {
+  flex: 0 0 150px;
+  margin: 0 15px;
+  text-align: left;
+}
+
+.status-badge {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  gap: 5px;
+}
+
+.status-badge.completed {
+  color: #000;
+}
+
+.status-badge.completed .status-dot {
+  color: #28a745;
+}
+
+.status-badge.in-progress {
+  color: #000;
+}
+
+.status-badge.in-progress .status-dot {
+  color: #ffc107;
+}
+
+.status-badge.locked {
+  color: #000;
+}
+
+.lock-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.view-section {
+  flex: 0 0 100px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.view-btn {
+  padding: 8px 30px;
+  border-radius: 100px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #5DC23E;
+  color: #ffffff;
+width: fit-content;
+  font-family: 'Inter', sans-serif;
+}
+
+.view-btn.disabled {
+  background-color: #F6F6F6;
+  cursor: not-allowed;
+  color: #535862;
+}
+
+.view-btn:focus {
+  outline: none;
+}
+
+/* Mobile specific layouts */
+.CourseLevel-main-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.CourseLevel-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.level-status-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.mobile-duration-card {
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.mobile-duration-card .duration-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 4px;
+  font-family: 'Inter', sans-serif;
+}
+
+.mobile-duration-card .duration-time {
+  font-size: 14px;
+  color: #212529;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Responsive Design */
+@media (min-width: 1200px) {
+  .CourseLevel-duration-section {
+    flex: 0 0 220px;
+    margin: 0 20px;
+    padding: 0 10px;
+  }
+  
+  .level-section {
+    flex: 0 0 100px;
+    margin: 0 15px;
+  }
+  
+  .status-section {
+    flex: 0 0 160px;
+    margin: 0 15px;
+  }
+  
+  .view-section {
+    flex: 0 0 100px;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .CourseLevel-duration-section {
+    flex: 0 0 180px;
+    margin: 0 18px;
+    padding: 0 8px;
+  }
+  
+  .level-section {
+    flex: 0 0 90px;
+    margin: 0 12px;
+  }
+  
+  .status-section {
+    flex: 0 0 130px;
+    margin: 0 12px;
+  }
+  
+  .view-section {
+    flex: 0 0 90px;
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 991px) {
+  .CourseLevel-duration-section {
+    flex: 0 0 150px;
+    margin: 0 15px;
+  }
+  
+  .level-section {
+    flex: 0 0 80px;
+    margin: 0 15px;
+  }
+  
+  .status-section {
+    flex: 0 0 120px;
+    margin: 0 15px;
+  }
+  
+  .header-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cs-structure-container {
+    padding: 15px;
+  }
+
+  .header-section {
+    margin-bottom: 25px;
+    padding: 20px 0;
+  }
+
+  .back-arrow {
+    padding: 8px;
+    margin-right: 12px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .back-arrow-img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .CourseLevel-item {
+    padding: 20px 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e9ecef;
+  }
+
+  .CourseLevel-main-row {
+    margin-bottom: 15px;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .CourseLevel-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
+
+  .CourseLevel-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .CourseLevel-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+
+  .CourseLevel-subtitle {
+    font-size: 14px;
+    color: #667085;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .mobile-duration-card {
+    background-color: #f8f9fa;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .mobile-duration-card .duration-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  .mobile-duration-card .duration-time {
+    font-size: 14px;
+    color: #212529;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .level-status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .level-badge {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 100px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .status-badge {
+    font-size: 14px;
+    font-weight: 500;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .view-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 100px;
+    min-width: 70px;
+    flex-shrink: 0;
+  }
+
+  .header-title {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 575px) {
+  .cs-structure-container {
+    padding: 12px;
+  }
+
+  .header-section {
+    margin-bottom: 20px;
+    padding: 15px 0;
+  }
+
+  .back-arrow {
+    margin-right: 10px;
+    min-width: 36px;
+  }
+
+  .back-arrow-img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .header-title {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .CourseLevel-item {
+    padding: 16px 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+  }
+
+  .CourseLevel-main-row {
+    margin-bottom: 12px;
+  }
+
+  .CourseLevel-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .CourseLevel-icon-img {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+  }
+
+  .CourseLevel-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    line-height: 1.3;
+  }
+
+  .CourseLevel-subtitle {
+    font-size: 13px;
+    color: #667085;
+    line-height: 1.3;
+  }
+
+  .mobile-duration-card {
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+
+  .mobile-duration-card .duration-label {
+    font-size: 11px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+
+  .mobile-duration-card .duration-time {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .level-status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .level-badge {
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 100px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .status-badge {
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .view-btn {
+    padding: 7px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    min-width: 60px;
+    border-radius: 20px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .cs-structure-container {
+    padding: 10px;
+  }
+
+  .header-title {
+    font-size: 16px;
+  }
+
+  .CourseLevel-item {
+    padding: 14px 10px;
+    margin-bottom: 10px;
+  }
+
+  .CourseLevel-main-row {
+    margin-bottom: 10px;
+  }
+
+  .CourseLevel-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+  }
+
+  .CourseLevel-title {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .CourseLevel-subtitle {
+    font-size: 12px;
+  }
+
+  .mobile-duration-card {
+    padding: 8px 10px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-duration-card .duration-label {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  .mobile-duration-card .duration-time {
+    font-size: 12px;
+  }
+
+  .level-status-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    padding: 0;
+  }
+
+  .level-badge {
+    text-align: center;
+    width: 100%;
+    padding: 6px;
+    font-size: 10px;
+  }
+
+  .status-badge {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .view-btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+}
+
+/* RTL Support for CourseLevel */
+.CourseLevel-page.rtl {
+  direction: rtl;
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.CourseLevel-page.rtl .back-arrow {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.CourseLevel-page.rtl .rtl-flex-reverse {
+  flex-direction: row-reverse;
+}
+
+.CourseLevel-page.rtl .CourseLevel-icon {
+  margin-left: 12px;
+  margin-right: 0;
+}
+
+.CourseLevel-page.rtl .header-title {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  text-align: right;
+}
+
+.CourseLevel-page.rtl .CourseLevel-title {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  text-align: right;
+}
+
+.CourseLevel-page.rtl .CourseLevel-subtitle {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  text-align: right;
+}
+
+.CourseLevel-page.rtl .duration-label {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  text-align: right;
+}
+
+.CourseLevel-page.rtl .duration-time {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  text-align: right;
+}
+
+.CourseLevel-page.rtl .level-badge {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  direction: rtl;
+}
+
+.CourseLevel-page.rtl .status-badge {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  direction: rtl;
+}
+
+.CourseLevel-page.rtl .view-btn {
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+/* Mobile RTL adjustments */
+@media (max-width: 767px) {
+  .CourseLevel-page.rtl .back-arrow {
+    margin-left: 12px;
+    margin-right: 0;
+  }
+
+  .CourseLevel-page.rtl .CourseLevel-icon {
+    margin-left: 12px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .CourseLevel-page.rtl .back-arrow {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .CourseLevel-page.rtl .CourseLevel-icon {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .CourseLevel-page.rtl .CourseLevel-icon {
+    margin-left: 8px;
+    margin-right: 0;
+  }
+}

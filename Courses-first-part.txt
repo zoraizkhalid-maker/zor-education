@@ -1,0 +1,3088 @@
+Course Structure for Computer Science & Coding - Course 1
+This is Course 1 under the Computer Science & Coding Subject. The course contains 15
+levels. All levels will initially remain locked except for Level 1. Users can unlock each
+subsequent level upon completing the previous one, regardless of their quiz score.
+Below is the step-by-step description of content placement and flow. Some technical
+terms may appear in English where Urdu equivalents are not commonly used.
+Developer notes have been included throughout to clarify implementation requirements.
+The content will follow this structure:
+First, the main lesson text will be displayed
+This will be followed by relevant examples
+Each section will conclude with a quiz
+Upon completion, the next level will unlock automatically
+​
+​
+​
+​
+Course: Basics of Computer Science
+User selects course → sees locked divisions 1 to 15 → only Level 1 unlocked
+User selects:
+Level 1: "‫​"کمپیوٹر کیا ہے؟‬
+​
+​
+
+STEP 1 — Welcome Popup
+Display: As a fullscreen intro screen​
+User Action: Tap to continue
+Text (Urdu):​
+"‫ شاید کمپیوٹر بھی۔‬،‫​آپ نے موبائل تو استعمال کیا ہوگا‬
+‫​ لیکن کیا آپ نے کبھی سوچا کہ کمپیوٹر اصل میں کیا کرتا ہے؟‬
+‫ اور ہماری زندگی آسان بناتا ہے۔‬،‫ حساب کرتا ہے‬،‫​ یہ ایک عام مشین نہیں – یہ سوچتا ہے‬
+‫ اس سفر کی شروعات کرتے ہیں۔‬،‫" آئیے‬
+Developer Note: This is NOT skippable. Add animated typing effect for each line if possible.
+Continue only after user taps “Next”.​
+
+​
+
+STEP 2 — Micro Lesson 1.1
+Display: Fullscreen content block​
+User Action: Tap “Continue”
+Text:​
+"‫( کمپیوٹر ایک مشین ہے جو معلومات‬Data) ‫ اس پر عمل‬،‫( کو وصول کرتا ہے‬Processing) ‫ اور نتیجہ‬،‫کرتا ہے‬
+(Output) ‫​دیتا ہے۔‬
+‫ اور تھکتا نہیں۔‬،‫قابل اعتماد‬
+ِ ،‫​ یہ تیز رفتار‬
+‫ اسے انسان ہدایات دیتا ہے۔‬،‫" لیکن یاد رکھیں – کمپیوٹر خود سے کچھ نہیں کرتا‬
+Developer Note: Highlight “Data,” “Processing,” and “Output” when they appear.
+
+STEP 3 — Real-Life Analogy Popup
+Display: Floating popup or modal over the last screen​
+User Action: Tap to dismiss
+Text:​
+"‫ وہ جواب دیتا ہے۔‬،‫​جیسے آپ استاد کو سوال کرتے ہیں‬
+‫( ویسے ہی آپ کمپیوٹر کو سوال‬Input) ‫ اور وہ جواب‬،‫( دیتے ہیں‬Output) ‫"دیتا ہے۔‬
+Developer Note: Animate this popup with subtle zoom-in. Should appear after Lesson 1.1 is
+complete.
+​
+
+STEP 4 — Quiz 1 (True/False)
+Display: Multiple choice (2 options)​
+User Action: Select answer → Immediate feedback
+Question:​
+‫کمپیوٹر خود سے فیصلے کرتا ہے؟‬
+●​ A) ‫​ہاں‬
+●​ B) ‫نہیں‬
+
+✅​
+
+Correct Feedback:​
+‫بالکل درست! کمپیوٹر صرف وہی کرتا ہے جو انسان اسے بتاتا ہے۔‬
+Incorrect Feedback:​
+‫ خود سے نہیں سوچتا۔‬،‫غلط! کمپیوٹر انسان کی دی گئی ہدایات پر عمل کرتا ہے‬
+
+Developer Note: Disable next button until answer is selected. Highlight green for correct, red for
+incorrect.
+
+STEP 5 — Micro Lesson 1.2
+Display: Standard lesson screen​
+User Action: Scroll and tap “Next”
+Text:​
+‫ بنیادی مراحل میں کام کرتا ہے‬3 ‫کمپیوٹر‬:
+1.​ Input (‫​)معلومات حاصل کرنا‬
+2.​ Processing (‫​)حساب کرنا‬
+3.​ Output (‫​)نتیجہ دکھانا‬
+
+Analogy:​
+"‫ جیسے آپ‬ATM ‫( میں رقم کی درخواست‬Input) ‫ مشین حساب لگا کر پیسے نکالتی ہے‬،‫( کرتے ہیں‬Processing)، ‫اور آپ‬
+‫( کو رقم دیتی ہے‬Output)‫"۔‬
+Developer Note: Use numbered visual indicators for 1, 2, 3. Add icons for each if possible.
+
+STEP 6 — Quiz 2 (MCQ)
+Question:​
+‫ درج ذیل میں سے کون سا ہے؟‬Processing
+●​ A) ‫​کی بورڈ دبانا‬
+●​ B) ‫​ماؤس ہالنا‬
+●​ C) ‫حساب کرنا‬
+
+✅​
+
+●​ D) ‫​مانیٹر پر تصویر دیکھنا‬
+
+Correct Feedback:​
+‫ کا مطلب ہے حساب یا تجزیہ۔ شاندار‬Processing
+Incorrect Feedback:​
+‫ غلط جواب۔ حساب کرنے کے عمل کو‬Processing ‫کہتے ہیں۔‬
+
+‫‪Developer Note: One correct answer. Lock in choice before showing feedback.‬‬
+
+‫‪STEP 7 — Micro Lesson 1.3: Types of Computers‬‬
+‫‪Display: Fullscreen content block with 4 visual cards‬‬
+‫​‪Text:‬‬
+‫‪:‬کمپیوٹر مختلف شکلوں میں آتے ہیں‬
+‫​گھروں یا دفاتر میں – ‪1.​ Desktop‬‬
+‫​لے جانے میں آسان – ‪2.​ Laptop‬‬
+‫​الکھوں گنا طاقتور‪ ،‬سائنس اور موسم کی پیش گوئی کے لیے – ‪3.​ Supercomputer‬‬
+‫​ہاتھوں میں آ جانے واال کمپیوٹر – ‪4.​ Mobile/Tablet‬‬
+
+‫​‪Analogy:‬‬
+‫"جیسے گھر کی الئٹ کے لیے چھوٹا بلب اور اسٹیشن کی الئٹ کے لیے بڑا‪ ،‬ویسے ہی کمپیوٹر کی قسم کام پر منحصر ہے۔"‬
+‫‪Developer Note: Use card-style view for each type of computer.‬‬
+
+‫‪STEP 8 — Quiz 3‬‬
+‫​‪Question:‬‬
+‫‪ Supercomputer‬کہاں استعمال ہوتا ہے؟‬
+‫​ویڈیو دیکھنے کے لیے )‪●​ A‬‬
+
+‫​✅‬
+
+‫موسم کی پیشگوئی کے لیے )‪●​ B‬‬
+‫​گانے سننے کے لیے )‪●​ C‬‬
+‫​گیم کھیلنے کے لیے )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل درست! سپر کمپیوٹرز کا کام پیچیدہ حساب کتاب ہوتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں! سپر کمپیوٹرز روزمرہ کے کاموں کے لیے نہیں بلکہ سائنس اور تجزیہ کے لیے استعمال ہوتے ہیں۔‬
+
+‫‪STEP 9 — Micro Lesson 1.4: Computer vs Human‬‬
+‫​‪Text:‬‬
+‫کمپیوٹر اور انسان میں کیا فرق ہے؟‬
+
+‫​‬
+‫​‪Developer Note: Display this as a clean 2-column comparison table.‬‬
+‫​‬
+
+‫‪STEP 10 — Quiz 4‬‬
+‫​‪Question:‬‬
+‫کمپیوٹر میں کیا چیز نہیں ہوتی؟‬
+‫​یادداشت )‪●​ A‬‬
+
+‫​✅‬
+
+‫جذبات )‪●​ B‬‬
+‫​رفتار )‪●​ C‬‬
+‫​طاقت )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫واہ! کمپیوٹر جذبات نہیں سمجھتا‪ ،‬صرف حساب کرتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط جواب۔ کمپیوٹر کے پاس جذبات نہیں‪ ،‬صرف ڈیٹا ہوتا ہے۔‬
+
+‫‪STEP 11 — Micro Lesson 1.5: Where Computers Are Used‬‬
+‫‪Text:‬‬
+‫​اسکولوں میں‪ :‬تعلیم کے لیے ​‪1.‬‬
+‫​ہسپتالوں میں‪ :‬ریکارڈز رکھنے کے لیے ​‪2.‬‬
+‫​بینکوں میں‪ :‬حساب کتاب کے لیے ​‪3.‬‬
+‫​گھروں میں‪ :‬تفریح اور رابطے کے لیے ​‪4.‬‬
+‫​ایئرپورٹس میں‪ :‬شیڈولنگ اور سیکیورٹی کے لیے ​‪5.‬‬
+
+‫‪Developer Note: Use icon-based visuals here for each place.‬‬
+
+‫‪STEP 12 — Quiz 5‬‬
+‫​‪Question:‬‬
+‫کمپیوٹر تعلیم میں کیسے مدد دیتا ہے؟‬
+‫​کھانے بناتا ہے )‪●​ A‬‬
+‫​ویڈیو گیمز بناتا ہے )‪●​ B‬‬
+
+‫​✅‬
+
+‫پڑھنے اور سیکھنے میں )‪●​ C‬‬
+‫​شور مچاتا ہے )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫درست! تعلیم میں کمپیوٹر سیکھنے کو آسان بناتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں! تعلیم کے لیے کمپیوٹر کا مطلب ہے سیکھنے میں مدد‪ ،‬نہ کہ تفریح۔‬
+
+‫)‪STEP 13 — Recap Card (Flashcard‬‬
+‫)‪Display: Summary screen (tappable to proceed‬‬
+
+Text:​
+"‫یاد رکھیں‬:
+●​ ‫ اور نتیجہ دیتا ہے‬،‫ حساب کرتا‬،‫​کمپیوٹر معلومات لیتا‬
+●​ ‫​کمپیوٹر مختلف جگہوں پر استعمال ہوتا ہے‬
+●​ ‫​یہ خود فیصلے نہیں کرتا – ہدایات پر عمل کرتا ہے‬
+●​ ‫​"کمپیوٹر اور انسان میں جذبات کا فرق ہے‬
+
+Developer Note: Show this like a flashcard. Add option to “Review This Level” or “Next”.
+
+STEP 14 — Completion Screen
+Display: Modal popup (reward style)
+Text:​
+"‫​مبارک ہو! آپ نے کامیابی سے پہال لیول مکمل کر لیا ہے۔‬
+‫" اب آپ جانتے ہیں کہ کمپیوٹر کیا ہوتا ہے اور کیسے کام کرتا ہے۔‬
+Developer Note: Unlock Level 2 now. Add “Next Level” button and option to replay this level.
+​
+​
+​
+
+LEVEL 2: ‫ہارڈویئر اور سافٹ ویئر‬
+Estimated Duration: 1.5–2 hours​
+Course: Basics of Computer Science​
+Division: 2 of 15​
+Title: Understanding Hardware & Software
+
+🧩 DEVELOPER INTEGRATION FLOW
+User has completed Level 1​
+Level 2 is now unlocked​
+User taps:​
+Level 2: "‫"ہارڈویئر اور سافٹ ویئر‬
+
+🔓
+
+‫‪STEP 1 — Intro Popup‬‬
+‫‪Display: Fullscreen greeting popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​ایک انسان کو کام کرنے کے لیے دماغ اور جسم دونوں کی ضرورت ہوتی ہے۔"‬
+‫​ کمپیوٹر بھی کچھ ایسا ہی ہے۔‬
+‫​ اس کے جسم کو 'ہارڈویئر' اور دماغ کو 'سافٹ ویئر' کہتے ہیں۔‬
+‫" چلیں آج جانتے ہیں کہ یہ دونوں کیسے مل کر کمپیوٹر کو زندہ رکھتے ہیں۔‬
+‫‪Developer Note: This is a warm-up. Tap to continue.‬‬
+
+‫?‪STEP 2 — Micro Lesson 2.1: What is Hardware‬‬
+‫​‪Text:‬‬
+‫ہارڈویئر وہ تمام چیزیں ہیں جو آپ کمپیوٹر پر چھو سکتے ہیں۔‬
+‫‪:‬مثالیں‬
+‫​کی بورڈ ​●‬
+‫​ماؤس ​●‬
+‫​مانیٹر ​●‬
+‫​‪●​ CPU‬‬
+‫​ہارڈ ڈسک ​●‬
+‫​پرنٹر ​●‬
+
+‫​‪Analogies:‬‬
+‫"جیسے انسان کی آنکھ‪ ،‬ہاتھ‪ ،‬پاؤں‪ ،‬دل — ویسے ہی کمپیوٹر کے یہ تمام پرزے ہارڈویئر ہیں۔"‬
+‫‪Developer Note: Display hardware images with hover/tap text labels.‬‬
+
+‫)‪STEP 3 — Quiz 1 (MCQ‬‬
+
+Question:​
+‫درج ذیل میں سے کون سا ہارڈویئر ہے؟‬
+●​ A) Microsoft Word​
+●​ B) CPU
+
+✅​
+
+●​ C) Google Chrome​
+●​ D) Paint App​
+
+Correct Feedback:​
+‫ ایک جسمانی پرزہ ہے — ہارڈویئر۔ درست‬CPU
+Incorrect Feedback:​
+‫ ہارڈویئر وہ ہوتا ہے جو آپ چھو سکتے ہیں۔‬،‫گوگل کروم اور مائیکروسافٹ ورلد سافٹ ویئر ہیں۔ نہیں‬
+
+STEP 4 — Micro Lesson 2.2: Hardware Categories
+Text:​
+‫ہارڈویئر کو تین حصوں میں تقسیم کیا جاتا ہے‬:
+1.​ Input Devices (‫​)داخل کرنے والے آلے‬
+2.​ Output Devices (‫​)نتائج دکھانے والے آلے‬
+3.​ Storage Devices (‫​)ڈیٹا ذخیرہ کرنے والے آلے‬
+
+Examples:
+●​ Input: ‫ کی بورڈ‬،‫​ماؤس‬
+●​ Output: ‫ پرنٹر‬،‫​مانیٹر‬
+●​ Storage: USB، ‫​ہارڈ ڈرائیو‬
+
+Developer Note: Visualize with 3 icons side-by-side + clickable examples.
+
+STEP 5 — Quiz 2 (Drag and Drop)
+
+‫​‪Task:‬‬
+‫‪Match the device to its category‬‬
+
+‫​‬
+‫​‬
+‫​‬
+‫​‪Correct Feedback:‬‬
+‫کمال! آپ نے تمام ڈیوائسز کو درست طریقے سے گروپ کیا۔‬
+‫​‪Incorrect Feedback:‬‬
+‫ایک یا زیادہ جوابات غلط تھے۔ دوبارہ سوچیں‪ :‬کیا آپ ماؤس سے دیکھتے ہیں یا لکھتے ہیں؟‬
+‫‪Developer Note: Use draggable blocks for matching.‬‬
+
+‫?‪STEP 6 — Micro Lesson 2.3: What is Software‬‬
+‫​‪Text:‬‬
+‫سافٹ ویئر وہ پروگرام ہوتا ہے جو کمپیوٹر کو ہدایات دیتا ہے۔‬
+‫"آپریٹنگ سسٹمز‪ ،‬ایپلیکیشنز‪ ،‬اور گیمز — سب سافٹ ویئر ہیں۔"‬
+‫‪Types:‬‬
+‫​‪ Windows, macOS‬جیسے — ‪1.​ System Software‬‬
+‫​‪ MS Word, Chrome, Photoshop‬جیسے — ‪2.​ Application Software‬‬
+
+‫​‪Analogy:‬‬
+‫"جیسے انسان کا دماغ جسم کو ہدایات دیتا ہے‪ ،‬ویسے ہی سافٹ ویئر کمپیوٹر کو ہدایت دیتا ہے۔"‬
+
+‫)‪STEP 7 — Quiz 3 (MCQ‬‬
+
+‫​‪Question:‬‬
+‫‪ Google Chrome‬کس قسم کا سافٹ ویئر ہے؟‬
+‫​‪●​ A) System Software‬‬
+
+‫​✅‬
+
+‫‪●​ B) Application Software‬‬
+‫​‪●​ C) Hardware‬‬
+‫​‪●​ D) Input Device‬‬
+
+‫​‪Correct Feedback:‬‬
+‫گوگل کروم ایک ایپلیکیشن ہے جو ویب براؤزنگ کے لیے استعمال۔ درست‬
+‫​‪Incorrect Feedback:‬‬
+‫‪ chrome‬کمپیوٹر کو چالنے واال سسٹم نہیں بلکہ ایک ایپ ہے۔ غلط‬
+
+‫‪STEP 8 — Micro Lesson 2.4: Hardware + Software Together‬‬
+‫​‪Text:‬‬
+‫ہارڈویئر اور سافٹ ویئر ایک دوسرے کے بغیر کچھ نہیں۔‬
+‫‪Example:‬‬
+‫​)‪●​ Keyboard (Hardware‬‬
+‫​)‪●​ Typing App (Software‬‬
+‫​اگر آپ کے پاس کی بورڈ ہے لیکن ٹائپ کرنے والی ایپ نہیں — کوئی فائدہ نہیں۔‬
+
+‫​‪Another Example:‬‬
+‫"جیسے اگر جسم ہو لیکن دماغ نہ ہو — کچھ بھی ممکن نہیں۔"‬
+
+‫)‪STEP 9 — Quiz 4 (True/False‬‬
+‫​‪Question:‬‬
+‫ہارڈویئر اور سافٹ ویئر ایک دوسرے کے بغیر کام نہیں کر سکتے؟‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+
+●​ B) ‫​غلط‬
+
+Correct Feedback:​
+‫قابل استعمال بناتے ہیں۔‬
+ِ ‫بالکل صحیح! دونوں مل کر ہی کمپیوٹر کو‬
+Incorrect Feedback:​
+‫غلط جواب۔ اگر صرف ہارڈویئر ہو یا صرف سافٹ ویئر — کمپیوٹر کچھ نہیں کر سکتا۔‬
+
+STEP 10 — Micro Lesson 2.5: Examples in Real Life
+Education Setup:
+●​ Laptop (hardware)​
+●​ Zoom (software)​
+●​ Notes App (software)​
+●​ Webcam (hardware)​
+
+Hospital Setup:
+●​ MRI Machine (hardware)​
+●​ Diagnosis Software​
+●​ Report Generator​
+
+Developer Note: Use a scrollable "scene carousel" with different real-world setups.
+
+STEP 11 — Quiz 5 (Select All)
+Question:​
+‫نیچے دی گئی اشیاء میں سے سافٹ ویئر کو چنیں‬:
+●​ RAM​
+●​ PowerPoint (CORRECT)​
+
+●​ Adobe Photoshop (CORRECT)​
+●​ Scanner​
+●​ VLC Player (CORRECT)​
+​
+Correct Feedback:​
+‫شاندار! آپ نے درست ایپلیکیشنز کو پہچانا۔‬
+Incorrect Feedback:​
+‫ ہارڈویئر ہوتے ہیں۔ کچھ جوابات غلط ہیں۔‬RAM ‫ اور‬Scanner
+Developer Note: Use checkbox style with validation.
+
+STEP 12 — Recap Flashcard
+Text:
+●​ ‫ وہ پرزے جو آپ چھو سکتے ہیں‬:‫​ہارڈویئر‬
+●​ ‫ وہ پروگرام جو ہدایات دیتے ہیں‬:‫​سافٹ ویئر‬
+●​ ‫​دونوں کا مالپ کمپیوٹر کو مکمل بناتا ہے‬
+●​ Input, Output, Storage — ‫​تین اقسام‬
+●​ System vs Application Software — ‫​دو اہم اقسام‬
+
+Developer Note: Display as flashcard, swipable if possible.
+
+STEP 13 — Completion Screen
+Text:​
+"!‫​آپ نے ہارڈویئر اور سافٹ ویئر کے بارے میں مکمل علم حاصل کر لیا‬
+‫" اگلے لیول میں ہم ان پٹ اور آؤٹ پٹ ڈیوائسز کو گہرائی سے سمجھیں گے۔‬
+Action:​
+“Next Level” button → Unlock Level 3
+
+LEVEL 3: ‫ان پٹ اور آؤٹ پٹ ڈیوائسز‬
+Estimated Duration: 1.5–2 hours​
+Course: Basics of Computer Science​
+Division: 3 of 15​
+Title: Input and Output Devices
+
+🧩 DEVELOPER INTEGRATION FLOW
+User has completed Level 2​
+Level 3 is now unlocked​
+User taps:​
+Level 3: "‫"ان پٹ اور آؤٹ پٹ ڈیوائسز‬
+
+🔓
+
+STEP 1 — Intro Popup
+Display: Fullscreen greeting popup
+Text (Urdu):​
+"‫ تو وہ سنتا کیسے ہے؟‬،‫​جب آپ کمپیوٹر سے بات کرتے ہیں‬
+‫ تو دکھاتا کیسے ہے؟‬،‫​ اور جب وہ جواب دیتا ہے‬
+‫ آج ہم سیکھیں گے ان 'کانوں' اور 'زبانوں' کے بارے میں جن سے کمپیوٹر ہمیں سمجھتا اور سمجھاتا ہے — یعنی‬Input ‫اور‬
+Output ‫"!ڈیوائسز‬
+Developer Note: Display as full popup. Animate ears-to-mouth metaphor.
+
+STEP 2 — Micro Lesson 3.1: What is Input?
+Text:​
+‫ کا مطلب ہے کمپیوٹر کو معلومات دینا۔‬Input​
+‫ وہ کہالتی ہیں۔‬،‫ ایسی ڈیوائسز جو کمپیوٹر کو ڈیٹا بھیجتی ہیں‬Input devices
+Examples:
+●​ Keyboard: ‫​لکھنے کے لیے‬
+●​ Mouse: ‫​حرکت اور کلک کے لیے‬
+
+‫​آواز کے لیے ‪●​ Microphone:‬‬
+‫​تصاویر یا دستاویزات کے لیے ‪●​ Scanner:‬‬
+‫​ویڈیو یا تصویر لینے کے لیے ‪●​ Camera:‬‬
+
+‫)‪STEP 3 — Quiz 1 (MCQ‬‬
+‫​‪Question:‬‬
+‫‪ Input Device‬درج ذیل میں سے کون سی ہے؟‬
+‫​پرنٹر )‪●​ A‬‬
+
+‫​✅‬
+
+‫ماؤس )‪●​ B‬‬
+
+‫​مانیٹر )‪●​ C‬‬
+‫​اسپیکر )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫درست! ماؤس کمپیوٹر کو ہدایت دینے کے لیے استعمال ہوتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫ہیں۔ ماؤس کمپیوٹر کو ڈیٹا دیتا ہے۔ ‪ Output Devices‬نہیں! پرنٹر اور اسپیکر‬
+
+‫‪STEP 4 — Micro Lesson 3.2: Keyboard as Input Device‬‬
+‫​‪Text:‬‬
+‫​ہے۔ ‪ Input Device‬سب سے عام ‪Keyboard‬‬
+‫جب آپ الفاظ‪ ،‬نمبر یا ہدایات ٹائپ کرتے ہیں‪ ،‬تو یہ ڈیٹا کمپیوٹر کو بھیجتا ہے۔‬
+‫​‪Example:‬‬
+‫"بھیجا — جیسے ہاتھ سے کوئی پیغام دینا۔ ‪ A‬دبائیں‪ ،‬کمپیوٹر جانتا ہے کہ آپ نے ’‪ ‘A‬جب آپ"‬
+
+‫)‪STEP 5 — Quiz 2 (True/False‬‬
+
+‫​‪Question:‬‬
+‫ہے؟ ‪ Input Device‬کی بورڈ سے کمپیوٹر کو ڈیٹا ملتا ہے‪ ،‬یہ‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل صحیح! کی بورڈ کمپیوٹر کو معلومات دیتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫ہے۔ ‪ Input Device‬نہیں! کی بورڈ کمپیوٹر کو معلومات دیتا ہے‪ ،‬اس لیے یہ‬
+
+‫?‪STEP 6 — Micro Lesson 3.3: What is Output‬‬
+‫​‪Text:‬‬
+‫وہ نتیجہ ہوتا ہے جو کمپیوٹر آپ کو دیتا ہے — یعنی جب وہ کچھ دکھاتا یا سناتا ہے۔ ‪Output‬‬
+‫‪Examples:‬‬
+‫​سکرین پر دکھانا ‪●​ Monitor:‬‬
+‫​کاغذ پر پرنٹ کرنا ‪●​ Printer:‬‬
+‫​آواز دینا ‪●​ Speaker:‬‬
+‫​بڑی سکرین پر دکھانا ‪●​ Projector:‬‬
+
+‫​‪Analogy:‬‬
+‫"سے ردعمل دیتا ہے۔ ‪ Output Devices‬جیسے انسان بول کر یا اشارے سے جواب دیتا ہے‪ ،‬کمپیوٹر بھی"‬
+
+‫)‪STEP 7 — Quiz 3 (MCQ‬‬
+‫​‪Question:‬‬
+‫دیتا ہے؟ ‪ Output‬کمپیوٹر کا کون سا حصہ‬
+‫​کی بورڈ )‪●​ A‬‬
+‫​‪●​ B) USB‬‬
+
+●​ C) ‫پرنٹر‬
+
+✅​
+
+●​ D) ‫​ماؤس‬
+
+Correct Feedback:​
+‫ درست! پرنٹر کمپیوٹر کا نتیجہ کاغذ پر دیتا ہے — یعنی‬Output‫۔‬
+Incorrect Feedback:​
+‫ نہیں! پرنٹر کمپیوٹر کی‬Output Device ‫ ہے۔ ماؤس اور کی بورڈ‬Input Devices ‫ہیں۔‬
+
+STEP 8 — Micro Lesson 3.4: Difference Between Input & Output
+Display: Two-column comparison
+
+​
+​
+Tip:​
+"Input ‫دیتا ہے‬، Output ‫"!دکھاتا ہے‬
+
+STEP 9 — Quiz 4 (Matching)
+Task:​
+Match the device to its category
+
+‫​‬
+‫​‬
+‫​‪Correct Feedback:‬‬
+‫کمال! آپ نے تمام ڈیوائسز کو درست گروپ کیا۔‬
+‫​‪Incorrect Feedback:‬‬
+‫ڈیٹا دکھاتا ہے۔ ‪، Monitor‬ڈیٹا دیتا ہے ‪: Scanner‬کچھ جوابات غلط تھے۔ یاد رکھیں‬
+
+‫‪STEP 10 — Micro Lesson 3.5: Devices with Dual Functionality‬‬
+‫​‪Text:‬‬
+‫دونوں کا کام کرتے ہیں۔ ‪ Output‬اور ‪ Input‬کچھ ڈیوائسز ایسے ہوتے ہیں جو‬
+‫‪Examples:‬‬
+‫​)‪ (Output‬وہ دکھاتا ہے ‪ (Input),‬آپ چھوتے ہیں ‪●​ Touchscreen:‬‬
+‫​)‪ (Output‬وصول بھی کرتا ہے ‪ (Input),‬بھیجتا بھی ہے ‪●​ Fax Machine:‬‬
+‫​)‪ (Input‬حرکت سینسر کرتا ہے ‪ (Output),‬آنکھوں کو منظر دکھاتا ہے ‪●​ VR Headset:‬‬
+
+‫)‪STEP 11 — Quiz 5 (MCQ‬‬
+‫​‪Question:‬‬
+‫کس قسم کی ڈیوائس ہے؟ ‪Touchscreen‬‬
+‫​‪ Input‬صرف )‪●​ A‬‬
+‫​‪ Output‬صرف )‪●​ B‬‬
+
+●​ C) ‫دونوں‬
+
+✅​
+
+●​ D) ‫​کوئی نہیں‬
+
+Correct Feedback:​
+‫ !درست‬Touchscreen ‫ — دونوں کام کرتی ہے‬Input ‫ اور‬Output‫۔‬
+Incorrect Feedback:​
+‫ !غلط‬Touchscreen ‫ دکھاتی بھی ہے اور‬Input ‫بھی لیتی ہے۔‬
+
+STEP 12 — Real-World Scenarios (Interactive)
+Display: Situational quiz (select correct devices)
+Scenario:​
+"‫"ایک طالبعلم آن الئن کالس لے رہا ہے۔‬
+Choose the devices used:
+●​ Webcam (CORRECT)​
+●​ Microphone (CORRECT)​
+●​ Monitor (CORRECT)​
+●​ Speaker (CORRECT)​
+●​ Joystick​
+​
+Correct Feedback:​
+‫ زبردست! یہ تمام کالس میں‬Input/Output ‫کا حصہ ہوتے ہیں۔‬
+Incorrect Feedback:​
+Joystick ‫ آن الئن کالس میں استعمال نہیں ہوتا۔‬،‫گیم کے لیے ہوتا ہے‬
+
+STEP 13 — Recap Flashcard
+Text:
+●​ Input Devices: ‫​معلومات بھیجتے ہیں‬
+
+‫​نتائج دکھاتے ہیں ‪●​ Output Devices:‬‬
+‫​کچھ ڈیوائسز دونوں کام کرتی ہیں ​●‬
+‫​کی بورڈ‪ ،‬ماؤس‪ ،‬مانیٹر‪ ،‬اسپیکر — سب اہم پرزے ہیں ​●‬
+
+‫‪STEP 14 — Completion Screen‬‬
+‫​‪Text:‬‬
+‫​شاندار! اب آپ جانتے ہیں کہ کمپیوٹر کیسے سنتا ہے اور کیسے بولتا ہے۔"‬
+‫" اگلے لیول میں ہم سیکھیں گے کہ کمپیوٹر کی میموری اور اسٹوریج کیا ہوتی ہے۔‬
+‫"‪Action: Unlock Level 4 → Button: "Next Level‬‬
+
+‫میموری اور اسٹوریج ‪LEVEL 4:‬‬
+‫​‪Estimated Duration: 1.5–2 hours‬‬
+‫​‪Course: Basics of Computer Science‬‬
+‫​‪Division: 4 of 15‬‬
+‫‪Title: Memory and Storage‬‬
+
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+‫​‪User has completed Level 3‬‬
+‫​‪Level 4 is now unlocked‬‬
+‫​‪User taps:‬‬
+‫"میموری اور اسٹوریج" ‪Level 4:‬‬
+
+‫🔓‬
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​کیا آپ سب کچھ یاد رکھ سکتے ہیں؟ شاید نہیں۔"‬
+‫​ لیکن کمپیوٹر — وہ اپنی میموری میں ہر چیز محفوظ رکھ سکتا ہے۔‬
+‫" آئیے دیکھتے ہیں کہ کمپیوٹر کی یادداشت کیسے کام کرتی ہے اور ڈیٹا کہاں ذخیرہ ہوتا ہے۔‬
+‫‪Developer Note: Show with a short animation of brain vs chip vs USB.‬‬
+
+‫?‪STEP 2 — Micro Lesson 4.1: What is Memory‬‬
+‫​‪Text:‬‬
+‫وہ حصہ ہے جہاں کمپیوٹر کام کرتے وقت ڈیٹا کو تھوڑے وقت کے لیے رکھتا ہے۔ ‪Memory‬‬
+‫‪Types of Memory:‬‬
+‫​عارضی – )‪1.​ RAM (Random Access Memory‬‬
+‫​مستقل – )‪2.​ ROM (Read Only Memory‬‬
+
+‫​‪Analogy:‬‬
+‫​ایسے ہے جیسے دماغ کا وہ حصہ جو آپ ابھی پڑھ رہے ہیں۔ ‪"RAM‬‬
+‫"ایسے جیسے آپ کا نام — ہمیشہ یاد رہتا ہے۔ ‪ROM‬‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+‫​‪Question:‬‬
+‫کمپیوٹر کا عارضی حافظہ ہوتا ہے؟ ‪RAM‬‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫وہ یادداشت ہے جو کمپیوٹر صرف کام کرتے وقت استعمال کرتا ہے۔ ‪! RAM‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫مستقل نہیں ہوتا — بجلی بند ہونے پر سب کچھ مٹ جاتا ہے۔ ‪! RAM‬غلط‬
+
+‫‪STEP 4 — Micro Lesson 4.2: RAM vs ROM‬‬
+
+‫​‬
+‫​‬
+
+‫)‪STEP 5 — Quiz 2 (MCQ‬‬
+‫​‪Question:‬‬
+‫کا مقصد کیا ہے؟ ‪ROM‬‬
+‫​عارضی فائلیں رکھنا )‪●​ A‬‬
+
+‫​✅‬
+
+‫سسٹم ہدایات محفوظ کرنا )‪●​ B‬‬
+‫​ویڈیو گیمز کھیلنا )‪●​ C‬‬
+‫​گانے ڈاؤنلوڈ کرنا )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫میں کمپیوٹر کی بنیادی ہدایات ہوتی ہیں جو ہمیشہ رہتی ہیں۔ ‪! ROM‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫صرف ضروری پروگراموں کو ہمیشہ کے لیے محفوظ رکھتا ہے۔ ‪! ROM‬نہیں‬
+
+‫?‪STEP 6 — Micro Lesson 4.3: What is Storage‬‬
+‫​‪Text:‬‬
+‫​وہ جگہ ہے جہاں کمپیوٹر طویل مدت کے لیے ڈیٹا رکھتا ہے۔ ‪Storage‬‬
+‫یہ میموری سے الگ ہوتا ہے — یہاں بجلی بند ہونے سے ڈیٹا ختم نہیں ہوتا۔‬
+‫‪Examples:‬‬
+
+●​ Hard Drive (HDD)​
+●​ Solid State Drive (SSD)​
+●​ USB Flash Drive​
+●​ Memory Card​
+●​ Cloud Storage​
+
+STEP 7 — Quiz 3 (Select All)
+Question:​
+‫ کون سی چیزیں‬Storage Devices ‫ہیں؟‬
+●​ Hard Drive (CORRECT)​
+●​ USB (CORRECT)​
+●​ SSD (CORRECT)​
+●​ RAM (CORRECT)​
+●​ CPU (CORRECT)​
+
+Correct Feedback:​
+‫ واہ! آپ نے تمام‬Storage Devices ‫کو پہچان لیا۔‬
+Incorrect Feedback:​
+RAM ‫ اور‬CPU ‫اسٹوریج نہیں بلکہ میموری یا پروسیسرز ہیں۔‬
+
+STEP 8 — Micro Lesson 4.4: Primary vs Secondary Storage​
+​
+
+‫​‬
+‫​‬
+‫​‪Tip:‬‬
+‫​کام کے دوران = ‪"Primary‬‬
+‫"بعد میں بھی محفوظ = ‪Secondary‬‬
+
+‫)‪STEP 9 — Quiz 4 (MCQ‬‬
+‫​‪Question:‬‬
+‫کا فائدہ کیا ہے؟ ‪Secondary Storage‬‬
+‫​بجلی بند ہونے پر ڈیٹا مٹتا ہے )‪●​ A‬‬
+‫​صرف عارضی ڈیٹا رکھتا ہے )‪●​ B‬‬
+
+‫​✅‬
+
+‫طویل مدتی ڈیٹا رکھتا ہے )‪●​ C‬‬
+‫​سے تیز ہوتا ہے ‪●​ D) ROM‬‬
+
+‫​‪Correct Feedback:‬‬
+‫ڈیٹا کو طویل عرصے کے لیے محفوظ رکھتا ہے۔ ‪! Secondary Storage‬شاندار‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں۔ ‪، RAM‬ڈیٹا کو مستقل محفوظ رکھتا ہے ‪! Secondary Storage‬نہیں‬
+
+‫‪STEP 10 — Micro Lesson 4.5: Cloud Storage‬‬
+‫​‪Text:‬‬
+‫​انٹرنیٹ کے ذریعے ڈیٹا محفوظ کرنے کا طریقہ ہے۔ ‪Cloud Storage‬‬
+‫یہ آپ کے ڈیٹا کو کسی سرور پر رکھتا ہے تاکہ آپ کہیں سے بھی رسائی حاصل کر سکیں۔‬
+‫‪Examples:‬‬
+‫​‪●​ Google Drive‬‬
+
+‫​‪●​ Dropbox‬‬
+‫​‪●​ OneDrive‬‬
+
+‫​‪Analogy:‬‬
+‫"ایسے ہے جیسے آن الئن تجوری — آپ کا سامان کہیں اور‪ ،‬لیکن آپ کے لیے دستیاب۔ ‪"Cloud‬‬
+
+‫)‪STEP 11 — Quiz 5 (True/False‬‬
+‫​‪Question:‬‬
+‫صرف کمپیوٹر میں استعمال ہوتا ہے؟ ‪Cloud Storage‬‬
+‫​درست )‪●​ A‬‬
+
+‫​✅‬
+
+‫غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫موبائل‪ ،‬ٹیبلٹ‪ ،‬اور کسی بھی انٹرنیٹ ڈیوائس پر کام کرتا ہے۔ ‪! Cloud Storage‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫ہر انٹرنیٹ آلہ پر استعمال کیا جا سکتا ہے۔ ‪! Cloud Storage‬غلط‬
+
+‫‪STEP 12 — Real-Life Use Case Comparison‬‬
+‫​‬
+
+‫​‬
+
+​
+
+STEP 13 — Recap Flashcard
+Text:
+●​ Memory: RAM (Temporary), ROM (Permanent)​
+●​ Storage: USB, HDD, SSD — Long-term​
+●​ Cloud: Online backup​
+●​ Primary = ‫فوری استعمال‬، Secondary = ‫​محفوظ ڈیٹا‬
+●​ ROM ‫​کمپیوٹر کی بنیادی ہدایات رکھتا ہے‬
+
+STEP 14 — Completion Screen
+Text:​
+"‫ اور ڈیٹا کہاں ذخیرہ ہوتا ہے۔‬،‫​اب آپ جانتے ہیں کہ کمپیوٹر یاد کیسے رکھتا ہے‬
+‫ اگلے لیول میں ہم کمپیوٹر کے مرکزی دماغ یعنی‬CPU ‫"!کے بارے میں سیکھیں گے‬
+Action: Unlock Level 5 → Button: "Next Level"
+​
+​
+
+LEVEL 5: ‫سی پی یو اور کمپیوٹر کا دماغ‬
+Estimated Duration: 1.5–2 hours​
+Course: Basics of Computer Science​
+Division: 5 of 15​
+Title: CPU and the Brain of the Computer
+
+🧩 DEVELOPER INTEGRATION FLOW
+User has completed Level 4​
+Level 5 is now unlocked​
+User taps:​
+Level 5: "‫"سی پی یو اور کمپیوٹر کا دماغ‬
+
+🔓
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​کہتے ہیں۔ ‪ CPU‬جیسے انسان کا دماغ ہر کام کنٹرول کرتا ہے‪ ،‬ویسے ہی کمپیوٹر کا دماغ ہوتا ہے — جسے ہم"‬
+‫"کیسے سوچتا ہے‪ ،‬حساب کرتا ہے‪ ،‬اور سارے فیصلے کرتا ہے۔ ‪ CPU‬آج ہم جانیں گے کہ‬
+‫‪Developer Note: Simple animation of brain vs chip would help. Use tap to continue.‬‬
+
+‫?‪STEP 2 — Micro Lesson 5.1: What is CPU‬‬
+‫​‪Text:‬‬
+‫​‪ Central Processing Unit.‬کا مطلب ہے ‪CPU‬‬
+‫یہ کمپیوٹر کا 'دماغ' ہے — جو ہر کام کو کنٹرول کرتا ہے۔‬
+‫‪Functions:‬‬
+‫​)‪ (Fetch‬ہدایات کو سمجھنا ​‪1.‬‬
+‫​)‪ (Execute‬ان پر عمل کرنا ​‪2.‬‬
+‫​)‪ (Process‬حساب کتاب اور فیصلے کرنا ​‪3.‬‬
+
+‫​‪Analogy:‬‬
+‫"کمپیوٹر کے ہر پرزے کو گائیڈ کرتا ہے۔ ‪ CPU‬جیسے ایک استاد کالس میں ہدایات دیتا ہے‪ ،‬ویسے ہی"‬
+
+‫)‪STEP 3 — Quiz 1 (MCQ‬‬
+‫​‪Question:‬‬
+‫کمپیوٹر میں کیا کردار ادا کرتا ہے؟ ‪CPU‬‬
+‫​صرف میموری سنبھالتا ہے )‪●​ A‬‬
+‫​صرف آڈیو چالتا ہے )‪●​ B‬‬
+
+‫​✅‬
+
+‫تمام فیصلے اور حساب کرتا ہے )‪●​ C‬‬
+‫​صرف انٹرنیٹ کنٹرول کرتا ہے )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کمپیوٹر کا دماغ ہے جو سارے فیصلے کرتا ہے۔ ‪! CPU‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫صرف میموری یا آڈیو کا نہیں‪ ،‬پورے کمپیوٹر کا کنٹرولر ہے۔ ‪! CPU‬نہیں‬
+
+‫کے اندر کیا ہوتا ہے؟ ‪STEP 4 — Micro Lesson 5.2: CPU‬‬
+‫​‪Text:‬‬
+‫‪:‬تین بڑے حصوں پر مشتمل ہوتا ہے ‪CPU‬‬
+‫​حساب اور فیصلے کرتا ہے ‪1.​ ALU (Arithmetic Logic Unit):‬‬
+‫​سب کچھ کنٹرول کرتا ہے ‪2.​ CU (Control Unit):‬‬
+‫​وقتی ڈیٹا رکھتا ہے ‪3.​ Registers:‬‬
+
+‫​‪Example:‬‬
+‫"نوٹس بک = ‪"ALU = Calculator, CU = Teacher, Registers‬‬
+
+‫)‪STEP 5 — Quiz 2 (Matching‬‬
+‫‪Task: Match the part of CPU to its function‬‬
+‫​‬
+
+‫​‬
+‫​‬
+‫​‪Correct Feedback:‬‬
+‫کے پرزوں کی درست پہچان کی۔ ‪ CPU‬شاندار! آپ نے‬
+‫​‪Incorrect Feedback:‬‬
+‫کنٹرول سنبھالتا ہے۔ ‪، CU‬صرف حساب کرتا ہے ‪ ALU‬کچھ جوابات غلط ہیں۔‬
+
+‫‪STEP 6 — Micro Lesson 5.3: Clock Speed and Performance‬‬
+‫​‪Text:‬‬
+‫​میں ناپا جاتا ہے (گیگا ہرٹز) ‪ GHz‬کی رفتار کو ‪CPU‬‬
+‫ہوگا‪ ،‬اتنا تیز کمپیوٹر کام کرے گا۔ ‪ GHz‬جتنا زیادہ‬
+‫‪Examples:‬‬
+‫​سست = ‪●​ 1 GHz‬‬
+‫​تیز = ‪●​ 3.5 GHz‬‬
+‫​)بہت تیز (گیمنگ‪ ،‬ویڈیو ایڈیٹنگ = ‪●​ 5+ GHz‬‬
+
+‫​‪Analogy:‬‬
+‫"!وہ دھڑکن ہے جس پر کمپیوٹر چلتا ہے۔ جتنی تیز‪ ،‬اتنا بہتر ‪"Clock Speed‬‬
+
+‫)‪STEP 7 — Quiz 3 (True/False‬‬
+‫​‪Question:‬‬
+‫تیز ہے؟ ‪ CPU‬زیادہ ہونے کا مطلب ہے ‪GHz‬‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کی رفتار کو ظاہر کرتا ہے۔ ‪! GHz CPU‬بالکل درست‬
+‫​‪Incorrect Feedback:‬‬
+‫اتنا تیز ہوگا۔ ‪، CPU‬جتنا زیادہ ہوگا ‪! GHz‬غلط‬
+
+‫‪STEP 8 — Micro Lesson 5.4: Cores in CPU‬‬
+‫​‪Text:‬‬
+‫‪:‬ہو سکتے ہیں ‪ Cores‬میں ایک سے زیادہ ‪ CPU‬ایک‬
+
+●​ Single Core​
+●​ Dual Core​
+●​ Quad Core​
+●​ Octa Core​
+
+Each Core does:​
+‫اپنا الگ کام — جیسے ایک ٹیم کے کئی ممبرز‬
+Example:​
+"Quad Core = 4 ‫"بندے ایک ساتھ کام کر رہے ہیں‬
+
+STEP 9 — Quiz 4 (MCQ)
+Question:​
+Octa Core CPU ‫ میں کتنے‬Core ‫ہوتے ہیں؟‬
+●​ A) 4​
+●​ B) 8
+
+✅​
+
+●​ C) 2​
+●​ D) 1​
+
+Correct Feedback:​
+‫" !درست‬Octa" 8 ‫ کا مطلب ہے‬Core‫۔‬
+Incorrect Feedback:​
+‫ !غلط‬Octa ‫ — جیسے‬8 ‫ کا مطلب ہوتا ہے‬Octagon‫۔‬
+
+STEP 10 — Micro Lesson 5.5: Heat, Cooling, and Limitations
+Text:​
+‫ زیادہ رفتار کا مطلب زیادہ‬Heat​
+CPU ‫کو ٹھنڈا رکھنے کے لیے‬:
+
+●​ Fans​
+●​ Heatsinks​
+●​ Liquid Cooling (‫ گیمنگ‬PCs)​
+
+Tip:​
+"‫"تیز کمپیوٹر گرم بھی ہوتا ہے — جیسے زیادہ بھاگنے پر انسان تھک جاتا ہے‬
+
+STEP 11 — Quiz 5 (True/False)
+Question:​
+CPU ‫کو ٹھنڈا رکھنے کے لیے پنکھے اور کولنگ سسٹم لگتے ہیں؟‬
+●​ A) ‫درست‬
+
+✅​
+
+●​ B) ‫​غلط‬
+
+Correct Feedback:​
+‫ بالکل! ورنہ‬CPU overheat ‫ہو جاتا ہے۔‬
+Incorrect Feedback:​
+‫ غلط جواب۔ کمپیوٹر کو زیادہ‬Heat ‫سے بچانا ضروری ہوتا ہے۔‬
+
+STEP 12 — Micro Lesson 5.6: Real-Life CPU Use Examples
+Scenarios:
+●​ Word typing → Low usage​
+●​ Gaming → High usage​
+●​ Video editing → Constant processing​
+●​ Coding → Balanced usage​
+
+Developer Note: Show usage meter animations for each scenario.
+
+STEP 13 — Quiz 6 (Select All)
+Question:​
+‫ کون سے کام‬CPU ‫پر زیادہ لوڈ ڈالتے ہیں؟‬
+●​ Gaming (CORRECT)​
+●​ Video Editing (CORRECT)​
+●​ Typing Notes​
+●​ Idle (Doing nothing)​
+●​ 3D Animation (CORRECT)​
+
+Correct Feedback:​
+‫ !شاندار‬CPU ‫زیادہ بھاری کاموں میں پوری قوت سے کام کرتا ہے۔‬
+Incorrect Feedback:​
+‫ !غلط‬Typing ‫ اور‬Idle ‫ میں‬CPU ‫کم کام کرتا ہے۔‬
+
+STEP 14 — Recap Flashcard
+Text:
+●​ CPU = ‫​کمپیوٹر کا دماغ‬
+●​ ALU, CU, Registers = ‫​اہم حصے‬
+●​ GHz = ‫​رفتار‬
+●​ Core = ‫ اتنی طاقت‬،‫​جتنے زیادہ‬
+●​ Heat = ‫​زیادہ کام → زیادہ گرم‬
+●​ Cooling ‫​ضروری ہے‬
+
+STEP 15 — Completion Screen
+
+‫​‪Text:‬‬
+‫​زبردست! اب آپ جان چکے ہیں کہ کمپیوٹر کا دماغ کیسے سوچتا اور فیصلے کرتا ہے۔"‬
+‫"!‪ Folders‬اور ‪ Files‬اگلے لیول میں ہم سیکھیں گے کہ کمپیوٹر ڈیٹا کو کیسے ترتیب دیتا ہے — یعنی‬
+‫"‪Action: Unlock Level 6 → Button: "Next Level‬‬
+
+‫فائلز اور فولڈرز ‪LEVEL 6:‬‬
+‫​‪Estimated Duration: 1.5–2 hours‬‬
+‫​‪Course: Basics of Computer Science‬‬
+‫​‪Division: 6 of 15‬‬
+‫‪Title: Files and Folders Management‬‬
+
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+‫​‪User has completed Level 5‬‬
+‫​‪Level 6 is now unlocked‬‬
+‫​‪User taps:‬‬
+‫"فائلز اور فولڈرز" ‪Level 6:‬‬
+
+‫🔓‬
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​جیسے آپ اپنی کتابیں بیگ میں ترتیب سے رکھتے ہیں — ویسے ہی کمپیوٹر بھی اپنے ڈیٹا کو ترتیب سے رکھتا ہے۔"‬
+‫" آج ہم سیکھیں گے‪ :‬فائل کیا ہوتی ہے‪ ،‬فولڈر کیسے کام کرتا ہے‪ ،‬اور ڈیٹا کو کس طرح آسانی سے منظم کیا جا سکتا ہے۔‬
+
+‫?‪STEP 2 — Micro Lesson 6.1: What is a File‬‬
+‫​‪Text:‬‬
+‫​فائل وہ ڈیجیٹل چیز ہے جس میں معلومات محفوظ ہوتی ہیں۔‬
+‫یہ ایک صفحہ‪ ،‬ایک تصویر‪ ،‬ایک ویڈیو یا کوئی پروگرام ہو سکتا ہے۔‬
+‫‪Examples of File Types:‬‬
+
+‫​)متن( ‪●​ .txt‬‬
+‫​)ورڈ ڈاکیومنٹ( ‪●​ .docx‬‬
+‫​)تصویر( ‪●​ .jpg‬‬
+‫​)آڈیو( ‪●​ .mp3‬‬
+‫​)ویڈیو( ‪●​ .mp4‬‬
+‫​)پروگرام( ‪●​ .exe‬‬
+
+‫​‪Analogy:‬‬
+‫"جیسے آپ کاپی کا ہر صفحہ ایک فائل ہے — ویسے ہی کمپیوٹر میں ہر چیز ایک ڈیجیٹل فائل ہے۔"‬
+
+‫)‪STEP 3 — Quiz 1 (MCQ‬‬
+‫​‪Question:‬‬
+‫کون سی چیز ایک فائل کی مثال ہے؟‬
+‫​‪●​ A) Keyboard‬‬
+‫​‪●​ B) Google Chrome browser‬‬
+
+‫​✅‬
+
+‫‪●​ C) resume.docx‬‬
+‫​‪●​ D) Wi-Fi‬‬
+
+‫​‪Correct Feedback:‬‬
+‫فائل ہے۔ ‪ Word‬ایک ‪! resume.docx‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫ایک فائل ہوتی ہے — جیسے ورڈ ڈاکیومنٹ۔ ‪! .docx‬غلط‬
+
+‫?‪STEP 4 — Micro Lesson 6.2: What is a Folder‬‬
+‫​‪Text:‬‬
+‫​فولڈر ایک ڈیجیٹل جگہ ہے جہاں فائلز کو ترتیب سے رکھا جاتا ہے۔‬
+‫یہ بلکل ایسے ہے جیسے آپ اپنی نوٹ بک یا کاپیوں کو الماری میں رکھتے ہیں۔‬
+
+‫‪Purpose:‬‬
+‫​مختلف فائلز کو الگ کرنا ​●‬
+‫​تالش آسان بنانا ​●‬
+‫​کام کی ترتیب رکھنا ​●‬
+
+‫)‪STEP 5 — Quiz 2 (True/False‬‬
+‫​‪Question:‬‬
+‫فولڈر کے اندر صرف ایک فائل ہو سکتی ہے؟‬
+‫​درست )‪●​ A‬‬
+
+‫​✅‬
+
+‫غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫درست! ایک فولڈر میں ایک سے زیادہ فائلز اور دوسرے فولڈرز بھی رکھے جا سکتے ہیں۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! فولڈر کئی فائلز اور دوسرے فولڈرز بھی رکھ سکتا ہے۔‬
+
+‫‪STEP 6 — Micro Lesson 6.3: Naming Files & Folders‬‬
+‫​‪Text:‬‬
+‫فائلز اور فولڈرز کو پہچاننے کے لیے ان کے نام بہت اہم ہوتے ہیں۔‬
+‫‪Good Practices:‬‬
+‫​واضح اور صاف نام رکھیں ​●‬
+‫​استعمال کریں ‪ dash‬یا ‪ underscore‬کے بجائے ‪●​ Space‬‬
+‫​استعمال نہ کریں )|><"?*‪●​ Special characters (/:‬‬
+
+‫‪Examples:‬‬
+
+●​ ‫درست‬: homework_maths.docx​
+●​ ‫غلط‬: *math/homework.docx​
+
+STEP 7 — Quiz 3 (Select All)
+Question:​
+‫درج ذیل میں سے کون سے درست فائل نام ہیں؟‬
+●​ Homework_english.docx (CORRECT)​
+●​ project:/science.docx​
+●​ Class_notes.pdf (CORRECT)​
+●​ final*exam.txt​
+
+Correct Feedback:​
+‫شاندار! آپ نے صرف درست اور قابل قبول نام چنے۔‬
+Incorrect Feedback:​
+‫ جیسے‬/ ‫ نہیں! * اور‬symbols ‫فائل نام میں نہیں آ سکتے۔‬
+
+STEP 8 — Micro Lesson 6.4: File Paths & Locations
+Text:​
+‫( ہر فائل کا ایک مکمل پتا‬path) ‫ جیسے گھر کا ایڈریس۔‬،‫ہوتا ہے‬
+Example:​
+C:\Users\Student\Documents\homework.docx
+Explanation:
+●​ C:\ = Drive​
+●​ Users\Student = ‫​فولڈرز‬
+●​ homework.docx = ‫​فائل کا نام‬
+
+Analogy:​
+"‫ اور مکان نمبر — ویسے ہی‬،‫ سڑک‬،‫ جیسے گلی‬Drive، Folder، ‫ اور‬File"
+
+STEP 9 — Quiz 4 (MCQ)
+Question:​
+‫فائل کا مکمل پتا کیا کہالتا ہے؟‬
+●​ A) ‫​نام‬
+●​ B) ‫​آئیکن‬
+●​ C) path
+
+✅​
+
+●​ D) ‫​ڈرائیو‬
+
+Correct Feedback:​
+‫ درست! فائل کا‬address ‫ یعنی‬location، path ‫کہالتی ہے۔‬
+Incorrect Feedback:​
+‫ غلط! فائل کا مکمل‬address ‫ ہی‬path ‫کہالتا ہے۔‬
+
+STEP 10 — Micro Lesson 6.5: Organizing Files & Folders
+Tips:
+●​ ‫ ہر‬subject ‫​کا الگ فولڈر بنائیں‬
+●​ ‫​فائلز کو تاریخ اور نام کے لحاظ سے ترتیب دیں‬
+●​ ‫ غیر ضروری فائلز‬delete ‫​کرتے رہیں‬
+●​ ‫ ہر مہینے فائلز کا‬backup ‫​بنائیں‬
+
+Real-Life Example:​
+"Student\Assignments\Science\chapter3_notes.docx"
+
+STEP 11 — Quiz 5 (True/False)
+
+‫​‪Question:‬‬
+‫کو ایک ہی فولڈر میں رکھنا فائل منیجمنٹ کے لیے اچھا ہے؟ ‪ assignments‬تمام‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! اس سے تالش آسان اور کام منظم رہتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں! بے ترتیب فائلز وقت ضائع کرتی ہیں اور مشکل پیدا کرتی ہیں۔‬
+
+‫‪STEP 12 — Micro Lesson 6.6: File Extensions‬‬
+‫​‪Explanation:‬‬
+‫فائل کے آخر میں لگتے ہیں اور بتاتے ہیں کہ فائل کی قسم کیا ہے۔ ‪File extensions‬‬
+‫‪Examples:‬‬
+‫​‪●​ .txt = Text File‬‬
+‫​‪●​ .jpg = Image‬‬
+‫​‪●​ .mp4 = Video‬‬
+‫​‪●​ .pdf = Document‬‬
+‫​‪●​ .exe = Software‬‬
+
+‫​‪Analogy:‬‬
+‫"سے فائل کی نوعیت سمجھ آتی ہے ‪ .jpg‬یا ‪ .docx‬جیسے کتاب کی قسم پتہ چلتی ہے (ناول‪ ،‬شاعری‪ ،‬کہانی) — ویسے ہی"‬
+
+‫)‪STEP 13 — Quiz 6 (MCQ‬‬
+‫​‪Question:‬‬
+‫کس قسم کی فائل کے لیے استعمال ہوتا ہے؟ ‪.jpg‬‬
+‫​آڈیو )‪●​ A‬‬
+
+●​ B) ‫​ویڈیو‬
+●​ C) ‫تصویر‬
+
+✅​
+
+●​ D) ‫​پروگرام‬
+
+Correct Feedback:​
+‫ !بالکل‬.jpg ‫ایک تصویر کی فائل ہوتی ہے۔‬
+Incorrect Feedback:​
+‫ !نہیں‬.jpg ‫تصویر کے لیے مخصوص فائل ٹائپ ہے۔‬
+
+STEP 14 — Interactive Exercise: Build a Folder Tree
+Task:​
+User drags and drops files into a structured folder layout
+Scenario:​
+"Organize the following:
+●​ English Essay​
+●​ Science Diagram​
+●​ Urdu Poem​
+●​ Math Homework"​
+
+Expected Outcome:
+●​ English > essay.docx​
+●​ Science > diagram.jpg​
+●​ Urdu > poem.pdf​
+●​ Math > homework.xlsx​
+
+Feedback:​
+Well Done or Try Again, based on accuracy
+
+STEP 15 — Recap Flashcard
+Text:
+●​ ‫​فائل = معلومات‬
+●​ ‫​فولڈر = فائلز کا گھر‬
+●​ path = ‫ فائل کا‬address​
+●​ .jpg / .docx = ‫​فائل کی قسم‬
+●​ ‫ اچھی ترتیب‬productivity ‫​بڑھاتی ہے‬
+
+STEP 16 — Completion Screen
+Text:​
+"‫​زبردست! اب آپ جانتے ہیں کہ فائلز اور فولڈرز کو کیسے ترتیب دینا ہے۔‬
+‫ بائنری کوڈ‬:‫"! اگلے لیول میں ہم جانیں گے کمپیوٹر کی مشین زبان‬
+Action: Unlock Level 7 → Button: "Next Level"
+​
+
+LEVEL 7: ‫بائنری زبان اور کوڈنگ کی بنیاد‬
+Estimated Duration: 1.5–2 hours​
+Course: Basics of Computer Science​
+Division: 7 of 15​
+Title: Binary Language & The Foundation of Coding
+
+🧩 DEVELOPER INTEGRATION FLOW
+User has completed Level 6​
+Level 7 is now unlocked​
+User taps:​
+Level 7: "‫"بائنری زبان اور کوڈنگ کی بنیاد‬
+
+🔓
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​اگر کمپیوٹر انسان کی بات نہیں سمجھتا‪ ،‬تو وہ کس زبان میں سوچتا ہے؟"‬
+‫​ ایک ایسی زبان جو صرف دو عددوں پر مشتمل ہے‪ 0 :‬اور ‪1‬‬
+‫" آئیے آج اس زبان — بائنری — کو سمجھتے ہیں‪ ،‬جو ہر کوڈنگ کی بنیاد ہے۔‬
+
+‫?‪STEP 2 — Micro Lesson 7.1: What is Binary‬‬
+‫​‪Text:‬‬
+‫​بائنری زبان کمپیوٹر کی بنیادی زبان ہے۔‬
+‫​ اس میں صرف دو ہندسے ہوتے ہیں‪:‬‬
+‫​ ‪ = 0‬بند‬
+‫‪ = 1‬کھال‬
+‫​‪Analogy:‬‬
+‫"جیسے بلب آن یا آف ہوتا ہے‪ ،‬ویسے ہی کمپیوٹر کی ہر بات ‪ 0‬اور ‪ 1‬سے بنتی ہے۔"‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+‫​‪Question:‬‬
+‫کمپیوٹر صرف ‪ 0‬اور ‪ 1‬کو سمجھتا ہے؟‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل درست! کمپیوٹر کی اصل زبان بائنری ہے — صرف ‪ 0‬اور ‪1‬۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں! کمپیوٹر صرف ‪ 0‬اور ‪ 1‬یعنی بائنری زبان میں ہی کام کرتا ہے۔‬
+
+‫?‪STEP 4 — Micro Lesson 7.2: Why Computers Use Binary‬‬
+‫​‪Explanation:‬‬
+‫‪:‬کمپیوٹر کے سرکٹس صرف دو حالتوں میں ہو سکتے ہیں‬
+
+‫​)آن (‪●​ 1‬‬
+‫​)آف (‪●​ 0‬‬
+
+‫یہی وجہ ہے کہ کمپیوٹر ہر ڈیٹا کو بائنری میں تبدیل کر کے سمجھتا ہے۔‬
+‫‪Examples:‬‬
+‫​‪●​ 5 = 101‬‬
+‫​‪●​ 7 = 111‬‬
+‫​)‪●​ A = 01000001 (ASCII code‬‬
+
+‫)‪STEP 5 — Quiz 2 (MCQ‬‬
+‫​‪Question:‬‬
+‫بائنری میں صرف کون سے دو ہندسے ہوتے ہیں؟‬
+‫​اور ‪●​ A) 1 2‬‬
+‫​اور ‪●​ B) 0 9‬‬
+
+‫​✅‬
+
+‫اور ‪●​ C) 0 1‬‬
+
+‫​اور ‪●​ D) 2 3‬‬
+
+‫​‪Correct Feedback:‬‬
+‫شاندار! بائنری صرف دو ہندسوں پر مشتمل ہوتی ہے‪ 0 :‬اور ‪1‬۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! بائنری میں صرف ‪ 0‬اور ‪ 1‬استعمال ہوتے ہیں۔‬
+
+‫‪STEP 6 — Micro Lesson 7.3: Decimal vs Binary‬‬
+‫‪Comparison Table:‬‬
+
+​
+
+​
+​
+​
+Tip:​
+"‫ ہر‬binary digit ‫ کو‬bit ‫"کہتے ہیں۔‬
+
+STEP 7 — Quiz 3 (Matching)
+Task: Match decimal numbers to their binary equivalent:
+
+​
+​
+Correct Feedback:​
+‫ زبردست! آپ نے‬decimal ‫کو بائنری میں درست پہچانا۔‬
+Incorrect Feedback:​
+‫ کچھ جوابات غلط تھے۔ دوبارہ دھیان سے‬binary code ‫دیکھیں۔‬
+
+STEP 8 — Micro Lesson 7.4: Bits and Bytes
+Text:
+●​ 1 Bit = 1 number (0 1 ‫​)یا‬
+●​ 8 Bits = 1 Byte​
+●​ 1 KB = 1024 Bytes​
+●​ 1 MB = 1024 KB​
+●​ 1 GB = 1024 MB​
+
+Analogy:​
+"‫ جیسے ایک حرف → ایک لفظ → ایک جملہ → ایک پیراگراف — ویسے ہی‬Bit → Byte → KB → MB"
+
+STEP 9 — Quiz 4 (MCQ)
+Question:​
+8 Bits ‫کو کیا کہتے ہیں؟‬
+●​ A) Kilobyte​
+●​ B) Byte
+
+✅​
+
+●​ C) Megabyte​
+●​ D) Word​
+
+Correct Feedback:​
+8 !‫ درست‬bits = 1 byte
+Incorrect Feedback:​
+8 !‫ غلط‬bits ‫ سے ایک‬byte ‫ نہ کہ‬،‫ بنتا ہے‬kilobyte‫۔‬
+
+STEP 10 — Micro Lesson 7.5: Binary in Real Life
+Examples:
+●​ ‫​تصویریں بائنری میں محفوظ ہوتی ہیں‬
+●​ ‫ کی صورت میں محفوظ ہوتی ہے‬1 ‫ اور‬0 ‫​موسیقی بھی‬
+●​ ‫ ایپ — سب کچھ بائنری سے بنتا ہے‬،‫ ویب سائٹ‬،‫​ہر ویڈیو‬
+
+Interactive Explanation:​
+Show a picture slowly converting to 0s and 1s
+
+STEP 11 — Quiz 5 (True/False)
+Question:​
+‫ اور آڈیو سب بائنری کوڈ میں محفوظ ہوتے ہیں؟‬،‫ تصویر‬،‫ویڈیو‬
+●​ A) ‫درست‬
+
+✅​
+
+●​ B) ‫​غلط‬
+
+Correct Feedback:​
+‫بالکل! کمپیوٹر ہر قسم کے ڈیٹا کو بائنری میں بدل کر محفوظ کرتا ہے۔‬
+Incorrect Feedback:​
+‫ ہر چیز اسی میں بدلتا ہے۔‬،‫غلط! کمپیوٹر صرف بائنری میں کام کرتا ہے‬
+
+STEP 12 — Interactive Binary Practice
+Task: Convert these decimal numbers to binary
+●​ 3 → User types: 0011​
+●​ 4 → User types: 0100​
+●​ 6 → User types: 0110​
+
+Feedback:​
+Correct: "Excellent! You now think like a machine!"​
+Incorrect: "Try again. Remember: break the number into 1s and 0s using powers of 2"
+
+STEP 13 — Recap Flashcard
+Text:
+●​ ‫ سمجھتا ہے‬1 ‫ اور‬0 ‫​کمپیوٹر صرف‬
+●​ ‫​بائنری = کمپیوٹر کی زبان‬
+●​ 8 bits = 1 byte​
+●​ ‫ آوازیں‬،‫ ویڈیوز‬،‫​بائنری میں ہر چیز محفوظ ہوتی ہے — تصویریں‬
+●​ ‫ بائنری‬coding ‫​کی بنیاد ہے‬
+
+STEP 14 — Completion Screen
+
+‫​‪Text:‬‬
+‫​کمال! آپ نے کمپیوٹر کی اصل زبان — بائنری — سیکھ لی۔"‬
+‫" اب ہم اگلے لیول میں چلیں گے جہاں سیکھیں گے کہ سافٹ ویئر اور ایپلیکیشنز کیسے کام کرتی ہیں۔‬
+‫"‪Action: Unlock Level 8 → Button: "Next Level‬‬
+
+‫سافٹ ویئر اور ایپلیکیشنز کی دنیا ‪LEVEL 8:‬‬
+‫​‪Estimated Duration: 1.5–2 hours‬‬
+‫​‪Course: Basics of Computer Science‬‬
+‫​‪Division: 8 of 15‬‬
+‫‪Title: The World of Software and Applications‬‬
+
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+‫​‪User has completed Level 7‬‬
+‫​‪Level 8 is now unlocked‬‬
+‫​‪User taps:‬‬
+‫"سافٹ ویئر اور ایپلیکیشنز کی دنیا" ‪Level 8:‬‬
+
+‫🔓‬
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​کمپیوٹر صرف ایک مشین ہے — اسے کام کرنے کے لیے ہدایات چاہییں۔"‬
+‫​ یہ ہدایات سافٹ ویئر کے ذریعے دی جاتی ہیں۔‬
+‫" آج ہم جانیں گے کہ سافٹ ویئر کیا ہوتا ہے‪ ،‬کتنے قسم کا ہوتا ہے‪ ،‬اور ایپلیکیشنز کیسے کام کرتی ہیں۔‬
+
+‫?‪STEP 2 — Micro Lesson 8.1: What is Software‬‬
+‫​‪Text:‬‬
+‫وہ پروگرامز اور ہدایات کا مجموعہ ہوتا ہے جو کمپیوٹر کو بتاتے ہیں کہ اسے کیا کرنا ہے۔ ‪Software‬‬
+‫‪Types:‬‬
+‫​‪●​ System Software‬‬
+
+‫​‪●​ Application Software‬‬
+
+‫​‪Analogy:‬‬
+‫​کمپیوٹر = جسم"‬
+‫" سافٹ ویئر = دماغ کے احکامات‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+‫​‪Question:‬‬
+‫سافٹ ویئر کے بغیر کمپیوٹر کچھ نہیں کر سکتا؟‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫درست! سافٹ ویئر کے بغیر کمپیوٹر محض ایک مشین ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں! سافٹ ویئر کے بغیر کمپیوٹر کچھ بھی نہیں کر سکتا۔‬
+
+‫‪STEP 4 — Micro Lesson 8.2: System Software‬‬
+‫​‪Text:‬‬
+‫وہ سافٹ ویئر ہوتا ہے جو کمپیوٹر کے تمام حصوں کو چالنے میں مدد دیتا ہے۔ ‪System Software‬‬
+‫‪Examples:‬‬
+‫​)‪●​ Operating System (Windows, Linux‬‬
+‫​‪●​ Device Drivers‬‬
+‫​‪●​ Utility Programs‬‬
+
+‫​‪Explanation:‬‬
+‫"یہ کمپیوٹر کے تمام پرزوں کو ایک ساتھ جوڑتا ہے"‬
+
+STEP 5 — Quiz 2 (MCQ)
+Question:​
+Windows ‫کس قسم کا سافٹ ویئر ہے؟‬
+●​ A) Application​
+●​ B) Virus​
+●​ C) System Software
+
+✅​
+
+●​ D) Anti-virus​
+
+Correct Feedback:​
+‫ !درست‬Windows ‫ ایک‬Operating System ‫ جو‬،‫ ہے‬system software ‫کی قسم ہے۔‬
+Incorrect Feedback:​
+‫ !غلط‬Windows ‫ ایک‬Application ‫ نہیں بلکہ‬System Software ‫ہے۔‬
+
+STEP 6 — Micro Lesson 8.3: Application Software
+Text:​
+Application Software ‫وہ سافٹ ویئر ہوتا ہے جو مخصوص کام کرنے کے لیے ہوتا ہے۔‬
+Examples:
+●​ Microsoft Word (‫​)تحریر کے لیے‬
+●​ Google Chrome (‫​)انٹرنیٹ استعمال کے لیے‬
+●​ VLC Media Player (‫​)ویڈیوز دیکھنے کے لیے‬
+●​ Paint (‫​)تصویریں بنانے کے لیے‬
+
+Analogy:​
+"‫ جیسے موبائل ایپس مخصوص کام کرتی ہیں — ویسے ہی‬Application Software ‫"ہوتا ہے‬
+
+STEP 7 — Quiz 3 (Matching)
+Task: Match each software to its purpose
+
+​
+​
+Correct Feedback:​
+‫شاندار! آپ نے ہر ایپلیکیشن کو اس کے کام سے جوڑ دیا۔‬
+Incorrect Feedback:​
+‫کچھ غلط جوابات تھے — یاد رکھیں ہر سافٹ ویئر کا اپنا خاص کام ہوتا ہے۔‬
+
+STEP 8 — Micro Lesson 8.4: Installing and Uninstalling Software
+Steps to Install Software:
+1.​ File ‫​ڈاؤنلوڈ کریں‬
+2.​ Install ‫​پر کلک کریں‬
+3.​ Instructions ‫​پر عمل کریں‬
+4.​ Shortcut ‫​بن جائے گا‬
+
+Uninstall:
+●​ Control Panel → Uninstall Program → Select → Uninstall​
+
+Tip:​
+"‫"!صرف قابل اعتماد سافٹ ویئر انسٹال کریں — ورنہ وائرس آ سکتا ہے‬
+
+‫)‪STEP 9 — Quiz 4 (MCQ‬‬
+‫​‪Question:‬‬
+‫سافٹ ویئر انسٹال کرتے وقت کیا ضروری ہے؟‬
+‫​بند کرنا ‪●​ A) Internet‬‬
+‫​پر بار بار کلک کرنا ‪●​ B) Install‬‬
+
+‫​✅‬
+
+‫ہدایات کو غور سے پڑھنا )‪●​ C‬‬
+‫​کمپیوٹر بند کرنا )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! ہمیشہ ہدایات کو غور سے پڑھیں اور صرف ضرورت کا سافٹ ویئر انسٹال کریں۔‬
+‫​‪Incorrect Feedback:‬‬
+‫کرنا خطرناک ہو سکتا ہے۔ ‪ Install‬غلط! بغیر پڑھے‬
+
+‫‪STEP 10 — Micro Lesson 8.5: Viruses and Security‬‬
+‫​‪Text:‬‬
+‫‪:‬ہر سافٹ ویئر محفوظ نہیں ہوتا۔ کچھ پروگرامز وائرس ہوتے ہیں جو‬
+‫​ڈیٹا خراب کرتے ہیں ​●‬
+‫​کمپیوٹر سست کر دیتے ہیں ​●‬
+‫​پرائیویسی خطرے میں ڈال دیتے ہیں ​●‬
+
+‫‪Protection Tips:‬‬
+‫​استعمال کریں ‪●​ Anti-virus Software‬‬
+‫​سافٹ ویئر مت ڈاؤنلوڈ کریں ‪●​ Unknown‬‬
+‫​فعال رکھیں ‪●​ Firewall‬‬
+
+‫)‪STEP 11 — Quiz 5 (Select All‬‬
+‫​‪Question:‬‬
+‫کمپیوٹر کو وائرس سے بچانے کے لیے کیا کرنا چاہیے؟‬
+‫​)‪ (CORRECT‬انسٹال کریں ‪●​ Anti-virus‬‬
+‫​)‪ (CORRECT‬مت ڈاؤنلوڈ کریں ‪ apps‬نامعلوم ​●‬
+‫​ہر سافٹ ویئر انسٹال کریں ​●‬
+‫​)‪ (CORRECT‬کو آن رکھیں ‪●​ Firewall‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بہترین! یہ تمام اقدامات کمپیوٹر کو محفوظ رکھتے ہیں۔‬
+‫​‪Incorrect Feedback:‬‬
+‫کچھ غلط ہیں! ہر سافٹ ویئر انسٹال کرنا خطرناک ہو سکتا ہے۔‬
+
+‫‪STEP 12 — Micro Lesson 8.6: Freeware vs Paid Software‬‬
+‫‪Types:‬‬
+‫​)‪ VLC‬مفت سافٹ ویئر (جیسے ‪●​ Freeware:‬‬
+‫​)‪ Microsoft Office‬پیسے دے کر خریدنا ہوتا ہے (جیسے ‪●​ Paid Software:‬‬
+‫​)‪ Linux‬کوئی بھی اسے مفت استعمال اور بہتر کر سکتا ہے (جیسے ‪●​ Open Source:‬‬
+
+‫​‪Analogy:‬‬
+‫​مفت نمکو = ‪"Freeware‬‬
+‫​خریدی گئی نمکو = ‪Paid‬‬
+‫"!نمکو کی ریسیپی سب کو دی جائے = ‪Open Source‬‬
+
+‫)‪STEP 13 — Quiz 6 (MCQ‬‬
+‫​‪Question:‬‬
+‫سافٹ ویئر کی خاصیت کیا ہے؟ ‪Open Source‬‬
+
+‫​صرف ایک کمپنی چالتی ہے )‪●​ A‬‬
+
+‫​✅‬
+
+‫سب استعمال کر سکتے ہیں اور ترمیم بھی )‪●​ B‬‬
+‫​ہمیشہ وائرس ہوتا ہے )‪●​ C‬‬
+‫​صرف انٹرنیٹ کے لیے ہے )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کو کوئی بھی مفت استعمال اور بہتر بنا سکتا ہے۔ ‪! Open Source‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫محدود نہیں — یہ آزاد اور سب کے لیے ہوتا ہے۔ ‪! Open Source‬غلط‬
+
+‫‪STEP 14 — Recap Flashcard‬‬
+‫‪Text:‬‬
+‫​کمپیوٹر کو بتانے واال دماغ = ‪●​ Software‬‬
+‫​کمپیوٹر کو چالنا = ‪●​ System Software‬‬
+‫​مخصوص کام کرنا = ‪●​ Application Software‬‬
+‫​سافٹ ویئر کی اقسام = ‪●​ Freeware / Paid / Open Source‬‬
+‫​احتیاط ‪ = Anti-virus +‬سے بچاؤ ‪●​ Virus‬‬
+
+‫‪STEP 15 — Completion Screen‬‬
+‫​‪Text:‬‬
+‫​بہترین! اب آپ جانتے ہیں کہ سافٹ ویئر کیا ہوتا ہے‪ ،‬کیسے کام کرتا ہے‪ ،‬اور کمپیوٹر کو کیسے خطرات سے بچایا جاتا ہے۔"‬
+‫"! اگلے لیول میں ہم کمپیوٹر نیٹ ورکس کی دنیا میں قدم رکھیں گے‬
+‫"‪Action: Unlock Level 9 → Button: "Next Level‬‬
+
+‫نیٹ ورکنگ اور انٹرنیٹ کی سمجھ ‪LEVEL 9:‬‬
+
+‫​‪Estimated Duration: 1.5–2 hours‬‬
+‫​‪Course: Basics of Computer Science‬‬
+‫​‪Division: 9 of 15‬‬
+‫‪Title: Networking and the Internet‬‬
+
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+‫​‪User has completed Level 8‬‬
+‫​‪Level 9 is now unlocked‬‬
+‫​‪User taps:‬‬
+‫"نیٹ ورکنگ اور انٹرنیٹ کی سمجھ" ‪Level 9:‬‬
+
+‫🔓‬
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​کیا آپ جانتے ہیں کہ دنیا کے ایک کونے میں بیٹھا انسان دوسرے کونے میں کیسے بات کرتا ہے؟"‬
+‫​ یہ سب ممکن ہوتا ہے ‘نیٹ ورکنگ’ اور ‘انٹرنیٹ’ کی مدد سے۔‬
+‫" آج ہم سیکھیں گے کہ کمپیوٹر نیٹ ورکس کیا ہوتے ہیں اور انٹرنیٹ کیسے کام کرتا ہے۔‬
+
+‫?‪STEP 2 — Micro Lesson 9.1: What is Networking‬‬
+‫​‪Text:‬‬
+‫جب دو یا دو سے زیادہ کمپیوٹر ایک دوسرے سے ڈیٹا شئیر کریں‪ ،‬تو اسے نیٹ ورکنگ کہتے ہیں۔‬
+‫‪Types:‬‬
+‫​)‪●​ LAN (Local Area Network‬‬
+‫​)‪●​ WAN (Wide Area Network‬‬
+‫​دنیا کا سب سے بڑا نیٹ ورک = ‪●​ Internet‬‬
+
+‫​‪Analogy:‬‬
+‫"جیسے سڑکوں کے ذریعے شہر جُڑتے ہیں — ویسے ہی نیٹ ورکنگ کمپیوٹرز کو جوڑتی ہے"‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+
+‫​‪Question:‬‬
+‫نیٹ ورکنگ کا مطلب ہے کمپیوٹرز کو ایک دوسرے سے جوڑنا؟‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫درست! یہی نیٹ ورکنگ کی بنیاد ہے — معلومات کا تبادلہ۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں! نیٹ ورکنگ کا مطلب ہی کمپیوٹرز کے درمیان ربط ہے۔‬
+
+‫‪STEP 4 — Micro Lesson 9.2: LAN vs WAN‬‬
+‫‪Text:‬‬
+
+‫​‬
+‫​‪Tip:‬‬
+‫"‪"LAN = Limited Area, WAN = Wide Area‬‬
+
+‫)‪STEP 5 — Quiz 2 (MCQ‬‬
+‫​‪Question:‬‬
+‫نیٹ ورک کی مثال کیا ہے؟ ‪ Wi-Fi‬گھر کے‬
+‫​‪●​ A) WAN‬‬
+
+‫​✅‬
+
+‫‪●​ B) LAN‬‬
+
+‫​‪●​ C) MAN‬‬
+‫​‪●​ D) GPS‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کہالتا ہے۔ ‪ LAN‬بالکل! گھر میں محدود کمپیوٹرز کا جُڑنا‬
+‫​‪Incorrect Feedback:‬‬
+‫ہے۔ ‪ LAN‬نہیں بلکہ ‪ WAN‬غلط! گھر کا نیٹ ورک‬
+
+‫?‪STEP 6 — Micro Lesson 9.3: What is the Internet‬‬
+‫​‪Text:‬‬
+‫ایک بہت بڑا نیٹ ورک ہے جو دنیا کے کروڑوں کمپیوٹرز کو آپس میں جوڑتا ہے۔ ‪Internet‬‬
+‫‪Services via Internet:‬‬
+‫​‪●​ Websites‬‬
+‫​‪●​ Emails‬‬
+‫​‪●​ Social Media‬‬
+‫​‪●​ Cloud Storage‬‬
+‫​‪●​ Video Calls‬‬
+
+‫​‪Analogy:‬‬
+‫"انٹرنیٹ = پوری دنیا کا ڈیجیٹل بازار"‬
+
+‫)‪STEP 7 — Quiz 3 (Select All‬‬
+‫​‪Question:‬‬
+‫درج ذیل میں سے کون سی چیزیں انٹرنیٹ پر کی جاتی ہیں؟‬
+‫​)‪ (CORRECT‬ویڈیو کال ​●‬
+‫​)‪ (CORRECT‬گوگل سرچ ​●‬
+‫​)‪ (CORRECT‬ای میل ​●‬
+‫​پانی ابالنا ​●‬
+
+‫​)‪ (CORRECT‬یوٹیوب ویڈیو دیکھنا ​●‬
+
+‫​‪Correct Feedback:‬‬
+‫زبردست! یہ سب کام انٹرنیٹ پر ہوتے ہیں۔‬
+‫​‪Incorrect Feedback:‬‬
+‫کچھ غلط ہیں! پانی ابالنے جیسے کام کا انٹرنیٹ سے تعلق نہیں۔‬
+
+‫‪STEP 8 — Micro Lesson 9.4: IP Address & URLs‬‬
+‫​‪IP Address:‬‬
+‫ہوتا ہے‪ ،‬جیسے‪ (IP Address) 192.168.1.1 :‬ہر کمپیوٹر کا ایک خاص پتا‬
+‫​‪URL (Website Address):‬‬
+‫کی طرف اشارہ کرتا ہے۔ ‪ IP‬لکھتے ہیں‪ ،‬وہ دراصل ایک ‪ www.google.com‬جب ہم‬
+‫​‪Analogy:‬‬
+‫​آپ کا نام = ‪"URL‬‬
+‫"آپ کا شناختی کارڈ نمبر = ‪IP‬‬
+
+‫)‪STEP 9 — Quiz 4 (MCQ‬‬
+‫​‪Question:‬‬
+‫کس چیز کو ظاہر کرتا ہے؟ ‪IP Address‬‬
+
+‫​✅‬
+
+‫کمپیوٹر کی جگہ )‪●​ A‬‬
+‫​فائل کا نام )‪●​ B‬‬
+‫​پاس ورڈ )‪●​ C‬‬
+
+‫​ویب سائٹ کا ڈیزائن )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫ہوتا ہے۔ ‪ IP Address‬درست! ہر کمپیوٹر یا ڈیوائس کا الگ‬
+‫​‪Incorrect Feedback:‬‬
+‫کمپیوٹر کی شناخت ہوتی ہے‪ ،‬نہ کہ فائل یا پاس ورڈ۔ ‪! IP Address‬غلط‬
+
+STEP 10 — Micro Lesson 9.5: Web Browsers & Search Engines
+Web Browser:​
+‫​ایک سافٹ ویئر جس سے آپ انٹرنیٹ تک رسائی حاصل کرتے ہیں‬
+Examples: Chrome, Firefox, Edge
+Search Engine:​
+‫​ایک ایسی سائٹ جو معلومات تالش کرنے میں مدد دیتی ہے‬
+Examples: Google, Bing, Yahoo
+Tip:​
+"Browser = ‫​گاڑی‬
+Search Engine = ‫"راستہ بتانے واال‬
+
+STEP 11 — Quiz 5 (Matching)
+Task: Match Browser or Search Engine
+
+​
+​
+Correct Feedback:​
+‫شاندار! آپ نے درست پہچانا کہ کون سا کیا کام کرتا ہے۔‬
+Incorrect Feedback:​
+‫ !غلط‬Chrome ‫ اور‬Firefox ‫ جب کہ‬،‫ براؤزرز ہیں‬Google ‫ اور‬Bing ‫سرچ انجن۔‬
+
+STEP 12 — Micro Lesson 9.6: Internet Safety & Responsible Use
+Text:
+
+‫​مضبوط پاس ورڈ رکھیں ​●‬
+‫​غیر محفوظ ویب سائٹس مت کھولیں ​●‬
+‫​ذاتی معلومات ہر جگہ مت شئیر کریں ​●‬
+‫​سافٹ ویئر استعمال کریں ‪●​ Anti-virus‬‬
+
+‫​‪Warning:‬‬
+‫"انٹرنیٹ آزادی دیتا ہے — مگر ذمہ داری بھی مانگتا ہے"‬
+
+‫)‪STEP 13 — Quiz 6 (Select All‬‬
+‫​‪Question:‬‬
+‫انٹرنیٹ پر محفوظ رہنے کے لیے کیا کرنا چاہیے؟‬
+‫​)‪ (CORRECT‬رکھنا ‪●​ Strong Password‬‬
+‫​)‪ (CORRECT‬پر کلک نہ کرنا ‪●​ Untrusted Links‬‬
+‫​ہر سائٹ پر ذاتی معلومات دینا ​●‬
+‫​)‪ (CORRECT‬انسٹال کرنا ‪●​ Anti-virus‬‬
+
+‫​‪Correct Feedback:‬‬
+‫شاندار! یہی اصول آپ کو انٹرنیٹ پر محفوظ رکھیں گے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! ذاتی معلومات ہر جگہ دینا محفوظ نہیں ہوتا۔‬
+
+‫‪STEP 14 — Recap Flashcard‬‬
+‫‪Text:‬‬
+‫​کمپیوٹرز کو جوڑنے کا طریقہ = ‪●​ Networking‬‬
+‫​نیٹ ورک کی اقسام = ‪●​ LAN/WAN‬‬
+
+‫​دنیا بھر کا نیٹ ورک = ‪●​ Internet‬‬
+‫​کمپیوٹر اور ویب سائٹس کے پتے = ‪●​ IP/URL‬‬
+‫​انٹرنیٹ کے دروازے = ‪●​ Browser/Search Engine‬‬
+‫​ذمہ دار اور محفوظ استعمال = ‪●​ Internet Safety‬‬
+
+‫‪STEP 15 — Completion Screen‬‬
+‫​‪Text:‬‬
+‫​زبردست! آپ اب جانتے ہیں کہ انٹرنیٹ کیسے کام کرتا ہے اور آپ اس سے کیسے جُڑ سکتے ہیں۔"‬
+‫" اگلے لیول میں ہم کمپیوٹر کے آپریٹنگ سسٹمز اور ان کے کاموں پر روشنی ڈالیں گے۔‬
+‫"‪Action: Unlock Level 10 → Button: "Next Level‬‬
+
+‫آپریٹنگ سسٹمز اور ان کا کردار ‪LEVEL 10:‬‬
+‫​‪Estimated Duration: 1.5–2 hours‬‬
+‫​‪Course: Basics of Computer Science‬‬
+‫​‪Division: 10 of 15‬‬
+‫‪Title: Operating Systems and Their Role‬‬
+
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+‫​‪User has completed Level 9‬‬
+‫​‪Level 10 is now unlocked‬‬
+‫​‪User taps:‬‬
+‫"آپریٹنگ سسٹمز اور ان کا کردار" ‪Level 10:‬‬
+
+‫🔓‬
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​اگر کمپیوٹر ایک انسان ہے‪ ،‬تو آپریٹنگ سسٹم اس کا دماغ ہے۔"‬
+‫​ یہی سسٹم ہر فائل‪ ،‬ہر پروگرام‪ ،‬اور ہر آلہ کو آپس میں منسلک کرتا ہے۔‬
+
+‫کیا ہوتا ہے‪ ،‬کیسے کام کرتا ہے‪ ،‬اور آپ کے روزمرہ کاموں میں اس کا کیا ‪ Operating System‬آج ہم سیکھیں گے کہ‬
+‫"کردار ہے۔‬
+
+‫?‪STEP 2 — Micro Lesson 10.1: What is an Operating System‬‬
+‫​‪Text:‬‬
+‫‪:‬ایک سافٹ ویئر ہے جو )‪Operating System (OS‬‬
+‫​کمپیوٹر کو چالنے کے لیے بنیادی ہدایات فراہم کرتا ہے ​●‬
+‫​فائلز‪ ،‬پروگرامز‪ ،‬اور ہارڈویئر کو کنٹرول کرتا ہے ​●‬
+‫​اور کمپیوٹر کے درمیان پل کا کام کرتا ہے ‪●​ User‬‬
+
+‫‪Examples: Windows, macOS, Linux, Android‬‬
+‫​‪Analogy:‬‬
+‫"ایک منیجر جو ہر کام کو منظم رکھتا ہے = ‪"OS‬‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+‫​‪Question:‬‬
+‫کمپیوٹر کو چالنے کا بنیادی سافٹ ویئر ہے؟ ‪Operating System‬‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کے بغیر کمپیوٹر کچھ نہیں کر سکتا۔ ‪! OS‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫کمپیوٹر کا دماغ ہوتا ہے — سب کچھ اسی سے چلتا ہے۔ ‪! OS‬غلط‬
+
+‫‪STEP 4 — Micro Lesson 10.2: Major Functions of an OS‬‬
+‫‪Functions:‬‬
+
+1.​ File Management – ‫ فائلز کو‬save, open, delete ‫​کرنا‬
+2.​ Memory Management – RAM ‫​کو کنٹرول کرنا‬
+3.​ Process Management – ‫​پروگرامز کو چالنا اور بند کرنا‬
+4.​ Device Control – Printer، Mouse، Keyboard ‫​کو ہینڈل کرنا‬
+5.​ User Interface – Desktop, Icons, Menus​
+
+Visual Example: Show animated OS dashboard switching between tasks
+
+STEP 5 — Quiz 2 (MCQ)
+Question:​
+Operating System ‫کا کون سا کام ہے؟‬
+●​ A) ‫​کمپیوٹر بند کرنا‬
+●​ B) Wallpapers ‫​بنانا‬
+●​ C) Memory ‫ اور‬Devices ‫کو کنٹرول کرنا‬
+
+✅​
+
+●​ D) Mouse ‫​خریدنا‬
+
+Correct Feedback:​
+‫ !بالکل‬OS ‫کمپیوٹر کے اندرونی کام کو منظم کرتا ہے۔‬
+Incorrect Feedback:​
+‫ !نہیں‬OS ‫ نہ کہ خریداری کرنا۔‬،‫کا کام اندرونی چیزوں کو کنٹرول کرنا ہے‬
+
+STEP 6 — Micro Lesson 10.3: Types of Operating Systems
+
+​
+​
+Tip:​
+"‫ ہر آلہ کے لیے مخصوص‬OS ‫"ہوتا ہے‬
+
+STEP 7 — Quiz 3 (Matching)
+Task: Match the OS to its platform
+
+​
+Correct Feedback:​
+‫ زبردست! ہر‬OS ‫کو اس کے درست آلہ سے جوڑا۔‬
+Incorrect Feedback:​
+‫ کچھ جوابات غلط تھے — یاد رکھیں ہر‬OS ‫ ایک خاص‬platform ‫کے لیے ہوتا ہے۔‬
+
+STEP 8 — Micro Lesson 10.4: User Interface (UI)
+Text:​
+Operating System ‫ایک ایسا ماحول دیتا ہے جہاں‬:
+●​ User ‫​آسانی سے فائلز کھول سکے‬
+●​ ‫​پروگرامز کو چال سکے‬
+●​ Settings ‫​تبدیل کر سکے‬
+
+UI Elements:
+●​ Desktop​
+●​ Icons​
+●​ Menus​
+●​ Taskbar​
+●​ File Explorer​
+
+Analogy:​
+"UI = ‫"ایک کمرہ جہاں ہر چیز آسانی سے دیکھی اور استعمال کی جا سکتی ہے‬
+
+STEP 9 — Quiz 4 (Select All)
+Question:​
+User Interface ‫کے کون سے عناصر ہوتے ہیں؟‬
+●​ Icons (CORRECT)​
+●​ Taskbar (CORRECT)​
+●​ Desktop (CORRECT)​
+●​ Electric Board​
+●​ Menus (CORRECT)​
+
+Correct Feedback:​
+‫ درست! یہ تمام‬UI ‫کے اہم حصے ہیں۔‬
+Incorrect Feedback:​
+‫ !غلط‬Electric board UI ‫کا حصہ نہیں — یہ کمپیوٹر سے باہر ہے۔‬
+
+STEP 10 — Micro Lesson 10.5: Multitasking in OS
+Explanation:​
+Operating System ‫بیک وقت کئی پروگرامز کو چال سکتا ہے — جیسے‬:
+●​ ‫ آپ‬YouTube ‫​چال رہے ہوں‬
+●​ ‫ ساتھ میں‬Word ‫​میں لکھ رہے ہوں‬
+●​ ‫​اور ساتھ ساتھ گانا بھی سن رہے ہوں‬
+
+Tip:​
+"‫ یہ سب‬OS ‫"!کی مہربانی ہے‬
+
+STEP 11 — Quiz 5 (True/False)
+Question:​
+Operating System ‫ایک وقت میں صرف ایک پروگرام چال سکتا ہے؟‬
+●​ A) ‫​درست‬
+●​ B) ‫غلط‬
+
+✅​
+
+Correct Feedback:​
+‫ بالکل! جدید‬OS ‫کئی کام ایک ساتھ کر سکتا ہے۔‬
+Incorrect Feedback:​
+‫ !غلط‬Multitasking ‫ ایک اہم خصوصیت ہے‬OS ‫کی۔‬
+
+STEP 12 — Micro Lesson 10.6: Updating & Maintaining an OS
+Best Practices:
+
+‫​کریں ‪ Update‬کو باقاعدگی سے ‪●​ OS‬‬
+‫​فعال رکھیں ‪●​ Auto-Updates‬‬
+‫​کو ہٹائیں ‪●​ Unused programs‬‬
+‫​کو محفوظ بنائیں ‪ OS‬کے ساتھ ‪●​ Anti-virus‬‬
+
+‫​‪Tip:‬‬
+‫"زیادہ محفوظ ‪ +‬زیادہ تیز = ‪"Updated OS‬‬
+
+‫)‪STEP 13 — Quiz 6 (MCQ‬‬
+‫​‪Question:‬‬
+‫کو کیوں اپڈیٹ کرنا ضروری ہے؟ ‪Operating System‬‬
+‫​صرف نئی تصاویر کے لیے )‪●​ A‬‬
+‫​صرف کمپیوٹر کو بند کرنے کے لیے )‪●​ B‬‬
+
+‫​✅‬
+
+‫بہتر حفاظت اور کارکردگی کے لیے )‪●​ C‬‬
+‫​ختم کرنے کے لیے ‪●​ D) Space‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! اپڈیٹس سیکیورٹی اور کارکردگی کو بہتر بناتے ہیں۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! اپڈیٹس کا مقصد صرف تصاویر دینا نہیں ہوتا۔‬
+
+‫‪STEP 14 — Recap Flashcard‬‬
+‫‪Text:‬‬
+‫​کمپیوٹر کو چالنے واال بنیادی سافٹ ویئر = ‪●​ OS‬‬
+‫​کے تحت ‪ OS‬سب = ‪●​ File, Memory, Devices, Programs‬‬
+
+‫​استعمال کو آسان بناتا ہے = ‪●​ User Interface‬‬
+‫​کئی کام ایک ساتھ = ‪●​ Multitasking‬‬
+‫​حفاظت اور بہتری = ‪●​ Updates‬‬
+
+‫‪STEP 15 — Completion Screen‬‬
+‫​‪Text:‬‬
+‫​شاندار! آپ اب سمجھ گئے ہیں کہ آپریٹنگ سسٹم کمپیوٹر کو کیسے چالتا ہے اور اس کا روزمرہ استعمال میں کیا کردار ہے۔"‬
+‫"!کی ‪ storage‬اور ‪ data formats‬اگلے لیول میں ہم بات کریں گے کمپیوٹر کے مختلف‬
+‫"‪Action: Unlock Level 11 → Button: "Next Level‬‬
+
+‫ڈیٹا‪ ،‬فائل فارمیٹس‪ ،‬اور اسٹوریج کی اقسام ‪LEVEL 11:‬‬
+‫​‪Estimated Duration: 1.5–2 hours‬‬
+‫​‪Course: Basics of Computer Science‬‬
+‫​‪Division: 11 of 15‬‬
+‫‪Title: Data, File Formats, and Types of Storage‬‬
+
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+‫​‪User has completed Level 10‬‬
+‫​‪Level 11 is now unlocked‬‬
+‫​‪User taps:‬‬
+‫"ڈیٹا‪ ،‬فائل فارمیٹس‪ ،‬اور اسٹوریج کی اقسام" ‪Level 11:‬‬
+
+‫🔓‬
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​کمپیوٹر ہر چیز کو ڈیٹا کی صورت میں محفوظ کرتا ہے۔"‬
+‫​ لیکن یہ ڈیٹا کئی شکلوں میں ہوتا ہے — فائلز‪ ،‬تصاویر‪ ،‬ویڈیوز‪ ،‬آوازیں‪ ،‬اور مزید۔‬
+‫" آئیے سیکھتے ہیں کہ ڈیٹا کیا ہوتا ہے‪ ،‬کس شکل میں محفوظ ہوتا ہے‪ ،‬اور کہاں محفوظ ہوتا ہے۔‬
+
+‫?‪STEP 2 — Micro Lesson 11.1: What is Data‬‬
+‫​‪Text:‬‬
+‫​ڈیٹا وہ معلومات ہوتی ہیں جو کمپیوٹر محفوظ کرتا ہے۔‬
+‫‪ :‬یہ ہو سکتی ہے‬
+‫​)‪ (Text‬الفاظ ​●‬
+‫​)‪ (Numbers‬نمبرز ​●‬
+‫​)‪ (Images‬تصویریں ​●‬
+‫​)‪ (Audio‬آوازیں ​●‬
+‫​)‪ (Videos‬ویڈیوز ​●‬
+
+‫​‪Tip:‬‬
+‫"بنایا جاتا ہے ‪ Meaningful‬کر کے ‪ Process‬خام معلومات‪ ،‬جنہیں = ‪"Data‬‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+‫​‪Question:‬‬
+‫کو ڈیٹا سمجھتا ہے؟ ‪ Text‬کمپیوٹر صرف‬
+‫​درست )‪●​ A‬‬
+
+‫​✅‬
+
+‫غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! کمپیوٹر ہر قسم کی معلومات کو ڈیٹا میں تبدیل کرتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں‪ ،‬بلکہ تصویریں‪ ،‬ویڈیوز اور آوازیں بھی ڈیٹا سمجھتا ہے۔ ‪ Text‬غلط! کمپیوٹر صرف‬
+
+‫‪STEP 4 — Micro Lesson 11.2: Common File Formats‬‬
+
+​
+Tip:​
+"File Format = ‫"ڈیٹا کی پہچان‬
+Analogy:​
+"‫ ویسے ہی ہر ڈیٹا کا اپنا‬،‫ جیسے زبان بولنے کا طریقہ بدلتا ہے‬Format ‫"ہوتا ہے‬
+
+STEP 5 — Quiz 2 (MCQ)
+Question:​
+mp3 ‫کس قسم کے ڈیٹا کی مثال ہے؟‬
+●​ A) Text​
+●​ B) Image​
+●​ C) Audio
+
+✅​
+
+●​ D) Application​
+
+Correct Feedback:​
+‫ !درست‬mp3 ‫ ایک‬Audio File Format ‫ہے۔‬
+Incorrect Feedback:​
+‫ !غلط‬mp3 ‫صوتی فائل ہوتی ہے‬، Text ‫ یا‬Image ‫نہیں۔‬
+
+STEP 6 — Micro Lesson 11.3: File Extensions
+Explanation:​
+‫ ہر فائل کے آخر میں ایک‬Extension ‫ جیسے‬،‫ہوتا ہے‬:
+●​ essay.docx​
+●​ song.mp3​
+●​ image.jpg​
+
+‫ یہ‬Extension ‫بتاتی ہے کہ فائل کس قسم کی ہے اور اسے کس سافٹ ویئر سے کھولنا ہے۔‬
+
+STEP 7 — Quiz 3 (Matching)
+Task: Match the extension to its use
+​
+
+​
+​
+Correct Feedback:​
+‫ شاندار! آپ نے فائلز کو ان کے‬Format ‫کے مطابق پہچان لیا۔‬
+Incorrect Feedback:​
+‫کچھ غلط تھے — یاد رکھیں‬: .jpg = ‫تصویر‬، .docx = ‫دستاویز‬
+
+STEP 8 — Micro Lesson 11.4: Storage Devices
+
+Primary Storage (‫)عارضی‬:
+●​ RAM​
+●​ Cache​
+
+Secondary Storage (‫)مستقل‬:
+●​ Hard Drive (HDD)​
+●​ Solid State Drive (SSD)​
+●​ USB / Flash Drive​
+●​ CD/DVD​
+●​ Memory Card​
+
+Analogy:​
+"RAM = ‫​دماغ کی عارضی یادداشت‬
+Hard Drive = ‫"مستقل یادداشت‬
+
+STEP 9 — Quiz 4 (Select All)
+Question:​
+‫ مندرجہ ذیل میں سے کون سی‬Secondary Storage Devices ‫ہیں؟‬
+●​ USB (CORRECT)​
+●​ Hard Drive (CORRECT)​
+●​ RAM​
+●​ SSD (CORRECT)​
+●​ Cache​
+
+Correct Feedback:​
+‫ !درست‬RAM ‫ اور‬Cache Primary ‫ باقی‬،‫ ہوتے ہیں‬Secondary‫۔‬
+
+‫​‪Incorrect Feedback:‬‬
+‫مستقل۔ ‪ SSD‬اور ‪، USB‬عارضی یادداشت ہے ‪! RAM‬غلط‬
+
+‫‪STEP 10 — Micro Lesson 11.5: Cloud Storage‬‬
+‫‪Text:‬‬
+‫‪:‬وہ سہولت ہے جس میں آپ اپنا ڈیٹا انٹرنیٹ پر محفوظ رکھتے ہیں — جیسے ‪Cloud Storage‬‬
+‫​‪●​ Google Drive‬‬
+‫​‪●​ Dropbox‬‬
+‫​‪●​ OneDrive‬‬
+
+‫‪Benefits:‬‬
+‫​ہر جگہ سے رسائی ​●‬
+‫​‪●​ Backup‬‬
+‫​کم فزیکل جگہ کی ضرورت ​●‬
+
+‫‪Risks:‬‬
+‫​انٹرنیٹ الزمی ​●‬
+‫​پرائیویسی کا خیال رکھنا ضروری ​●‬
+
+‫)‪STEP 11 — Quiz 5 (MCQ‬‬
+‫​‪Question:‬‬
+‫کا کیا فائدہ ہے؟ ‪Cloud Storage‬‬
+‫​ہر وقت کمپیوٹر آن رکھنا پڑتا ہے )‪●​ A‬‬
+‫​ڈیٹا صرف گھر میں دیکھا جا سکتا ہے )‪●​ B‬‬
+
+‫​✅‬
+
+‫ڈیٹا ہر جگہ سے رسائی میں ہوتا ہے )‪●​ C‬‬
+‫​فائلز ختم ہو جاتی ہیں )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کا فائدہ یہ ہے کہ آپ کا ڈیٹا ہر جگہ آپ کے ساتھ ہوتا ہے۔ ‪! Cloud Storage‬بالکل‬
+‫​‪Incorrect Feedback:‬‬
+‫سے ڈیٹا محفوظ رہتا ہے اور ہر جگہ سے رسائی ممکن ہوتی ہے۔ ‪! Cloud‬نہیں‬
+
+‫‪STEP 12 — Micro Lesson 11.6: File Organization‬‬
+‫‪Best Practices:‬‬
+‫​فائلز کو مناسب فولڈرز میں رکھیں ​●‬
+‫​ہر فائل کو درست نام دیں ​●‬
+‫​لیں ‪●​ Backup‬‬
+‫​کریں ‪ delete‬فائلز ‪●​ Unnecessary‬‬
+
+‫​‪Analogy:‬‬
+‫"میں ‪ Folder‬جیسے کتابیں الماری میں ترتیب سے رکھی جاتی ہیں — ویسے ہی فائلز بھی"‬
+
+‫)‪STEP 13 — Quiz 6 (True/False‬‬
+‫​‪Question:‬‬
+‫فائلز کو فولڈرز میں ترتیب دینا ایک اچھی عادت ہے؟‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫درست! منظم فائلز تالش اور استعمال میں آسان ہوتی ہیں۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! فائلز کا منظم ہونا ضروری ہے تاکہ وقت پر مل سکیں۔‬
+
+STEP 14 — Recap Flashcard
+Text:
+●​ Data = ‫​معلومات‬
+●​ File Format = ‫( ڈیٹا کی شناخت‬.mp3, .jpg)​
+●​ Storage = RAM, HDD, USB, Cloud​
+●​ File Extension = ‫​فائل کا پتہ‬
+●​ Organization = ‫​فولڈر اور ترتیب‬
+
+STEP 15 — Completion Screen
+Text:​
+"‫ اور اسٹوریج کی مکمل سمجھ حاصل کر لی۔‬،‫ اس کے فارمیٹس‬،‫​کمال! آپ نے ڈیٹا‬
+‫ اور‬،‫ اب آپ سیکھیں گے کہ کمپیوٹر کے سادہ پروگرامز کیسے چلتے ہیں‬Coding ‫"کا آغاز کیسے ہوتا ہے۔‬
+Action: Unlock Level 12 → Button: "Next Level"
+​
+
+LEVEL 12: ‫کوڈنگ کی ابتدائی سمجھ‬
+Estimated Duration: 1.5–2 hours​
+Course: Basics of Computer Science​
+Division: 12 of 15​
+Title: Introduction to Logic and Coding Basics
+
+🧩 DEVELOPER INTEGRATION FLOW
+User has completed Level 11​
+Level 12 is now unlocked​
+User taps:​
+Level 12: "‫"کوڈنگ کی ابتدائی سمجھ‬
+
+🔓
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫کوڈنگ کا مطلب ہے کمپیوٹر کو کسی کام کے لیے ہدایات دینا — بالکل ایسے جیسے آپ کسی کو کہانی سناتے ہیں کہ وہ کیا"‬
+‫​کرے۔‬
+‫" آج ہم سیکھیں گے کہ کوڈنگ کا تصور کیا ہے‪ ،‬اس کی بنیادی زبانیں کون سی ہیں‪ ،‬اور ایک سادہ کوڈ کیسے بنتا ہے۔‬
+
+‫?‪STEP 2 — Micro Lesson 12.1: What is Code‬‬
+‫​‪Text:‬‬
+‫​کوڈ ایک خاص زبان میں لکھی گئی ہدایات ہوتی ہیں جو کمپیوٹر کو بتاتی ہیں کہ کیا کرنا ہے۔‬
+‫میں ہوتی ہیں‪ ،‬یعنی قدم بہ قدم۔ ‪ Sequence‬یہ ہدایات‬
+‫​‪Real-Life Analogy:‬‬
+‫جیسے کسی کو بتانا کہ باورچی خانے جا کر پانی گرم کرو۔"‬
+‫​کچن جاؤ ​‪1.‬‬
+‫​کیتلی لو ​‪2.‬‬
+‫​پانی ڈالو ​‪3.‬‬
+‫​"چولہا آن کرو ​‪4.‬‬
+
+‫​‪Similarly:‬‬
+‫"میں بھی ہر قدم لکھا جاتا ہے۔ ‪"Code‬‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+‫​‪Question:‬‬
+‫کوڈنگ کا مطلب ہے کمپیوٹر کو زبانی ہدایات دینا؟‬
+‫​درست )‪●​ A‬‬
+
+‫​✅‬
+
+‫غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! کوڈنگ تحریری ہدایات کا عمل ہے‪ ،‬بول کر نہیں کیا جاتا۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں! کمپیوٹر صرف تحریری ہدایات سمجھتا ہے‪ ،‬آواز نہیں۔‬
+
+‫‪STEP 4 — Micro Lesson 12.2: Programming Languages‬‬
+‫‪Popular Languages:‬‬
+‫​)کے لیے بہترین ‪ beginners‬آسان اور( ‪●​ Python‬‬
+‫​‪●​ Java‬‬
+‫​‪●​ C++‬‬
+‫​)‪ visual coding‬بچوں کے لیے( ‪●​ Scratch‬‬
+
+‫​‪Note:‬‬
+‫"کو ہم اگلے کورس میں تفصیل سے سیکھیں گے ‪"Python‬‬
+‫​‪Tip:‬‬
+‫"زبان بدلنے سے کہانی کا انداز بدلتا ہے‪ ،‬کام وہی رہتا ہے"‬
+
+‫)‪STEP 5 — Quiz 2 (MCQ‬‬
+‫​‪Question:‬‬
+‫کون سی سمجھی جاتی ہے؟ ‪ Programming Language‬کے لیے سب سے آسان ‪Beginners‬‬
+‫​‪●​ A) C++‬‬
+
+‫​✅‬
+
+‫‪●​ B) Python‬‬
+‫​‪●​ C) Java‬‬
+‫​‪●​ D) HTML‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کے لیے بہترین ہے۔ ‪ beginners‬اور سادگی کی وجہ سے ‪ syntax‬آسان ‪! Python‬بالکل‬
+
+Incorrect Feedback:​
+‫ !غلط‬Python ‫ کو‬beginners ‫کی پسندیدہ زبان مانا جاتا ہے۔‬
+
+STEP 6 — Micro Lesson 12.3: Logic in Coding
+What is Logic?​
+Logic ‫ وہ‬Reasoning ‫ہے جس کے تحت ہم کمپیوٹر کو فیصلے کرنے کی طاقت دیتے ہیں۔‬
+Examples:
+●​ If statements​
+●​ Conditions​
+●​ True/False decisions​
+
+Real-Life Analogy:​
+‫​اگر بارش ہو رہی ہو → چھتری لو‬
+‫اگر بارش نہ ہو → چھتری نہ لو‬
+Code Format:
+​
+
+​
+​
+​
+
+STEP 7 — Quiz 3 (True/False)
+Question:​
+Logic statements ‫ جیسے‬if ‫ اور‬else ‫صرف ریاضی میں استعمال ہوتے ہیں؟‬
+●​ A) ‫​درست‬
+
+●​ B) ‫غلط‬
+
+✅​
+
+Correct Feedback:​
+‫ !بالکل‬Logic statements programming ‫میں فیصلے کرنے کے لیے ہوتے ہیں۔‬
+Incorrect Feedback:​
+‫ !نہیں‬Logic ‫ صرف ریاضی تک محدود نہیں — یہ‬programming ‫کی جان ہے۔‬
+
+STEP 8 — Micro Lesson 12.4: Structure of a Simple Program
+Basic Code Parts:
+1.​ Input → ‫​یوزر سے ڈیٹا لینا‬
+2.​ Process → ‫​فیصلہ یا حساب کتاب‬
+3.​ Output → ‫​نتیجہ ظاہر کرنا‬
+
+Example (in Urdu + Python style):
+
+​
+Output:​
+‫​اگر آپ نے "احمد" لکھا‬
+‫→ سالم احمد‬
+
+STEP 9 — Quiz 4 (Fill in the Blank)
+Question:​
+name = input("_____")​
+print("‫"سالم‬, name)
+Fill in the blank:
+●​ A) ‫اپنا نام لکھیں‬
+●​ B) ‫​اپنا پتہ دیں‬
+
+✅​
+
+‫​عمر بتائیں )‪●​ C‬‬
+‫​پاسورڈ لکھیں )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫شاندار! یہی الئن یوزر سے نام مانگنے کے لیے استعمال ہوتی ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! اس کوڈ میں نام مانگا جا رہا ہے‪ ،‬پاسورڈ نہیں۔‬
+
+‫‪STEP 10 — Micro Lesson 12.5: Comments and Readability‬‬
+‫​?‪What are Comments‬‬
+‫کرتا ہے۔ ‪ Ignore‬ایسی الئنز ہوتی ہیں جو کوڈ میں وضاحت کے لیے لکھی جاتی ہیں لیکن کمپیوٹر انہیں ‪Comments‬‬
+‫​‪Syntax (Python):‬‬
+‫ہے ‪ comment‬یہ ایک ‪#‬‬
+‫​‪Tip:‬‬
+‫"دوسروں (اور خود) کو اپنا کوڈ سمجھانے میں مدد دیتے ہیں ‪"Comments‬‬
+
+‫)‪STEP 11 — Quiz 5 (MCQ‬‬
+‫​‪Question:‬‬
+‫لکھنے کا مقصد کیا ہوتا ہے؟ ‪ Comment‬کوڈ میں‬
+‫​کمپیوٹر کو ہدایت دینا )‪●​ A‬‬
+‫​کرنا ‪ Delete‬کوڈ )‪●​ B‬‬
+
+‫​✅‬
+
+‫کوڈ سمجھانا )‪●​ C‬‬
+‫​کوڈ چھپانا )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫یا خود کے لیے وضاحت کا کام کرتے ہیں۔ ‪ programmers‬دوسرے ‪! Comments‬بالکل‬
+‫​‪Incorrect Feedback:‬‬
+‫صرف وضاحت کے لیے ہوتے ہیں‪ ،‬کمپیوٹر انہیں نہیں پڑھتا۔ ‪! Comments‬غلط‬
+
+STEP 12 — Recap Flashcard
+Text:
+●​ Coding = ‫​ہدایات کا مجموعہ‬
+●​ Python = ‫​آسان زبان‬
+●​ Logic = ‫ فیصلے اور‬Conditions​
+●​ Structure = Input → Process → Output​
+●​ Comments = ‫​وضاحت کے لیے‬
+
+STEP 13 — Completion Screen
+Text:​
+"‫​زبردست! آپ نے کوڈنگ کے بنیادی تصورات سیکھ لیے۔‬
+‫ اگلے لیول میں ہم سیکھیں گے کمپیوٹر کے اخالقی استعمال‬، Digital Citizenship ‫ اور‬Copyright ‫"کے اصول۔‬
+Action: Unlock Level 13 → Button: "Next Level"
+​
+
+LEVEL 13: ‫کمپیوٹر کا ذمے دارانہ استعمال‬
+Estimated Duration: 1.5–2 hours​
+Course: Basics of Computer Science​
+Division: 13 of 15​
+Title: Responsible Computer Use (Digital Ethics and Citizenship)
+
+🧩 DEVELOPER INTEGRATION FLOW
+User has completed Level 12​
+Level 13 is now unlocked​
+User taps:​
+Level 13: "‫"کمپیوٹر کا ذمے دارانہ استعمال‬
+
+🔓
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫​کمپیوٹر صرف علم یا تفریح کا ذریعہ نہیں — یہ ایک طاقت ہے‪ ،‬جس کا صحیح استعمال آپ کو باشعور شہری بناتا ہے۔"‬
+‫" آج ہم سیکھیں گے کمپیوٹر کے ذمے دارانہ استعمال‪ ،‬آن الئن آداب‪ ،‬کاپی رائٹ‪ ،‬اور ڈیجیٹل شہریت کے بارے میں۔‬
+
+‫?‪STEP 2 — Micro Lesson 13.1: What is Digital Citizenship‬‬
+‫​‪Text:‬‬
+‫‪:‬کا مطلب ہے )‪ (Digital Citizenship‬ڈیجیٹل شہریت‬
+‫​انٹرنیٹ اور ٹیکنالوجی کا محفوظ‪ ،‬اخالقی اور ذمے دارانہ استعمال ​●‬
+‫​دوسروں کے حقوق کا احترام کرنا ​●‬
+‫​سچائی اور عزت کے اصولوں پر چلنا ​●‬
+
+‫​‪Tip:‬‬
+‫"!جیسے سڑک پر قانون ہوتے ہیں — ویسے ہی انٹرنیٹ پر بھی"‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+‫​‪Question:‬‬
+‫کا مطلب ہے کہ آپ کسی بھی سائٹ پر کچھ بھی کہہ سکتے ہیں؟ ‪Digital Citizenship‬‬
+‫​درست )‪●​ A‬‬
+
+‫​✅‬
+
+‫غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫درست! انٹرنیٹ پر بھی اصول‪ ،‬آداب اور اخالقیات ہوتے ہیں۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! آزادی کے ساتھ ذمے داری بھی آتی ہے — آن الئن بھی آداب ضروری ہیں۔‬
+
+‫‪STEP 4 — Micro Lesson 13.2: Online Behavior & Etiquette‬‬
+
+‫‪Key Points:‬‬
+‫​مت کریں )‪ (harass‬دوسروں کو آن الئن تنگ ​●‬
+‫​نازیبا یا نفرت انگیز تبصرے مت کریں ​●‬
+‫​بغیر اجازت کسی کی تصویر یا معلومات مت شئیر کریں ​●‬
+‫​میں عزت دار لہجہ اختیار کریں ‪ Comment‬اور ‪●​ Chat‬‬
+
+‫​‪Analogy:‬‬
+‫"جیسے آپ کالس روم میں ادب سے بات کرتے ہیں — آن الئن بھی ویسا ہی کریں"‬
+
+‫)‪STEP 5 — Quiz 2 (Select All‬‬
+‫​‪Question:‬‬
+‫آن الئن مناسب رویہ کیا کہالتا ہے؟‬
+‫​)‪ (CORRECT‬عزت سے بات کرنا ​●‬
+‫​)‪ (CORRECT‬دوسروں کی پرائیویسی کا احترام ​●‬
+‫​مذاق اڑانا ​●‬
+‫​)‪ (CORRECT‬مہذب الفاظ استعمال کرنا ​●‬
+‫​بغیر اجازت تصویر ڈالنا ​●‬
+
+‫​‪Correct Feedback:‬‬
+‫زبردست! ان اصولوں سے آپ ایک اچھے ڈیجیٹل شہری بن سکتے ہیں۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! کسی کا مذاق یا اجازت کے بغیر تصویر ڈالنا غلط رویہ ہے۔‬
+
+‫‪STEP 6 — Micro Lesson 13.3: Cyberbullying‬‬
+‫​?‪What is Cyberbullying‬‬
+‫آن الئن کسی کو بار بار تنگ کرنا‪ ،‬برا بھال کہنا‪ ،‬یا ان کا مذاق اڑانا‬
+‫‪Effects:‬‬
+
+‫​ذہنی دباؤ ​●‬
+‫​ڈر‪ ،‬خوف ​●‬
+‫​تعلیم پر اثر ​●‬
+‫​تنہائی ​●‬
+
+‫​‪Tip:‬‬
+‫"اگر آپ کسی کو ہنسا نہیں سکتے‪ ،‬تو کم از کم رُالٔو نہیں"‬
+
+‫)‪STEP 7 — Quiz 3 (MCQ‬‬
+‫​‪Question:‬‬
+‫سے کیسے بچا جا سکتا ہے؟ ‪Cyberbullying‬‬
+‫​خود کو دوسروں سے دور رکھ کر )‪●​ A‬‬
+
+‫​✅‬
+
+‫دوسروں کی عزت کر کے )‪●​ B‬‬
+‫​نیٹ بند کر کے )‪●​ C‬‬
+‫​کر کے ‪ Block‬سب کو )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! اگر آپ عزت کریں گے‪ ،‬تو آپ دوسروں کو محفوظ رکھیں گے — اور خود بھی۔‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! مسئلہ کا حل دوسروں سے دوری نہیں‪ ،‬بلکہ عزت اور شعور ہے۔‬
+
+‫‪STEP 8 — Micro Lesson 13.4: Plagiarism & Copyright‬‬
+‫‪Definitions:‬‬
+‫​کسی کا کام چُرا کر اپنا کہہ دینا ‪●​ Plagiarism:‬‬
+‫​مصنف یا تخلیق کار کا حق کہ اس کا کام کوئی بغیر اجازت استعمال نہ کرے ‪●​ Copyright:‬‬
+
+‫‪Examples:‬‬
+
+‫​بغیر اجازت کسی کی تصویر‪ ،‬ویڈیو‪ ،‬یا تحریر کا استعمال ​●‬
+‫​کسی ویب سائٹ سے مواد کاپی کر کے اپنا کہنا ​●‬
+
+‫​‪Tip:‬‬
+‫"خود کچھ نیا کریں — دوسروں کا چرا کر نہیں"‬
+
+‫)‪STEP 9 — Quiz 4 (MCQ‬‬
+‫​‪Question:‬‬
+‫کسی کی تحریر کو اجازت کے بغیر استعمال کرنا کیا کہالتا ہے؟‬
+‫​تحقیق )‪●​ A‬‬
+‫​تشہیر )‪●​ B‬‬
+
+‫​✅‬
+
+‫‪●​ C) Plagiarism‬‬
+‫​پروگرامنگ )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫ہے‪ ،‬اور یہ ایک غلط اور غیر اخالقی عمل ہے۔ ‪ Plagiarism‬درست! یہ‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! یہ تحقیق نہیں بلکہ سرقہ (چوری) کہالتا ہے۔‬
+
+‫‪STEP 10 — Micro Lesson 13.5: Safe Internet Practices‬‬
+‫‪Do's:‬‬
+‫​رکھیں ‪●​ Strong Passwords‬‬
+‫​فعال کریں ‪●​ Two-Factor Authentication‬‬
+‫​سے بچیں ‪ Links‬اور ‪●​ Scam Emails‬‬
+‫​استعمال کریں ‪ Websites‬صرف معروف ​●‬
+
+‫​کریں ‪●​ Regular Software Updates‬‬
+
+‫‪Don'ts:‬‬
+‫​‪●​ Unknown Downloads‬‬
+‫​کرنا ‪●​ Personal Info Share‬‬
+‫​‪●​ Fake Profiles‬‬
+
+‫​‪Tip:‬‬
+‫"پر حفاظت کے بغیر چلنا ایسے ہی ہے جیسے رات کو بغیر الئٹ کے سڑک پر چلنا ‪"Internet‬‬
+
+‫)‪STEP 11 — Quiz 5 (True/False‬‬
+‫​‪Question:‬‬
+‫سے آپ کا اکاؤنٹ زیادہ محفوظ ہو جاتا ہے؟ ‪Two-Factor Authentication‬‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! یہ آپ کے اکاؤنٹ کو دو سطحوں پر محفوظ بناتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫نہیں! یہ فیچر آپ کے اکاؤنٹ کو زیادہ محفوظ بناتا ہے — ہمیشہ اسے آن رکھیں۔‬
+
+‫‪STEP 12 — Recap Flashcard‬‬
+‫‪Text:‬‬
+‫​محفوظ اور اخالقی رویہ = ‪●​ Digital Citizenship‬‬
+‫​آن الئن ہراسانی = ‪●​ Cyberbullying‬‬
+‫​کسی کا کام چوری کرنا = ‪●​ Plagiarism‬‬
+
+●​ Copyright = ‫​تخلیق کار کا قانونی حق‬
+●​ Online Safety = Strong Passwords + Awareness​
+
+STEP 13 — Completion Screen
+Text:​
+"‫​آپ اب ایک ذمہ دار ڈیجیٹل شہری بننے کی طرف پہال قدم رکھ چکے ہیں۔‬
+‫ اگلے لیول میں ہم سیکھیں گے‬Artificial Intelligence، Robotics، ‫"اور مستقبل کی ٹیکنالوجیز کے بارے میں۔‬
+Action: Unlock Level 14 → Button: "Next Level"
+​
+
+LEVEL 14: ‫مستقبل کی ٹیکنالوجیز‬
+Estimated Duration: 1.5–2 hours​
+Course: Basics of Computer Science​
+Division: 14 of 15​
+Title: Future Technologies: Artificial Intelligence, Robotics, and More
+
+🧩 DEVELOPER INTEGRATION FLOW
+User has completed Level 13​
+Level 14 is now unlocked​
+User taps:​
+Level 14: "‫"مستقبل کی ٹیکنالوجیز‬
+
+🔓
+
+STEP 1 — Intro Popup
+Text (Urdu):​
+"‫​!ٹیکنالوجی رکنے والی نہیں — یہ آگے بڑھ رہی ہے‬
+Artificial Intelligence، Robotics، ‫​اور دیگر نئی ایجادات ہمارے کل کا حصہ بن رہی ہیں۔‬
+‫ اور زندگی پر کیا اثر ڈالیں گی۔‬،‫ کیسے کام کرتی ہیں‬،‫" آج ہم سیکھیں گے کہ یہ کیا ہیں‬
+
+STEP 2 — Micro Lesson 14.1: Artificial Intelligence (AI)
+
+‫​?‪What is AI‬‬
+‫‪:‬ایسی ٹیکنالوجی ہے جس میں کمپیوٹر ‪AI‬‬
+‫​سیکھ سکتا ہے ​●‬
+‫​فیصلے کر سکتا ہے ​●‬
+‫​انسانوں کی طرح ر ِد عمل دے سکتا ہے ​●‬
+
+‫‪Examples:‬‬
+‫​‪●​ ChatGPT‬‬
+‫​‪●​ Siri / Google Assistant‬‬
+‫​‪●​ Self-driving Cars‬‬
+‫​‪●​ Face Recognition‬‬
+
+‫​‪Analogy:‬‬
+‫"کمپیوٹر کو دماغ دینا = ‪"AI‬‬
+
+‫)‪STEP 3 — Quiz 1 (MCQ‬‬
+‫​‪Question:‬‬
+‫کا کیا مطلب ہے؟ ‪AI‬‬
+‫​صرف گیمز )‪●​ A‬‬
+
+‫​✅‬
+
+‫سیکھنے واال کمپیوٹر )‪●​ B‬‬
+‫​وائرلیس سسٹم )‪●​ C‬‬
+‫​رنگین اسکرین )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫وہ ٹیکنالوجی ہے جس سے کمپیوٹر سیکھنے اور سوچنے لگتا ہے۔ ‪! AI‬بالکل‬
+‫​‪Incorrect Feedback:‬‬
+‫صرف گیم نہیں — یہ ایک سیکھنے واال نظام ہے۔ ‪! AI‬غلط‬
+
+STEP 4 — Micro Lesson 14.2: Robotics
+What is a Robot?​
+Robot ‫( ایک مشین ہے جو خود کار طریقے سے‬automatically) ‫ خاص طور پر پروگرامنگ کے‬،‫کام کر سکتی ہے‬
+‫ذریعے۔‬
+Types of Robots:
+●​ Industrial Robots (‫​)کارخانے‬
+●​ Medical Robots (‫​)سرجری میں‬
+●​ Domestic Robots (‫​)گھر کی صفائی وغیرہ‬
+●​ Space Robots (‫​)چاند اور مریخ پر تحقیق‬
+
+Example:​
+Mars Rover — ‫ایک خود کار روبوٹ جو مریخ کی مٹی کا تجزیہ کرتا ہے‬
+
+STEP 5 — Quiz 2 (Matching)
+Match the robot to its use:
+​
+
+​
+​
+Correct Feedback:​
+‫زبردست! روبوٹ مختلف جگہوں پر الگ الگ کام کرتے ہیں۔‬
+
+‫​‪Incorrect Feedback:‬‬
+‫کچھ غلط تھے — یاد رکھیں روبوٹ ہر فیلڈ میں اپنی خاصیت کے ساتھ استعمال ہوتے ہیں۔‬
+
+‫‪STEP 6 — Micro Lesson 14.3: Machine Learning‬‬
+‫​?‪What is it‬‬
+‫سے سیکھتا ہے — بغیر واضح ہدایات کے۔ ‪ data‬کی ایک شاخ جہاں کمپیوٹر خود بخود ‪AI‬‬
+‫‪Example:‬‬
+‫​آپ کو وہ ویڈیوز دکھاتا ہے جو آپ کی پسند سے ملتی ہوں ‪●​ YouTube‬‬
+‫​فضول ہے ‪ Email‬خود سیکھتا ہے کون سا ‪●​ Email Spam Filter‬‬
+
+‫​‪Analogy:‬‬
+‫"کام کرتی ہے ‪ Machine Learning‬جیسے انسان تجربے سے سیکھتا ہے‪ ،‬ویسے ہی"‬
+
+‫)‪STEP 7 — Quiz 3 (True/False‬‬
+‫​‪Question:‬‬
+‫میں انسان کمپیوٹر کو ہر قدم پر ہدایت دیتا ہے؟ ‪Machine Learning‬‬
+‫​درست )‪●​ A‬‬
+
+‫​✅‬
+
+‫غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫میں کمپیوٹر خود سیکھتا ہے‪ ،‬ہر ہدایت انسان نہیں دیتا۔ ‪! Machine Learning‬بالکل‬
+‫​‪Incorrect Feedback:‬‬
+‫خاص ہے۔ ‪ AI‬خود سیکھنے کی طاقت دیتی ہے — اسی میں ‪! Machine Learning‬غلط‬
+
+‫‪STEP 8 — Micro Lesson 14.4: Emerging Tech – AR, VR & IoT‬‬
+‫​‪AR (Augmented Reality):‬‬
+‫​معلومات کا اضافہ ‪ Digital‬حقیقی دنیا پر‬
+‫‪ : Snapchat filters‬مثال‬
+
+VR (Virtual Reality):​
+‫​ایک مکمل خیالی دنیا‬
+‫ مثال‬: VR Games (Oculus)
+IoT (Internet of Things):​
+‫ ایسی اشیاء جو انٹرنیٹ سے جڑی ہوں اور‬Data ‫​شیئر کریں‬
+‫ مثال‬: Smart Bulbs, Fitness Bands
+Tip:​
+"‫ مستقبل کی دنیا میں ہر چیز‬connected ‫"!ہو رہی ہے‬
+
+STEP 9 — Quiz 4 (Select All)
+Question:​
+‫ کون سی ٹیکنالوجیز‬Emerging Technologies ‫میں شامل ہیں؟‬
+●​ Augmented Reality (CORRECT)​
+●​ Internet of Things (CORRECT)​
+●​ Typewriter​
+●​ Virtual Reality (CORRECT)​
+●​ Floppy Disk​
+
+Correct Feedback:​
+‫ !درست‬AR، VR ‫ اور‬IoT ‫جدید ترین ٹیکنالوجیز کا حصہ ہیں۔‬
+Incorrect Feedback:​
+‫ !غلط‬Floppy Disk ‫ — پرانی ٹیکنالوجی ہے‬AR، VR، ‫ اور‬IoT ‫مستقبل کی عالمات ہیں۔‬
+
+STEP 10 — Micro Lesson 14.5: Impact of AI and Robotics
+Positive Effects:
+●​ ‫​تیز تر پروسیسنگ‬
+●​ ‫​کم غلطیاں‬
+
+‫​‪ Productivity‬زیادہ ​●‬
+‫​خطرناک کاموں میں انسانوں کی جگہ روبوٹ ​●‬
+
+‫‪Concerns:‬‬
+‫​نوکریوں کا ختم ہونا ​●‬
+‫​پرائیویسی کے مسائل ​●‬
+‫​‪●​ Over-dependence‬‬
+
+‫​‪Tip:‬‬
+‫"کو سمجھداری سے استعمال کرنا چاہیے ‪ — AI‬ہر طاقت ایک ذمے داری بھی التی ہے"‬
+
+‫)‪STEP 11 — Quiz 5 (MCQ‬‬
+‫​‪Question:‬‬
+‫کا سب سے بڑا فائدہ کیا ہے؟ ‪ Robotics‬اور ‪AI‬‬
+‫​کمپیوٹر مہنگے ہو جاتے ہیں )‪●​ A‬‬
+
+‫​✅‬
+
+‫انسان کی جگہ لے لیتے ہیں )‪●​ B‬‬
+‫​کمپیوٹر خراب ہو جاتے ہیں )‪●​ C‬‬
+‫​ویڈیوز نہیں چلتی )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫ان جگہوں پر کام کرتے ہیں جہاں انسان نہ پہنچ سکے — یا خطرہ ہو۔ ‪ Robotics‬اور ‪! AI‬بالکل‬
+‫​‪Incorrect Feedback:‬‬
+‫کا مقصد مدد کرنا ہے‪ ،‬نقصان نہیں۔ ‪! AI‬غلط‬
+
+‫‪STEP 12 — Recap Flashcard‬‬
+‫‪Text:‬‬
+
+‫​سیکھنے اور فیصلہ کرنے واال کمپیوٹر = ‪●​ AI‬‬
+‫​خودکار مشینیں = ‪●​ Robotics‬‬
+‫​خود سیکھنے کی صالحیت = ‪●​ Machine Learning‬‬
+‫​مستقبل کی حقیقت = ‪●​ AR/VR/IoT‬‬
+‫​ذمہ داری = ٹیکنالوجی کو شعور سے استعمال کرنا ​●‬
+
+‫‪STEP 13 — Completion Screen‬‬
+‫​‪Text:‬‬
+‫​کمال! آپ نے مستقبل کی ٹیکنالوجیز کے بارے میں سیکھ کر آنے والے کل کے لیے اپنے علم کی بنیاد رکھ دی ہے۔"‬
+‫" اب آخری سبق رہ گیا ہے جس میں ہم دیکھیں گے کمپیوٹر سے متعلق عام مسائل اور ان کا حل۔‬
+‫"‪Action: Unlock Level 15 → Button: "Next Level‬‬
+
+‫کمپیوٹر کے عام مسائل اور ان کا حل ‪LEVEL 15:‬‬
+‫​‪Estimated Duration: 1.5–2 hours‬‬
+‫​‪Course: Basics of Computer Science‬‬
+‫​‪Division: 15 of 15‬‬
+‫‪Title: Troubleshooting Common Computer Problems‬‬
+
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+‫​‪User has completed Level 14‬‬
+‫​‪Level 15 is now unlocked‬‬
+‫​‪User taps:‬‬
+‫"کمپیوٹر کے عام مسائل اور ان کا حل" ‪Level 15:‬‬
+
+‫🔓‬
+
+‫‪STEP 1 — Intro Popup‬‬
+‫​‪Text (Urdu):‬‬
+‫کمپیوٹر بھی انسانوں کی طرح کبھی کبھار ’بیمار‘ ہو جاتا ہے — فریز ہو جانا‪ ،‬بند ہو جانا‪ ،‬یا سست روی کا شکار ہو جانا عام"‬
+
+‫​بات ہے۔‬
+‫آج ہم سیکھیں گے کہ کمپیوٹر کے عام مسائل کیا ہیں‪ ،‬ان کی کیا وجوہات ہو سکتی ہیں‪ ،‬اور آپ خود سے کیسے انہیں حل کر‬
+‫"سکتے ہیں۔‬
+
+‫‪STEP 2 — Micro Lesson 15.1: Basic Troubleshooting Philosophy‬‬
+‫​‪Golden Rule:‬‬
+‫"پہلے چیزوں کو بند کرو‪ ،‬پھر دوبارہ آن کرو"‬
+‫‪Steps:‬‬
+‫​مسئلے کی نشاندہی ​‪1.‬‬
+‫​)‪ (restart, cable check‬آسان حل تالش کرنا ​‪2.‬‬
+‫​گوگل کرنا ​‪3.‬‬
+‫​کسی بڑے کو بتانا یا مدد لینا ​‪4.‬‬
+‫​غیر ضروری گھبراہٹ سے بچنا ​‪5.‬‬
+
+‫​‪Tip:‬‬
+‫"!بڑا مسئلہ حل کر دیتا ہے ‪ simple restart‬بعض اوقات ایک"‬
+
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+‫​‪Question:‬‬
+‫سے حل ہو سکتے ہیں؟ ‪ restart‬زیادہ تر کمپیوٹر کے مسائل‬
+
+‫​✅‬
+
+‫درست )‪●​ A‬‬
+‫​غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کو ٹھیک کر دیتا ہے۔ ‪ glitches‬اور ‪ errors، memory issues،‬کئی وقتی ‪! Restart‬بالکل‬
+‫​‪Incorrect Feedback:‬‬
+‫اکثر سب سے پہال اور کامیاب حل ہوتا ہے — اسے آزمانا چاہیے۔ ‪! Restart‬غلط‬
+
+STEP 4 — Micro Lesson 15.2: Slow Computer
+Possible Causes:
+●​ ‫ زیادہ‬programs ‫​کھلے ہوئے‬
+●​ RAM ‫​بھر چکی‬
+●​ Unwanted background processes​
+●​ Virus​
+●​ ‫ پرانا‬Hardware​
+
+Fixes:
+●​ Unused programs ‫​بند کریں‬
+●​ Restart ‫​کریں‬
+●​ Task Manager ‫ میں غیر ضروری‬apps ‫​بند کریں‬
+●​ Antivirus scan ‫​کریں‬
+
+Analogy:​
+"‫"جیسے دماغ تھکنے پر آرام مانگتا ہے — کمپیوٹر کو بھی ریفریشنگ چاہیے‬
+
+STEP 5 — Quiz 2 (MCQ)
+Question:​
+‫کمپیوٹر سست ہو تو پہال حل کیا ہو سکتا ہے؟‬
+●​ A) ‫​نیا خریدنا‬
+●​ B) ‫​اسے پانی سے صاف کرنا‬
+●​ C) Restart ‫کرنا‬
+●​ D) Screen ‫​بدلنا‬
+
+✅​
+
+‫​‪Correct Feedback:‬‬
+‫کریں — اکثر مسئلہ وہیں حل ہو جاتا ہے۔ ‪ Restart‬بالکل! ہمیشہ پہلے‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! نیا خریدنا آخری قدم ہوتا ہے — پہلے آسان حل آزمائیں۔‬
+
+‫‪STEP 6 — Micro Lesson 15.3: Screen Freeze or Unresponsive Computer‬‬
+‫‪What to Do:‬‬
+‫​کھولیں ‪●​ Ctrl + Alt + Delete → Task Manager‬‬
+‫​بند کریں ‪ apps‬غیر ضروری ​●‬
+‫​‪ → force shutdown‬اگر سب کچھ بند ہو گیا ہو ​●‬
+‫​دوبارہ آن کر کے دیکھیں ​●‬
+
+‫​‪Note:‬‬
+‫"ہو سکتا ہے ‪ virus‬یا ‪ RAM‬ہو رہا ہو تو مسئلہ ‪ freeze‬اگر بار بار"‬
+
+‫)‪STEP 7 — Quiz 3 (True/False‬‬
+‫​‪Question:‬‬
+‫ہو جائے‪ ،‬تو فوراً نیا خریدنا چاہیے؟ ‪ freeze‬اگر کمپیوٹر‬
+‫​درست )‪●​ A‬‬
+
+‫​✅‬
+
+‫غلط )‪●​ B‬‬
+
+‫​‪Correct Feedback:‬‬
+‫ہونے پر کمپیوٹر تبدیل نہیں کرتے — پہلے مسئلے کو سمجھیں۔ ‪ freeze‬درست! ہر بار‬
+‫​‪Incorrect Feedback:‬‬
+‫غلط! نیا کمپیوٹر خریدنا آخری حل ہے‪ ،‬پہال نہیں۔‬
+
+‫‪STEP 8 — Micro Lesson 15.4: No Display or Black Screen‬‬
+
+Possible Reasons:
+●​ Power cable loose​
+●​ Monitor off​
+●​ Sleep Mode​
+●​ Graphics issue​
+●​ Faulty RAM​
+
+Quick Fixes:
+●​ Power check ‫​کریں‬
+●​ Monitor button ‫​دیکھیں‬
+●​ Sleep ‫( سے نکالیں‬keyboard ‫ یا‬mouse ‫​)حرکت دیں‬
+●​ RAM reseat ‫​)کریں (صرف اگر تجربہ ہو‬
+
+STEP 9 — Quiz 4 (MCQ)
+Question:​
+‫ تو پہال چیک کیا ہونا چاہیے؟‬،‫اگر کمپیوٹر کی اسکرین کالی ہو لیکن پنکھا چل رہا ہو‬
+●​ A) RAM ‫​نکال دیں‬
+●​ B) ‫بجلی کا کنکشن چیک کریں‬
+
+✅​
+
+●​ C) Keyboard ‫​بدلیں‬
+●​ D) Mouse unplug ‫​کریں‬
+
+Correct Feedback:​
+‫ بالکل! اکثر مسئلہ صرف‬loose cable ‫ یا‬power supply ‫کا ہوتا ہے۔‬
+Incorrect Feedback:​
+‫غلط! بجلی کی فراہمی چیک کرنا سب سے اہم اور آسان قدم ہوتا ہے۔‬
+
+STEP 10 — Micro Lesson 15.5: Common Peripheral Problems
+Keyboard/Mouse Not Working:
+●​ USB port ‫​بدلیں‬
+●​ Check ‫ کریں کہ‬device ‫ درست طریقے سے‬connected ‫​ہے‬
+●​ Restart ‫​کریں‬
+●​ Driver install ‫​کریں‬
+
+Printer Not Working:
+●​ Paper check ‫​کریں‬
+●​ Cable ‫ یا‬WiFi connection ‫​دیکھیں‬
+●​ Printer restart ‫​کریں‬
+
+STEP 11 — Quiz 5 (Select All)
+Question:​
+‫ اگر‬Mouse ‫کام نہ کر رہا ہو تو کیا کر سکتے ہیں؟‬
+●​ USB ‫( پورٹ بدلیں‬CORRECT)​
+●​ Restart ‫( کریں‬CORRECT)​
+●​ CPU ‫​نکالیں‬
+●​ ‫ نیا‬Mouse ‫( لگائیں‬CORRECT)​
+●​ Screen format ‫​کریں‬
+
+Correct Feedback:​
+‫زبردست! ہمیشہ آسان حل پہلے آزمائیں۔‬
+
+Incorrect Feedback:​
+‫ کچھ غلط تھے — ہمیشہ پہلے‬USB ‫ اور‬Restart ‫چیک کریں‬، screen format ‫آخری قدم ہے۔‬
+
+STEP 12 — Micro Lesson 15.6: Virus & Security Issues
+Signs of Virus:
+●​ ‫​کمپیوٹر سست ہو جانا‬
+●​ Ads ‫​پاپ اپ ہونا‬
+●​ Files ‫ خود بخود‬delete ‫​ہونا‬
+●​ Unusual behavior​
+
+Solutions:
+●​ Antivirus install ‫​کریں‬
+●​ Full scan ‫​کریں‬
+●​ Suspicious files delete ‫​کریں‬
+●​ Updates ‫ ہمیشہ‬on ‫​رکھیں‬
+
+STEP 13 — Quiz 6 (MCQ)
+Question:​
+Virus ‫کی نشانی کیا ہو سکتی ہے؟‬
+●​ A) File ‫ خود‬delete ‫ہو جانا‬
+●​ B) Volume ‫​کم ہونا‬
+●​ C) Keyboard dust ‫​ہونا‬
+●​ D) Printer error​
+
+✅​
+
+Correct Feedback:​
+‫ بالکل! اگر فائلز بغیر اجازت‬delete ‫ ہوں — تو یہ‬virus ‫ہو سکتا ہے۔‬
+Incorrect Feedback:​
+‫ !غلط‬virus ‫کی عالمات غیر متوقع تبدیلیاں اور خطرناک حرکتیں ہوتی ہیں۔‬
+
+STEP 14 — Recap Flashcard
+Text:
+●​ Restart = ‫​پہال حل‬
+●​ Task Manager = freeze ‫​کا حل‬
+●​ Display ‫ → نہ آئے‬cable ‫​چیک‬
+●​ Mouse/Keyboard = USB ‫ یا‬driver​
+●​ Virus = antivirus ‫ اور‬scans​
+
+STEP 15 — Completion Screen
+Text:​
+"‫​مبارک ہو! آپ نے کمپیوٹر کے عام مسائل اور ان کے حل کو بخوبی سمجھ لیا ہے۔‬
+‫"! اب آپ خود اپنے کمپیوٹر کا ’ڈاکٹر‘ بن چکے ہیں‬
+Note for Developer:​
+After this level, display popup introducing the final Level 16 — Ultimate Quiz, covering 15
+review questions (1 from each division).​
+Include instructions: “If you get an answer wrong, you can revisit that specific lesson for
+revision.”
+​
+
+LEVEL 16: ‫آخری آزمائش — مکمل کورس کا کوئز‬
+Estimated Duration: 20–30 minutes​
+Course: Basics of Computer Science​
+Division: 16 of 15 (Final Quiz)​
+Title: Final Review Quiz (1 Question from Each Level)
+
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+‫‪After user completes Level 15, display:‬‬
+‫​‪Popup Message:‬‬
+‫مبارک ہو! آپ نے کمپیوٹر سائنس کی بنیادی تعلیم مکمل کر لی ہے۔ اب آپ آخری سطح پر پہنچ چکے ہیں —"‬
+‫ایک آخری کوئز‪ ،‬جو ہر سیکھے گئے سبق سے ایک سوال پر مشتمل ہے۔ اگر آپ کسی سوال میں غلطی کریں‪،‬‬
+‫"تو وہ لیول دوبارہ دیکھنے کا آپشن موجود ہوگا۔‬
+‫"آخری کوئز شروع کریں" ‪Button:‬‬
+
+‫)‪FINAL QUIZ FORMAT (1 Question Per Lesson‬‬
+‫کمپیوٹر کیا ہے؟ ‪Q1 – From Level 1:‬‬
+‫​‪Question:‬‬
+‫کمپیوٹر بنیادی طور پر کیا کرتا ہے؟‬
+‫​صرف گیم کھیلتا ہے )‪●​ A‬‬
+
+‫​✅‬
+
+‫معلومات لیتا‪ ،‬حساب کرتا‪ ،‬اور نتیجہ دیتا ہے )‪●​ B‬‬
+‫​صرف انٹرنیٹ چالتا ہے )‪●​ C‬‬
+‫​صرف تصویریں بناتا ہے )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫کرتا ہے۔ ‪ output‬اور ‪ input، process،‬درست! کمپیوٹر معلومات کو‬
+‫​‪Incorrect Feedback:‬‬
+‫"دیکھ سکتے ہیں‪" :‬کمپیوٹر کیا ہے؟ ‪ Level 1‬غلط! آپ دوبارہ‬
+
+‫ہارڈویئر اور سافٹ ویئر ‪Q2 – From Level 2:‬‬
+‫​‪Question:‬‬
+‫ہارڈویئر کون سی چیز ہے؟‬
+
+‫​‪●​ A) MS Word‬‬
+‫​‪●​ B) Paint‬‬
+
+‫​✅‬
+
+‫‪●​ C) Keyboard‬‬
+‫​‪●​ D) Antivirus‬‬
+
+‫​‪Correct Feedback:‬‬
+‫ایک جسمانی چیز ہے — یعنی ہارڈویئر۔ ‪! Keyboard‬زبردست‬
+‫​‪Incorrect Feedback:‬‬
+‫پر دوبارہ جا کر ہارڈویئر‪/‬سافٹ ویئر کو سمجھ سکتے ہیں۔ ‪ Level 2‬غلط! آپ‬
+
+‫ان پٹ اور آؤٹ پٹ ڈیوائسز ‪Q3 – From Level 3:‬‬
+‫​‪Question:‬‬
+‫درج ذیل میں سے آؤٹ پٹ ڈیوائس کون سی ہے؟‬
+‫​مائیکروفون )‪●​ A‬‬
+‫​کی بورڈ )‪●​ B‬‬
+
+‫​✅‬
+
+‫پرنٹر )‪●​ C‬‬
+
+‫​‪●​ D) Mouse‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! پرنٹر آؤٹ پٹ ڈیوائس ہے کیونکہ یہ کمپیوٹر کا نتیجہ دکھاتا ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫۔‪ Level 3‬غلط! دوبارہ دیکھیے‬
+
+‫اسٹوریج ڈیوائسز ‪Q4 – From Level 4:‬‬
+‫​‪Question:‬‬
+‫کیا ہے؟ ‪USB‬‬
+‫​ایک انٹرنیٹ کمپنی )‪●​ A‬‬
+
+‫​سافٹ ویئر )‪●​ B‬‬
+
+‫​✅‬
+
+‫اسٹوریج ڈیوائس )‪●​ C‬‬
+‫​ڈیوائس ‪●​ D) Input‬‬
+
+‫​‪Correct Feedback:‬‬
+‫ایک پورٹیبل اسٹوریج ڈیوائس ہے۔ ‪! USB‬صحیح‬
+‫​‪Incorrect Feedback:‬‬
+‫دیکھیں۔ ‪ Level 4‬غلط! مزید جاننے کے لیے‬
+
+‫فائل اور فولڈر کا تعارف ‪Q5 – From Level 5:‬‬
+‫​‪Question:‬‬
+‫فولڈر کا مقصد کیا ہے؟‬
+‫​کمپیوٹر کو بند کرنا )‪●​ A‬‬
+‫​انٹرنیٹ چالنا )‪●​ B‬‬
+
+‫​✅‬
+
+‫فائلز کو ترتیب دینا )‪●​ C‬‬
+‫​وائرس نکالنا )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! فولڈر فائلز کو منظم کرنے کا ذریعہ ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫دیکھیے۔ ‪ Level 5‬غلط! تفصیل کے لیے‬
+
+‫ڈیسک ٹاپ اور اسٹارٹ مینو ‪Q6 – From Level 6:‬‬
+‫​‪Question:‬‬
+‫کہاں سے کھلتا ہے؟ ‪ Start Menu‬میں ‪Windows‬‬
+‫​‪●​ A) Escape key‬‬
+‫​کے درمیان ‪●​ B) Screen‬‬
+
+‫​✅‬
+
+‫کے نیچے بائیں جانب ‪●​ C) Screen‬‬
+‫​سے ‪●​ D) Alt key‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بائیں نچلے کونے میں ہوتا ہے۔ ‪! Start Menu‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫سے سیکھ سکتے ہیں۔ ‪ Level 6‬غلط! آپ یہ دوبارہ‬
+
+‫بنیادی سافٹ ویئر ‪Q7 – From Level 7:‬‬
+‫​‪Question:‬‬
+‫کس کام آتا ہے؟ ‪Notepad‬‬
+‫​گانے سننے کے لیے )‪●​ A‬‬
+
+‫​✅‬
+
+‫لکھنے کے لیے )‪●​ B‬‬
+
+‫​تصویریں بنانے کے لیے )‪●​ C‬‬
+‫​کمپیوٹر بند کرنے کے لیے )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫لکھنے کے لیے ہوتا ہے۔ ‪! Notepad text‬صحیح‬
+‫​‪Incorrect Feedback:‬‬
+‫کا مطالعہ کریں۔ ‪ Level 7‬غلط! واپس جا کر‬
+
+‫اور تصویریں ‪Q8 – From Level 8: Paint‬‬
+‫​‪Question:‬‬
+‫کا استعمال کیا ہے؟ "‪ "Eraser Tool‬میں ‪Paint‬‬
+‫​لکھنے کے لیے )‪●​ A‬‬
+‫​رنگ بھرنے کے لیے )‪●​ B‬‬
+
+‫​✅‬
+
+‫مٹانے کے لیے )‪●​ C‬‬
+
+‫​کاپی کرنے کے لیے )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫چیزیں مٹانے کے لیے ہوتا ہے۔ ‪! Eraser‬بالکل‬
+‫​‪Incorrect Feedback:‬‬
+‫دیکھیں۔ ‪ Level 8‬غلط! مزید سیکھنے کے لیے‬
+
+‫فائل مینجمنٹ اور سیو کرنا ‪Q9 – From Level 9:‬‬
+‫​‪Question:‬‬
+‫کرنے کے لیے کون سا آپشن ہوتا ہے؟ )‪ (Save‬کسی فائل کو محفوظ‬
+‫​‪●​ A) Close‬‬
+
+‫​✅‬
+
+‫‪●​ B) Save‬‬
+
+‫​‪●​ C) Delete‬‬
+‫​‪●​ D) Restart‬‬
+
+‫​‪Correct Feedback:‬‬
+‫سے آپ فائل محفوظ کرتے ہیں۔ ‪! Save‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫۔‪ Level 9‬غلط! دوبارہ دیکھیں‬
+
+‫انٹرنیٹ کا تعارف ‪Q10 – From Level 10:‬‬
+‫​‪Question:‬‬
+‫کیا ہوتا ہے؟ ‪URL‬‬
+‫​ایک تصویر )‪●​ A‬‬
+‫​فائل کا نام )‪●​ B‬‬
+
+‫​✅‬
+
+‫ویب سائٹ کا پتہ )‪●​ C‬‬
+
+‫​‪●​ D) Video format‬‬
+
+Correct Feedback:​
+‫ !صحیح‬URL ‫ایک ویب ایڈریس ہوتا ہے۔‬
+Incorrect Feedback:​
+‫ !غلط‬Level 10 ‫میں مزید وضاحت ہے۔‬
+
+Q11 – From Level 11: ‫ای میل اور آن الئن کمیونیکیشن‬
+Question:​
+Email ‫کے ذریعے ہم کیا کر سکتے ہیں؟‬
+●​ A) Call​
+●​ B) ‫​ویڈیو گیم کھیلنا‬
+●​ C) ‫پیغام بھیجنا‬
+
+✅​
+
+●​ D) ‫​کمپیوٹر بند کرنا‬
+
+Correct Feedback:​
+‫ !بالکل‬Email ‫ایک پیغام رسانی کا ذریعہ ہے۔‬
+Incorrect Feedback:​
+‫ !غلط‬Email ‫ کے بارے میں دوبارہ سیکھنے کے لیے‬Level 11 ‫کھولیں۔‬
+
+Q12 – From Level 12: ‫کوڈنگ کی ابتدائی سمجھ‬
+Question:​
+Python ‫ایک کیا ہے؟‬
+●​ A) Operating System​
+●​ B) Coding Language
+
+✅​
+
+●​ C) Drawing App​
+●​ D) Antivirus​
+
+Correct Feedback:​
+‫ !صحیح‬Python ‫ ایک‬Programming Language ‫ہے۔‬
+
+‫​‪Incorrect Feedback:‬‬
+‫سے دوبارہ پڑھیں۔ ‪! Level 12‬غلط‬
+
+‫ذمے دار کمپیوٹر استعمال ‪Q13 – From Level 13:‬‬
+‫​‪Question:‬‬
+‫بغیر اجازت کسی کی تصویر شئیر کرنا کیسا عمل ہے؟‬
+‫​صحیح )‪●​ A‬‬
+
+‫​✅‬
+
+‫غلط )‪●​ B‬‬
+
+‫​ضروری )‪●​ C‬‬
+‫​فائدہ مند )‪●​ D‬‬
+
+‫​‪Correct Feedback:‬‬
+‫بالکل! پرائیویسی کا خیال رکھنا ضروری ہے۔‬
+‫​‪Incorrect Feedback:‬‬
+‫دوبارہ دیکھ سکتے ہیں۔ ‪ Level 13‬غلط! آپ‬
+
+‫مستقبل کی ٹیکنالوجیز ‪Q14 – From Level 14:‬‬
+‫​‪Question:‬‬
+‫کس ٹیکنالوجی پر چلتی ہیں؟ ‪Self-driving Cars‬‬
+‫​‪●​ A) VR‬‬
+‫​‪●​ B) HTML‬‬
+
+‫​✅‬
+
+‫‪●​ C) AI‬‬
+
+‫​‪●​ D) MS Paint‬‬
+
+‫​‪Correct Feedback:‬‬
+‫خود چلنے والی گاڑیوں کی بنیاد ہے۔ ‪! AI‬درست‬
+‫​‪Incorrect Feedback:‬‬
+‫سے دوبارہ مطالعہ کریں۔ ‪! Level 14‬غلط‬
+
+‫کمپیوٹر مسائل ‪Q15 – From Level 15:‬‬
+‫​‪Question:‬‬
+‫ہو جائے‪ ،‬تو پہال قدم کیا ہونا چاہیے؟ ‪ Freeze‬اگر کمپیوٹر‬
+
+‫​✅‬
+
+‫‪●​ A) Restart‬‬
+‫​‪●​ B) Format‬‬
+
+‫​لینا ‪●​ C) New PC‬‬
+‫​ہٹانا ‪●​ D) Mouse‬‬
+
+‫​‪Correct Feedback:‬‬
+‫اکثر بنیادی مسائل حل کرتا ہے۔ ‪! Restart‬صحیح‬
+‫​‪Incorrect Feedback:‬‬
+‫دیکھیں۔ ‪ — Level 15‬ہوتا ہے ‪ Restart‬غلط! مسئلے کا پہال حل‬
+
+‫‪FINAL COMPLETION SCREEN:‬‬
+‫​‪Text:‬‬
+‫​زبردست! آپ نے کمپیوٹر سائنس کی بنیادیات کا مکمل امتحان کامیابی سے دے دیا ہے۔"‬
+‫​ اگر آپ کو کسی سوال میں مشکل پیش آئی ہو‪ ،‬تو دوبارہ متعلقہ سبق دیکھ کر سیکھا جا سکتا ہے۔‬
+‫"!کی شروعات ‪ Python‬اب آپ کے لیے اگال کورس ہے‪ :‬کوڈنگ اور‬
+‫​"اگال کورس شروع کریں" ‪Button:‬‬
+‫‪(Leads to “Basics of Coding & Python”) - THE SECOND GOOGLE DOCUMENT SHARED‬‬
+‫‪WITH YOU‬‬
+
+

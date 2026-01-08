@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start)",
+      "Read(//Users/faizanahmed/Desktop/**)",
+      "Read(//Users/faizanahmed/Downloads/**)",
+      "Bash(npm run upload-course:*)",
+      "Bash(node:*)",
+      "Bash(python3:*)",
+      "Bash(npm run build:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

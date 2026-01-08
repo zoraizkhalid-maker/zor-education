@@ -1,0 +1,4080 @@
+Course Structure for Computer Science & Coding - Course 1
+
+This is Course 1 under the Computer Science & Coding Subject. The course contains 15
+levels. All levels will initially remain locked except for Level 1. Users can unlock each
+subsequent level upon completing the previous one, regardless of their quiz score.
+
+Below is the step-by-step description of content placement and flow. Some technical
+terms may appear in English where Urdu equivalents are not commonly used.
+
+Developer notes have been included throughout to clarify implementation requirements.
+
+The content will follow this structure:
+
+First, the main lesson text will be displayed
+
+This will be followed by relevant examples
+
+Each section will conclude with a quiz
+
+Upon completion, the next level will unlock automatically​
+​
+​
+​
+​
+
+COURSE 2: Coding & Introduction to
+Python (Urdu)
+Course Length: 15 Main Levels (1.5–2 hours each) + Final Quiz (Level 16)​
+User Level: Absolute Beginner​
+Tone: Warm, playful, localized with real-life analogies​
+Progression: Each level unlocks after the previous one is completed​
+Structure: Micro-lessons → Popups → Quizzes → Flashcards → Recap
+
+
+
+
+✅ LEVEL 1: ‫کوڈ کیا ہوتا ہے؟‬
+Title: “Code” ‫​کیا ہے اور ہم کیوں سیکھتے ہیں؟‬
+ Estimated Time: 1.5–2 hours​
+ Main Concept: Understanding what code is and why we use it​
+ Learning Goal: Learners will understand the basic definition, everyday analogies, and
+role of programming in life.
+‫‪🧩 DEVELOPER INTEGRATION FLOW‬‬
+       ‫​‪User selects Subject: Coding & Python Basics‬‬
+
+       ‫🔒‬
+       ‫​‪Course homepage opens showing 15 levels.‬‬
+
+                       ‫🔓‬
+          ‫​‪All levels are locked except Level 1‬‬
+       ‫‪User clicks:‬‬     ‫"کیا ہوتا ہے؟ ‪Level 1: "Code‬‬
+
+
+
+
+‫‪STEP 1 — Intro Popup‬‬
+
+‫​‪Text (Urdu):‬‬
+ ‫​کوڈنگ کسی بھی کمپیوٹر‪ ،‬فون‪ ،‬یا مشین سے بات کرنے کا طریقہ ہے — ایک خاص زبان میں!"‬
+‫​کی زبان سمجھ آتی ہے۔ ’‪ ‘code‬جیسے انسان اردو یا انگریزی بولتے ہیں‪ ،‬ویسے کمپیوٹر کو‬
+‫"! آئیں‪ ،‬کوڈنگ کی دنیا کا پہال دروازہ کھولتے ہیں‬
+
+
+
+
+‫‪STEP 2 — Micro Lesson 1.1: Code is Communication‬‬
+
+‫​‪Explanation:‬‬
+ ‫​دراصل ہدایات کا مجموعہ ہے — یہ کمپیوٹر کو بتاتا ہے کیا کرنا ہے۔ "‪"Code‬‬
+‫‪ :‬مثالً‪ ،‬اگر آپ چاہتے ہیں کہ‬
+
+    ‫​اسکرین پر کچھ لکھا جائے ​●‬
+
+    ‫​بٹن دبانے پر کچھ ہو ​●‬
+
+    ‫​کوئی گیم چلے ​●‬
+
+
+‫سے ہوتا ہے۔ "‪ "code‬تو یہ سب‬
+
+‫​‪Analogy:‬‬
+‫​جیسے باورچی کو ہدایت دی جاتی ہے‪" :‬چائے بناؤ"‬
+‫)"‪ : print("Chai banao‬ویسے ہی کمپیوٹر کو کہا جاتا ہے‬
+
+
+
+
+‫)‪STEP 3 — Quiz 1 (MCQ‬‬
+
+‫​‪Question:‬‬
+‫کیا کرتا ہے؟ ‪Code‬‬
+    ‫​تصاویر بناتا ہے )‪●​ A‬‬
+
+    ‫کمپیوٹر کو ہدایات دیتا ہے )‪●​ B‬‬   ‫​✅‬
+    ‫​کمپیوٹر کو بند کرتا ہے )‪●​ C‬‬
+
+    ‫​صرف گانے چالتا ہے )‪●​ D‬‬
+
+
+‫​‪Correct Feedback:‬‬
+‫کمپیوٹر کو بتاتا ہے کہ اسے کیا کرنا ہے۔ ‪! Code‬درست‬
+
+‫​‪Incorrect Feedback:‬‬
+ ‫دوبارہ دیکھ سکتے ہیں۔ ‪ Level 1.1‬غلط! کوڈ کا مطلب صرف گانے چالنا نہیں — یہ کمپیوٹر کی زبان ہے۔ آپ‬
+
+
+
+
+‫?‪STEP 4 — Micro Lesson 1.2: Where Is Code Used‬‬
+
+‫‪Examples:‬‬
+
+    ‫​)‪●​ Mobile Apps (WhatsApp, Uber‬‬
+
+    ‫​)‪●​ Websites (YouTube, Daraz‬‬
+
+    ‫​‪●​ ATMs‬‬
+
+    ‫​‪●​ Robots‬‬
+
+    ‫​‪●​ Traffic signals‬‬
+
+
+‫​‪Tip:‬‬
+‫"!ہو )‪ (automated‬ہر اس چیز میں ہوتا ہے جو خودکار ‪"Code‬‬
+
+‫​‪Analogy:‬‬
+‫"‪ remote control‬زندگی کا پوشیدہ = ‪"Code‬‬
+
+
+
+
+‫)‪STEP 5 — Quiz 2 (Select All‬‬
+
+‫​‪Question:‬‬
+‫کن جگہوں پر استعمال ہوتا ہے؟ ‪Code‬‬
+    ‫​)‪ (CORRECT‬موبائل ایپ ​●‬
+
+    ‫​)‪●​ ATM (CORRECT‬‬
+
+    ‫​کاغذی اخبار ​●‬
+
+    ‫​)‪ (CORRECT‬یوٹیوب ​●‬
+
+    ‫​بورڈ مارکر ​●‬
+
+
+‫​‪Correct Feedback:‬‬
+‫ہر خودکار نظام میں چھپا ہوتا ہے۔ ‪! Code‬زبردست‬
+
+‫​‪Incorrect Feedback:‬‬
+ ‫اخبار یا مارکر میں نہیں بلکہ ڈیجیٹل سسٹمز میں ہوتا ہے — آپ ‪ 1.2‬پھر سے دیکھ سکتے ہیں۔ ‪! Code‬غلط‬
+
+
+
+
+‫‪STEP 6 — Micro Lesson 1.3: Humans vs Computers‬‬
+
+‫​‪Key Idea:‬‬
+ ‫​انسان جذبات سے سمجھتے ہیں‬
+‫کمپیوٹر صرف درست‪ ،‬ترتیب وار ہدایات سے سمجھتے ہیں‬
+
+‫​‪Example:‬‬
+ ‫​اگر آپ کہیں‪" :‬مجھے بھوک لگی ہے" — انسان سمجھ جائے گا‬
+‫‪ :‬لیکن کمپیوٹر کو کہنا ہوگا‬
+
+
+
+
+                                                                  ‫​‬
+‫​‬
+‫)‪STEP 7 — Quiz 3 (True/False‬‬
+
+‫​‪Question:‬‬
+‫کمپیوٹر جذبات اور اشارے سے بات سمجھتا ہے؟‬
+
+    ‫​درست )‪●​ A‬‬
+
+    ‫غلط )‪●​ B‬‬   ‫​✅‬
+‫​‪Correct Feedback:‬‬
+‫بالکل! کمپیوٹر صرف صاف‪ ،‬واضح ہدایات سے سمجھتا ہے۔‬
+
+‫​‪Incorrect Feedback:‬‬
+ ‫دوبارہ دیکھیے۔ ‪ — Level 1.3‬غلط! کمپیوٹر آپ کی بات کے پیچھے مطلب نہیں نکالتا‬
+
+
+
+
+‫‪STEP 8 — Micro Lesson 1.4: Programming Languages‬‬
+
+‫​‪Definition:‬‬
+‫‪: Python, Java, C++‬کوڈنگ کی زبانیں مختلف ہوتی ہیں — جیسے‬
+
+‫?‪Why Learn Python‬‬
+
+    ‫​آسان ہے ​●‬
+
+    ‫​بچوں اور نئے سیکھنے والوں کے لیے بہترین ​●‬
+
+    ‫​سب سے زیادہ استعمال ہونے والی زبانوں میں شامل ​●‬
+
+
+‫​‪Analogy:‬‬
+‫ایسے ہے جیسے “اردو میں کہانی لکھنا” — نرم‪ ،‬آسان اور صاف زبان ‪Python‬‬
+
+
+
+
+‫)‪STEP 9 — Quiz 4 (MCQ‬‬
+
+‫​‪Question:‬‬
+‫ایک کیا ہے؟ ‪Python‬‬
+
+    ‫​گیم )‪●​ A‬‬
+
+    ‫​موبائل فون )‪●​ B‬‬
+
+    ‫کوڈنگ زبان )‪●​ C‬‬    ‫​✅‬
+    ‫​کمپیوٹر برانڈ )‪●​ D‬‬
+
+
+‫​‪Correct Feedback:‬‬
+‫ہے۔ ‪ Programming Language‬ایک ‪! Python‬بالکل‬
+
+‫​‪Incorrect Feedback:‬‬
+ ‫ہے — آپ ‪ 1.4‬دوبارہ دیکھ سکتے ہیں۔ ‪ Coding Language‬ایک ‪! Python‬غلط‬
+‫‪STEP 10 — Popup: Real-life Analogy‬‬
+
+‫​‪Text:‬‬
+ ‫‪:‬جیسے‬
+
+    ‫​‪●​ "Dabba" = Variable‬‬
+
+    ‫​اگر = "‪●​ "If‬‬
+
+    ‫​بار بار کرنا = "‪●​ "Loop‬‬
+
+
+‫!ہم آگے چل کر کوڈنگ کے اصول اردو انداز میں سیکھیں گے‬
+
+
+
+
+‫‪STEP 11 — Flashcard Summary‬‬
+
+    ‫​کمپیوٹر کی زبان = ‪●​ Code‬‬
+
+    ‫​ایک آسان کوڈنگ زبان = ‪●​ Python‬‬
+
+    ‫​ہدایات ‪●​ Programming = step-by-step‬‬
+
+    ‫​کمپیوٹر جذبات نہیں‪ ،‬ہدایات سمجھتا ہے ​●‬
+
+    ‫​ہر ڈیجیٹل چیز کا دماغ = ‪●​ Code‬‬
+
+
+
+
+‫‪STEP 12 — Completion Message‬‬
+
+‫​‪Text:‬‬
+ ‫​زبردست! آپ نے کوڈ کی دنیا میں پہال قدم رکھ لیا ہے۔"‬
+‫"!کو استعمال کرنا سیکھیں گے — عملی طریقے سے ‪ Python‬اب اگلے سبق میں ہم‬
+
+‫”اگال سبق“ ‪Action: Unlock Level 2 → Button:‬‬
+
+
+
+‫کی تیاری ‪LEVEL 2: Python‬‬
+Title: Python Coding ‫​شروع کرنے سے پہلے کیا تیاریاں درکار ہیں؟‬
+Estimated Duration: 1.5–2 hours​
+Main Concept: Installing and preparing Python on a low-end PC or community lab
+computer​
+Learning Goal: Understand how to set up Python and write a basic program
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 1​
+
+                   🔓
+      Level 2 is now unlocked​
+      User taps:    Level 2: Python ‫کی تیاری‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "Code ‫سیکھنے کا پہال اصول ہے‬: Tools ‫​!تیار رکھو‬
+ Python ‫ کو سیکھنے کے لیے ہمیں ایک خاص سافٹ ویئر اور کچھ چھوٹے‬steps ‫​لینے ہوتے ہیں۔‬
+‫ اس سبق میں ہم خود‬Python setup ‫"!کریں گے‬
+
+
+
+
+STEP 2 — Micro Lesson 2.1: What Is Python & Why We Need to Install It
+
+Explanation:​
+Python ‫“ ایک‬programming language” ‫​ہے۔‬
+‫ اس میں کوڈ لکھنے کے لیے ہمیں دو چیزوں کی ضرورت ہوتی ہے‬:
+
+   1.​ Python Interpreter: ‫​جو کوڈ کو سمجھ کر کمپیوٹر کو سمجھائے‬
+
+   2.​ Code Editor: ‫​)جہاں ہم اپنا کوڈ لکھیں (جیسے نوٹ بک میں لکھتے ہیں‬
+
+
+
+
+STEP 3 — Quiz 1 (MCQ)
+
+Question:​
+Python coding ‫کے لیے کیا درکار ہے؟‬
+
+   ●​ A) ‫​صرف موبائل فون‬
+   ●​ B) Paint Software​
+
+   ●​ C) Code Editor ‫ اور‬Interpreter     ✅​
+   ●​ D) ‫​صرف انٹرنیٹ‬
+
+
+Correct Feedback:​
+‫ !بالکل‬Python ‫ کو سمجھنے اور لکھنے کے لیے دو‬tools ‫ضروری ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Python ‫ صرف فون یا‬Paint ‫ سے نہیں چلتی — دوبارہ دیکھیں‬Lesson 2.1
+
+
+
+
+STEP 4 — Micro Lesson 2.2: Installing Python (Offline)
+
+For Low-End PCs or Community Schools:
+
+Steps:
+
+   1.​ Visit python.org​
+
+   2.​ Download Python for Windows (32-bit/64-bit)​
+
+   3.​ Install and select checkbox: "Add Python to PATH"​
+
+   4.​ Installation Complete!​
+
+
+Tip:​
+"‫ کسی بڑے سے‬help ‫ لیں اگر آپ‬beginner ‫"!ہیں — یہ صرف ایک بار کی تیاری ہے‬
+
+
+
+
+STEP 5 — Quiz 2 (True/False)
+
+Question:​
+Python ‫ استعمال کرنے کے لیے پہلے اسے‬install ‫کرنا پڑتا ہے؟‬
+
+   ●​ A) ‫درست‬   ✅​
+   ●​ B) ‫​غلط‬
+Correct Feedback:​
+‫ !بالکل‬Python coding ‫ شروع کرنے سے پہلے‬install ‫کرنا ضروری ہے۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! بغیر‬installation ‫ کے‬Python code ‫ — نہیں چلے گا‬Lesson 2.2 ‫دیکھیے۔‬
+
+
+
+
+STEP 6 — Micro Lesson 2.3: What is an IDE? (IDLE for Beginners)
+
+IDE = Integrated Development Environment​
+ ‫جہاں ہم کوڈ لکھتے اور چالتے ہیں‬
+
+Python ‫کے لیے‬:
+
+   ●​ IDLE built-in ‫​آتا ہے‬
+
+   ●​ Notepad ‫​بھی استعمال کیا جا سکتا ہے‬
+
+   ●​ VS Code (advanced learners ‫​)کے لیے‬
+
+
+Focus: Start with IDLE → Very basic and beginner-friendly
+
+
+
+
+STEP 7 — Quiz 3 (MCQ)
+
+Question:​
+Python ‫ میں ابتدائی‬coding ‫ کے لیے سب سے آسان‬IDE ‫کون سا ہے؟‬
+
+   ●​ A) Photoshop​
+
+   ●​ B) IDLE    ✅​
+   ●​ C) Excel​
+
+   ●​ D) Google Docs​
+
+
+Correct Feedback:​
+‫ !صحیح‬IDLE ‫ابتدائی سیکھنے والوں کے لیے بہترین ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬IDLE ‫ ایک خاص کوڈ لکھنے کا سافٹ ویئر ہے — واپس دیکھیں‬Lesson 2.3
+‫‪STEP 8 — Micro Lesson 2.4: Your First Python Program‬‬
+
+‫‪Code:‬‬
+
+
+
+
+                                                                  ‫​‬
+‫​‬
+‫​‪Explanation:‬‬
+ ‫​دکھاؤ "!‪ "Hello, Pakistan‬یہ کوڈ کمپیوٹر کو کہتا ہے‪ :‬اسکرین پر‬
+ ‫"کا مطلب ہے‪" :‬اسکرین پر کچھ دکھاؤ )(‪print‬‬
+
+‫​‪Analogy:‬‬
+‫"میں سالم کیا جاتا ہے ‪ Python‬جیسے دوست کو سالم کیا جاتا ہے — ویسے ہی"‬
+
+
+
+
+‫)‪STEP 9 — Quiz 4 (Fill-in-the-blank‬‬
+
+‫​‪Question:‬‬
+‫​استعمال ہوتا ہے؟ ‪ function‬میں کسی چیز کو اسکرین پر دکھانے کے لیے کون سا ‪Python‬‬
+‫)(‪Answer: print‬‬
+
+‫​‪Correct Feedback:‬‬
+‫ہے۔ ‪ function‬کا سب سے بنیادی ‪! print() Python‬واہ‬
+
+‫​‪Incorrect Feedback:‬‬
+ ‫دیکھیے۔ ‪ Lesson 2.4‬پروگرام کا پہال قدم ہوتا ہے — دوبارہ ‪ Python‬ہر )(‪! print‬غلط‬
+
+
+
+
+‫‪STEP 10 — Popup: Try it Yourself‬‬
+
+‫​‪Text (Instruction):‬‬
+ ‫‪:‬کھولیں اور یہ کوڈ ٹائپ کریں ‪ IDLE‬اگر آپ کے پاس کمپیوٹر ہے تو"‬
+
+
+
+
+                                                                  ‫​‬
+‫​دبائیں ‪ Enter‬پھر‬
+‫"! دیکھیں جادو کیسے ہوتا ہے‬
+STEP 11 — Flashcard Summary
+
+    ●​ Python = Programming Language​
+
+    ●​ Use IDLE or basic editor​
+
+    ●​ print() = Show something on screen​
+
+    ●​ Installation = python.org​
+
+
+
+
+STEP 12 — Completion Message
+
+Text:​
+ "‫ زبردست! آپ نے‬Python ‫ کو‬install ‫​کرنا سیکھ لیا ہے اور پہال پروگرام بھی لکھا ہے۔‬
+‫ اگلے سبق میں ہم‬variables ‫ یعنی 'کمپیوٹر کے د ّبے' کو‬explore ‫"!کریں گے‬
+
+Action: Unlock Level 3 → Button: “‫”اگال سبق‬
+
+​
+
+LEVEL 3: Variables — ‫کمپیوٹر کا د ّبہ‬
+Title: Variable ‫​کیا ہوتا ہے؟ کمپیوٹر چیزیں کیسے یاد رکھتا ہے؟‬
+Estimated Duration: 1.5–2 hours​
+Main Concept: Introduction to variables using Urdu analogies and simple coding
+examples​
+Learning Goal: Learners understand how data is stored in variables using relatable
+examples
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+       User completes Level 2​
+
+                     🔓
+       Level 3 is now unlocked​
+       User taps:    Level 3: Variables — ‫کمپیوٹر کا د ّبہ‬
+‫‪STEP 1 — Intro Popup‬‬
+
+‫​‪Text (Urdu):‬‬
+ ‫​!استعمال کیا ہے ‪ variable‬اگر آپ نے کبھی الماری میں کچھ رکھا ہو‪ ،‬یا اپنے اسکول بیگ میں پینسل رکھی ہو‪ ،‬تو آپ نے"‬
+ ‫​وہ جگہ ہے جہاں کمپیوٹر کچھ 'یاد' رکھتا ہے۔ ‪ variable‬میں ‪Coding‬‬
+‫"میں کیسے استعمال کیا جاتا ہے۔ ‪ Python‬کیا ہوتا ہے اور ‪ variable‬آج ہم سیکھیں گے کہ‬
+
+
+
+
+‫‪STEP 2 — Micro Lesson 3.1: Real-Life Analogy of a Variable‬‬
+
+‫​‪Analogy:‬‬
+ ‫​فرض کریں آپ کے پاس ایک د ّبہ ہے۔‬
+‫آپ نے اس میں "سیب" رکھا — اب وہ د ّبہ جب بھی کھولو گے‪ ،‬سیب نظر آئے گا۔‬
+
+‫‪:‬میں یہ لکھتے ہیں ‪Python‬‬
+
+
+
+
+                                      ‫​‬
+‫"‪ "apple‬لکھیں گے‪ ،‬کمپیوٹر سمجھے گا ‪ fruit‬اب جب بھی‬
+
+
+
+‫)‪STEP 3 — Quiz 1 (MCQ‬‬
+
+‫​‪Question:‬‬
+‫کس چیز کی نشانی ہے؟ ‪ fruit‬تو "‪ fruit = "apple‬اگر آپ لکھیں‬
+
+    ‫​ایک فنکشن )‪●​ A‬‬
+
+    ‫​ایک تصویر )‪●​ B‬‬
+
+    ‫‪ variable‬ایک )‪●​ C‬‬     ‫​✅‬
+    ‫​‪ website‬ایک )‪●​ D‬‬
+
+
+‫​‪Correct Feedback:‬‬
+‫محفوظ کر رہا ہے۔ "‪ "apple‬ہے جو ‪ variable‬ایک ‪! fruit‬صحیح‬
+
+‫​‪Incorrect Feedback:‬‬
+ ‫سے دوبارہ سیکھ سکتے ہیں۔ ‪ Lesson 3.1‬ہے — آپ ‪ variable‬ایک ‪! fruit‬غلط‬
+STEP 4 — Micro Lesson 3.2: Syntax of a Variable
+
+Rules:
+
+   ●​ Variable ‫ کے نام میں‬spaces ‫​نہیں ہوتے‬
+
+   ●​ English letters ‫ اور‬numbers ‫​استعمال ہوتے ہیں‬
+
+   ●​ Variable ‫( کا نام خود رکھا جا سکتا ہے‬e.g., name, age)​
+
+
+Examples:
+
+
+
+
+                                  ​
+STEP 5 — Quiz 2 (True/False)
+
+Question:​
+Variable ‫ کے نام میں‬space (‫ جیسے‬first name) ‫استعمال ہو سکتا ہے؟‬
+
+   ●​ A) ‫​درست‬
+
+   ●​ B) ‫غلط‬   ✅​
+Correct Feedback:​
+‫ !بالکل‬Variable names ‫ میں‬space allowed ‫نہیں ہوتا۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! آپ کو‬syntax ‫ دوبارہ‬Lesson 3.2 ‫سے دیکھنی چاہیے۔‬
+
+
+
+
+STEP 6 — Micro Lesson 3.3: Storing Numbers in Variables
+
+Example:
+                      ​
+‫ اب‬age ‫ محفوظ ہے۔‬10 ‫میں‬
+
+‫اگر ہم لکھیں‬:
+
+​
+
+
+
+                                 ​
+Output:​
+10
+
+
+
+STEP 7 — Quiz 3 (Fill-in-the-blank)
+
+Question:​
+‫ اگر‬number = 100 ‫ تو‬،‫ ہو‬print(number) ‫​کا نتیجہ کیا ہوگا؟‬
+Answer: 100
+
+Correct Feedback:​
+‫ !زبردست‬Variable ‫ کو‬print ‫ کیا جائے تو اس کی‬value ‫اسکرین پر آتی ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Variable ‫ کی‬value ‫ اسکرین پر دکھائی جاتی ہے — دوبارہ‬Lesson 3.3 ‫دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 3.4: Changing Values
+
+Example:
+
+
+
+
+                                        ​
+​
+Output: Karachi​
+(‫ کیونکہ آخری‬value replace ‫ کر دیتی ہے پرانی‬value)
+
+
+
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+‫ اگر‬variable ‫ کی‬value ‫ تو کمپیوٹر کیا کرتا ہے؟‬،‫دوبارہ دی جائے‬
+
+    ●​ A) ‫​پرانی اور نئی دونوں رکھتا ہے‬
+
+    ●​ B) error ‫​دیتا ہے‬
+
+    ●​ C) ‫ نئی‬value ‫ سے پرانی کو‬replace ‫کر دیتا ہے‬    ✅​
+    ●​ D) ‫​کوئی فرق نہیں پڑتا‬
+
+
+Correct Feedback:​
+‫ !بالکل‬Variable ‫ صرف ایک‬value ‫ نئی آنے پر پرانی‬،‫ رکھتا ہے‬replace ‫ہو جاتی ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Variable ‫ ہمیشہ‬latest value ‫ — رکھتا ہے‬Lesson 3.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 3.5: Variable Types
+
+Types:
+
+    1.​ Text (e.g., "Zoraiz")​
+
+    2.​ Number (e.g., 17)​
+
+    3.​ Boolean (True/False)​
+
+
+Python ‫ پہچان لیتا ہے‬type ‫خود — مگر سمجھنا ضروری ہے‬
+
+
+
+
+STEP 11 — Quiz 5 (Select All)
+
+Question:​
+‫ درج ذیل میں سے‬variable ‫ کی کون کون سی‬type ‫ہو سکتی ہے؟‬
+    ●​ Text (CORRECT)​
+
+    ●​ Number (CORRECT)​
+
+    ●​ True/False (CORRECT)​
+
+    ●​ Image​
+
+    ●​ Keyboard​
+
+
+Correct Feedback:​
+‫ !زبردست‬Text, Number, Boolean — ‫ سب‬variable types ‫ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! آپ‬variable types ‫ کو دوبارہ‬Lesson 3.5 ‫سے دیکھ سکتے ہیں۔‬
+
+
+
+
+STEP 12 — Popup: Let’s Try One Together
+
+Text (Instruction):
+
+"IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+
+
+​
+
+
+
+
+                                                    ​
+‫"!کیا ہوا؟ کمپیوٹر نے آپ کا نام اسکرین پر لکھ دیا‬
+
+
+
+STEP 13 — Flashcard Summary
+
+    ●​ Variable = ‫​کمپیوٹر کا د ّبہ‬
+
+    ●​ Value = ‫​د ّبے کے اندر کی چیز‬
+
+    ●​ Variable name = ‫​خود سے رکھ سکتے ہیں‬
+
+    ●​ Types = Text, Number, Boolean​
+    ●​ Values change ‫​ہو سکتی ہیں‬
+
+
+
+
+STEP 14 — Completion Message
+
+Text:​
+ "‫ واہ! آپ نے‬variable ‫ اور‬،‫ استعمال‬،‫ کے اصول‬syntax ‫ سیکھ لیا ہے — اب ہم ان پر عمل کریں گے اگلے‬level ،‫میں‬
+‫' جہاں بات ہوگی حساب کتاب یعنی‬Operations' ‫"!کی‬
+
+Action: Unlock Level 4 → Button: “‫”اگال سبق‬
+
+
+
+LEVEL 4: ‫ — حساب کتاب‬Mathematical
+Operations in Python
+Title: ‫​!کمپیوٹر سے حساب کروائیں‬
+Estimated Duration: 1.5–2 hours​
+Main Concept: Performing basic math operations using Python​
+Learning Goal: Learners understand how to add, subtract, multiply, divide, and use
+variables with numbers in Python
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 3​
+
+                    🔓
+      Level 4 is now unlocked​
+      User taps:    Level 4: ‫ — حساب کتاب‬Mathematical Operations
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫​!اب وقت ہے کمپیوٹر سے تھوڑا حساب کروانے کا‬
+ Python ‫ ضرب اور تقسیم بہت آسانی سے کر سکتے ہیں — جیسے‬،‫ تفریق‬،‫ میں ہم جمع‬calculator ‫ لیکن‬،‫میں کرتے ہیں‬
+‫"!ذرا زیادہ ہوشیاری سے‬
+
+
+
+
+STEP 2 — Micro Lesson 4.1: Basic Operators
+Operators in Python:
+
+   ●​ + = ‫​جمع‬
+
+   ●​ - = ‫​تفریق‬
+
+   ●​ * = ‫​ضرب‬
+
+   ●​ / = ‫​تقسیم‬
+
+
+Example:
+
+
+
+
+                                                          ​
+STEP 3 — Quiz 1 (MCQ)
+
+Question:​
+Python ‫ میں "ضرب" کے لیے کون سا‬symbol ‫استعمال ہوتا ہے؟‬
+
+   ●​ A) x​
+
+   ●​ B) *    ✅​
+   ●​ C) ^​
+
+   ●​ D) /​
+
+
+Correct Feedback:​
+‫ !بالکل‬Python ‫میں ضرب کے لیے * استعمال ہوتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ * !غلط‬symbol ‫ — کا مطلب ضرب ہوتا ہے‬Lesson 4.1 ‫دیکھیں۔‬
+
+
+
+
+STEP 4 — Micro Lesson 4.2: Order of Operations (PEMDAS)
+
+Key Point: Python ‫ بھی پہلے‬parentheses، ‫ پھر‬multiplication/division ‫اور آخر میں‬
+addition/subtraction ‫کرتا ہے۔‬
+Example:
+
+
+
+
+                                                                                         ​
+​
+STEP 5 — Quiz 2 (True/False)
+
+Question:​
+Python ‫ ہمیشہ‬left to right ‫ بغیـر‬،‫ حساب کرتا ہے‬brackets ‫دیکھے؟‬
+
+    ●​ A) ‫​درست‬
+
+    ●​ B) ‫غلط‬   ✅​
+Correct Feedback:​
+‫ !صحیح‬Python brackets ‫کو پہلے دیکھتا ہے — پھر حساب کرتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! پہلے‬parentheses، ‫ — پھر باقی حساب ہوتا ہے‬Lesson 4.2 ‫دوبارہ دیکھیں۔‬
+
+
+
+
+STEP 6 — Micro Lesson 4.3: Using Variables in Math
+
+Example:
+
+
+
+
+                                                                             ​
+​
+Analogy:​
+ "‫"!جیسے آپ دو د ّبوں میں کچھ رکھیں اور پھر دونوں کو مال دیں — کمپیوٹر ویسا ہی کرتا ہے‬
+
+
+
+STEP 7 — Quiz 3 (MCQ)
+Question:​
+‫ اگر‬a = 6 ‫ اور‬b = 4، ‫ تو‬a + b ‫کیا دے گا؟‬
+
+   ●​ A) 24​
+
+   ●​ B) 10   ✅​
+   ●​ C) 64​
+
+   ●​ D) Error​
+
+
+Correct Feedback:​
+10 = 4 + 6 !‫بالکل‬
+
+Incorrect Feedback:​
+ ‫ غلط! کمپیوٹر‬numbers ‫ — کو جوڑتا ہے‬Lesson 4.3 ‫دوبارہ دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 4.4: Division Types
+
+Python Divides in 2 Ways:
+
+   1.​ Normal Division: / (Gives decimal result)​
+
+   2.​ Integer Division: // (Gives whole number only)​
+
+
+Examples:
+
+
+
+
+                                                                ​
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+// operator ‫کیا کرتا ہے؟‬
+
+   ●​ A) multiplication​
+
+   ●​ B) whole number division       ✅​
+    ●​ C) error​
+
+    ●​ D) add decimal​
+
+
+Correct Feedback:​
+‫ صرف پورا عدد دیتا ہے۔‬// !‫صحیح‬
+
+Incorrect Feedback:​
+ ‫ پورے‬// !‫ غلط‬number ‫ کی‬division ‫ — کرتا ہے‬Lesson 4.4 ‫دوبارہ دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 4.5: Modulus Operator (%)
+
+Definition:​
+Modulus % remainder (‫باقی) نکالتا ہے‬
+
+Example:
+
+
+
+                                                                       ​
+STEP 11 — Quiz 5 (MCQ)
+
+Question:​
+15 % 4 ‫کا نتیجہ کیا ہوگا؟‬
+
+    ●​ A) 3   ✅​
+    ●​ B) 4​
+
+    ●​ C) 1​
+
+    ●​ D) 11​
+
+
+Correct Feedback:​
+12 = 3*4 !‫ → درست‬remainder = 3
+
+Incorrect Feedback:​
+ ‫ !غلط‬% remainder ‫ دیتا ہے — آپ‬Lesson 4.5 ‫دوبارہ دیکھ سکتے ہیں۔‬
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "‫ اب خود سے‬IDLE ‫ کھول کر یہ‬code ‫چالئیں‬:
+
+
+
+
+                                                                    ​
+‫ یہ سادہ سا‬program ‫ آپ کو‬remainder ‫"!نکالنا سکھا دے گا‬
+
+
+
+STEP 13 — Flashcard Summary
+
+    ●​ +, -, *, / = Basic operations​
+
+    ●​ // = ‫​پورا عدد‬
+
+    ●​ % = remainder​
+
+    ●​ Variables ‫ کو‬math ‫ میں‬use ‫​کیا جا سکتا ہے‬
+
+    ●​ Python order ‫ کو‬follow ‫( کرتا ہے‬PEMDAS)​
+
+
+
+
+STEP 14 — Completion Message
+
+Text:​
+ "‫ کیا بات ہے! اب آپ کمپیوٹر سے جمع تفریق بھی کروا سکتے ہیں — اگلے‬lesson ‫میں ہم سیکھیں گے‬: conditions
+— ‫"'یعنی 'اگر ایسا ہو تو کیا کرو؟‬
+
+Action: Unlock Level 5 → Button: “‫”اگال سبق‬
+
+​
+
+LEVEL 5: "If" Statements — ‫اگر ایسا ہو تو؟‬
+Title: ‫​کمپیوٹر کو شرطوں کے ساتھ فیصلہ کرنا سکھائیں‬
+Estimated Duration: 1.5–2 hours​
+Main Concept: Understanding and writing conditional statements in Python​
+Learning Goal: Learners will understand how to use if, else, and elif statements to
+control decisions in a program
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 4​
+
+                     🔓
+      Level 5 is now unlocked​
+      User taps:    Level 5: If Statements — ‫اگر ایسا ہو تو؟‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "!‫​اگر بارش ہو تو چھتری لے لو‬
+‫ یہ جملہ آپ نے کئی بار سنا ہوگا — بس‬Python ،‫​میں ہم بالکل ایسے ہی فیصلے کمپیوٹر سے کرواتے ہیں‬
+‫ ورنہ وہ کرو' — یہی ہے‬،‫ 'اگر ایسا ہو تو یہ کرو‬If statement!"
+
+
+
+
+STEP 2 — Micro Lesson 5.1: Real-Life Condition Examples
+
+Examples:
+
+    ●​ ‫ اگر‬test ‫ سے زیادہ نمبر ہوں تو ‘شاباش’ لکھو‬80 ‫​میں‬
+
+    ●​ ‫ اگر‬user ‫ سے کم ہو تو "تم بچے ہو" لکھو‬18 ‫​کی عمر‬
+
+    ●​ ‫​"اگر پیسہ کم ہو تو "خریداری ممکن نہیں‬
+
+
+
+
+STEP 3 — Quiz 1 (True/False)
+
+Question:​
+"‫ "اگر‬statements ‫صرف حقیقت پر عمل کرتی ہیں؟‬
+
+    ●​ A) ‫درست‬   ✅​
+    ●​ B) ‫​غلط‬
+Correct Feedback:​
+‫ !بالکل‬If statements ‫صرف اس وقت عمل کرتی ہیں جب شرط پوری ہو۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬If ‫ صرف تب چلتا ہے جب‬condition ‫ — سچ ہو‬Lesson 5.1 ‫دیکھیے۔‬
+
+
+
+
+STEP 4 — Micro Lesson 5.2: Python If Syntax
+
+Basic Structure:
+
+
+
+
+                                  ​
+Example:​
+​
+
+
+
+
+                                                         ​
+​
+STEP 5 — Quiz 2 (MCQ)
+
+Question:​
+If statement ‫کے بعد کیا آتا ہے؟‬
+
+    ●​ A) bracket ()​
+
+    ●​ B) colon :   ✅​
+    ●​ C) comma ,​
+
+    ●​ D) semicolon ;​
+
+
+Correct Feedback:​
+‫ !صحیح‬Python ‫ میں‬if ‫ کے بعد‬: (colon) ‫لکھا جاتا ہے۔‬
+Incorrect Feedback:​
+ ‫ !غلط‬If ‫ کے بعد ہمیشہ‬colon : ‫ — آتا ہے‬Lesson 5.2 ‫دوبارہ دیکھیے۔‬
+
+
+
+
+STEP 6 — Micro Lesson 5.3: Indentation Matters!
+
+Explanation:
+
+    ●​ Python whitespace ‫ سے سمجھتا ہے کہ کون سا‬code ‫​کس کے اندر ہے‬
+
+    ●​ ‫ اگر‬indentation ‫ تو‬،‫ نہ ہو‬error ‫​آتا ہے‬
+
+
+Example:
+
+
+
+
+                                                                      ​
+​
+STEP 7 — Quiz 3 (True/False)
+
+Question:​
+Python ‫ میں‬space ‫ یعنی‬indentation ‫ضروری ہے؟‬
+
+    ●​ A) ‫درست‬   ✅​
+    ●​ B) ‫​غلط‬
+
+
+Correct Feedback:​
+‫ !بالکل‬Without proper space، Python confused ‫ہو جاتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Python ‫ میں‬indentation ‫ — بہت اہم ہے‬Lesson 5.3 ‫دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 5.4: Else Statement
+Definition:​
+‫ جب‬if ‫ تو کیا کریں؟‬،‫​غلط ہو جائے‬
+‫ اس کے لیے‬else ‫ہوتا ہے‬
+
+Example:
+
+
+
+
+                                                ​
+​
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+else ‫کب استعمال ہوتا ہے؟‬
+
+    ●​ A) ‫ جب کوئی‬function ‫​ختم ہو‬
+
+    ●​ B) ‫ جب‬if true ‫​ہو‬
+
+    ●​ C) ‫ جب‬if false ‫ہو‬   ✅​
+    ●​ D) ‫​کسی بھی وقت‬
+
+
+Correct Feedback:​
+‫ !صحیح‬Else ‫ صرف تب چلتا ہے جب‬if ‫کی شرط پوری نہ ہو۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Else if ‫ کے‬fail ‫ ہونے پر‬act ‫ — کرتا ہے‬Lesson 5.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 5.5: Elif — Else If
+
+Explanation:​
+‫ اگر ایک سے زیادہ‬conditions ‫ ہوں تو‬elif ‫استعمال ہوتا ہے‬
+Example:
+
+
+
+
+                                                      ​
+STEP 11 — Quiz 5 (Select All)
+
+Question:​
+‫ کون سے‬keywords Python ‫ میں‬decision making ‫کے لیے استعمال ہوتے ہیں؟‬
+
+   ●​ If (CORRECT)​
+
+   ●​ Elif (CORRECT)​
+
+   ●​ Else (CORRECT) ​
+
+   ●​ loop​
+
+   ●​ define​
+
+
+Correct Feedback:​
+‫ !زبردست‬if, elif, ‫ اور‬else — ‫ تینوں‬decision making ‫ کے‬tools ‫ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬loop and define ‫ — الگ چیزیں ہیں‬Lesson 5.5 ‫دوبارہ دیکھیں۔‬
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):
+
+"IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+
+
+
+
+                                        ​
+​
+‫ اب‬temperature ‫"!بدل کر دیکھیں‬
+
+
+
+STEP 13 — Flashcard Summary
+
+   ●​ if = ‫​اگر شرط سچ ہو‬
+
+   ●​ else = ‫​اگر شرط غلط ہو‬
+
+   ●​ elif = ‫​کئی شرطوں کے لیے‬
+
+   ●​ : = ‫ ہر‬condition ‫​کے بعد ضروری‬
+
+   ●​ Indentation = space ‫​دینا الزمی‬
+
+
+
+
+STEP 14 — Completion Message
+Text:​
+ "‫ زبردست! آپ نے‬Python ‫کو فیصلہ کرنا سکھا دیا ہے — اب ہم سیکھیں گے بار بار کام کیسے دوہرایا جاتا ہے‬:
+Loops!"
+
+Action: Unlock Level 6 → Button: “‫”اگال سبق‬
+
+
+
+LEVEL 6: Loops — ‫بار بار کام خود سے‬
+Title: ‫​کمپیوٹر سے بار بار ایک ہی کام کروائیں‬
+ Estimated Duration: 1.5–2 hours​
+ Main Concept: Understanding how loops automate repetition using for and while
+loops​
+ Learning Goal: Learners understand the role of loops, when to use them, and how to
+avoid errors
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+       User completes Level 5​
+
+                     🔓
+       Level 6 is now unlocked​
+       User taps:    Level 6: Loops — ‫بار بار کام خود سے‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫' اگر آپ کو کوئی کام بار بار کرنا پڑے — جیسے‬Hello' 100 ‫ بار لکھنا — تو آپ کیا کریں گے؟‬Python ‫میں ہم کمپیوٹر‬
+!‫​کو ایک بار ہی کہتے ہیں اور وہ کام خود بار بار کرتا ہے‬
+‫ یہی کام کرتے ہیں‬loops!"
+
+
+
+
+STEP 2 — Micro Lesson 6.1: What is a Loop?
+
+Explanation:​
+Loop ‫ وہ‬code ‫ہوتا ہے جو بار بار چلتا ہے جب تک کہ کوئی شرط مکمل نہ ہو جائے۔‬
+
+Real-Life Analogy:
+
+    ●​ ‫ نماز میں رکعتیں‬repeat ‫​ہوتی ہیں‬
+    ●​ ‫ ورزش میں‬push-ups repeat ‫​ہوتے ہیں‬
+
+    ●​ ‫ گھنٹی ہر‬period ‫ — کے بعد بجتی ہے‬loop ‫​!میں ہے‬
+
+
+
+
+STEP 3 — Quiz 1 (True/False)
+
+Question:​
+Loop ‫ کا مطلب ہوتا ہے کوئی کام بار بار‬repeat ‫کرنا؟‬
+
+    ●​ A) ‫درست‬   ✅​
+    ●​ B) ‫​غلط‬
+
+
+Correct Feedback:​
+‫ !بالکل‬Loop ‫ کام کو‬automate ‫ کرتا ہے بار بار‬repeat ‫کرنے کے لیے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Loop repeat ‫ — کے لیے ہی ہوتا ہے‬Lesson 6.1 ‫دیکھیں۔‬
+
+
+
+
+STEP 4 — Micro Lesson 6.2: The for Loop (Counting Repeats)
+
+Syntax:
+
+
+
+
+                                                        ​
+Output:​
+                                ​
+​
+Explanation:​
+ range(5) → 0 0,1,2,3,4 ‫ سے کم تک جاتا ہے → یعنی‬5 ‫​سے شروع ہو کر‬
+ Total = 5 ‫بار‬
+
+
+
+STEP 5 — Quiz 2 (MCQ)
+
+Question:​
+for i in range(3): ‫ کتنی بار‬loop ‫چلے گا؟‬
+
+   ●​ A) 2​
+
+   ●​ B) 4​
+
+   ●​ C) 3   ✅​
+   ●​ D) 5​
+
+
+Correct Feedback:​
+‫ بار‬3 ‫ → یعنی‬2 ,1 ,0 !‫صحیح‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Range(3) ‫ — کا مطلب ہوتا ہے تین بار‬Lesson 6.2 ‫دیکھیں۔‬
+
+
+
+
+STEP 6 — Micro Lesson 6.3: The while Loop
+
+Syntax:
+                                           ​
+Explanation:​
+‫ جب تک شرط‬true ‫ہو‬، loop ‫​چلتا رہے گا‬
+x = x + 1 ‫ نہ لکھیں تو‬loop ‫!کبھی ختم نہیں ہوگا‬
+
+
+
+STEP 7 — Quiz 3 (MCQ)
+
+Question:​
+while loop ‫کب ختم ہوتا ہے؟‬
+
+   ●​ A) ‫ جب‬manually ‫​روکا جائے‬
+
+   ●​ B) ‫ جب شرط‬false ‫ہو‬   ✅​
+   ●​ C) ‫​کبھی نہیں‬
+
+   ●​ D) ‫ تب جب‬print ‫​ہو جائے‬
+
+
+Correct Feedback:​
+‫ !بالکل‬while loop ‫ شرط‬false ‫ہوتے ہی رک جاتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬while loop condition ‫ — پر چلتا ہے‬Lesson 6.3 ‫دوبارہ دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 6.4: Infinite Loops (Warning!)
+
+Explanation:​
+‫ اگر‬while loop ‫ کی شرط کبھی‬false ‫ تو‬،‫ نہ ہو‬program ‫ → کبھی نہیں رکے گا‬infinite loop​
+Always make sure to update your condition
+
+Example:
+                                                                                      ​
+STEP 9 — Quiz 4 (True/False)
+
+Question:​
+Loop ‫ کو ختم کرنے کے لیے‬condition change ‫کرنا ضروری نہیں ہوتا؟‬
+
+   ●​ A) ‫​درست‬
+
+   ●​ B) ‫غلط‬   ✅​
+Correct Feedback:​
+‫ صحیح! اگر‬condition change ‫ نہ کریں تو‬loop infinite ‫بن جائے گا۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! اگر‬condition update ‫ نہ کریں تو‬program ‫ — کبھی نہیں رکے گا‬Lesson 6.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 6.5: Loop with Conditions Inside
+
+Example:
+
+
+
+
+                                                              ​
+​
+Explanation:​
+ Loop ‫ کے اندر بھی‬conditions use ‫ — ہو سکتی ہیں‬powerful programming technique!
+
+
+
+STEP 11 — Quiz 5 (Fill-in-the-blank)
+Question:​
+‫ اگر‬i % 2 == 0 ‫ ہو تو‬number ‫​کیسا ہوتا ہے؟‬
+Answer: even
+
+Correct Feedback:​
+‫ !بالکل‬% remainder check ‫ آئے تو‬0 ‫ کرتا ہے — اگر‬number even ‫ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬% remainder ‫ ہو تو‬0 ‫ اور اگر وہ‬،‫ دیتا ہے‬number even ‫ — ہوتا ہے‬Lesson 6.5 ‫دیکھیے۔‬
+
+
+
+
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ کھولیں اور یہ‬code :‫​چالئیں‬
+​
+
+
+
+
+                                                             ​
+​
+‫ یہ دیکھنے کے لیے کہ‬loop ‫کیسے کام کرتا ہے‬، range change ‫"!کر کے دوبارہ چالئیں‬
+
+
+
+
+STEP 13 — Flashcard Summary
+
+    ●​ Loop = ‫​کام کو بار بار کرنا‬
+
+    ●​ for = count ‫​کے لیے‬
+
+    ●​ while = ‫ جب تک شرط‬true ‫​ہو‬
+
+    ●​ Infinite loop ‫​!سے بچنا ہے‬
+
+    ●​ Loop ‫ کے اندر‬conditions ‫​بھی ہو سکتی ہیں‬
+
+
+
+
+STEP 14 — Completion Message
+Text:​
+ "‫ زبردست! آپ‬loops ‫ کے ذریعے‬computer ‫ کو‬auto-pilot ‫ پر ڈال سکتے ہیں! اگلے‬level ‫ میں ہم‬text ‫کو سنبھالنے‬
+‫کا طریقہ سیکھیں گے‬: Strings!"
+
+Action: Unlock Level 7 → Button: “‫”اگال سبق‬
+
+
+
+LEVEL 7: Strings — ‫ جملے اور‬،‫ الفاظ‬Text ‫کے‬
+‫ساتھ کام‬
+Title: ‫​کمپیوٹر کو جملے سمجھائیں اور ان کے ساتھ کھیلیں‬
+ Estimated Duration: 1.5–2 hours​
+ Main Concept: How Python handles and manipulates text data (strings)​
+ Learning Goal: Learners understand strings, string operations, and basic manipulation
+like slicing, concatenation, and length checking
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 6​
+
+                    🔓
+      Level 7 is now unlocked​
+      User taps:    Level 7: Strings — ‫ جملے اور‬،‫ الفاظ‬Text ‫کے ساتھ کام‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "Python ‫ میں نہ صرف‬numbers ‫‘ بلکہ الفاظ اور جملے بھی استعمال ہوتے ہیں — جیسے‬Hello World!’​
+ ‫ اور ان سے کیسے بات کی جاتی ہے‬،‫"!آج ہم سیکھیں گے کہ کمپیوٹر کو جملے کیسے سکھائے جاتے ہیں‬
+
+
+
+
+STEP 2 — Micro Lesson 7.1: What is a String?
+
+Definition:​
+String ‫ وہ ہوتا ہے جس میں‬text ‫ اور‬،‫ یا الفاظ ہوں‬Python ‫ اسے‬quotes "" ‫یا '' میں پہچانتا ہے۔‬
+
+Example:
+                                       ​
+STEP 3 — Quiz 1 (MCQ)
+
+Question:​
+String ‫کے ارد گرد کیا ضروری ہوتا ہے؟‬
+
+    ●​ A) Brackets ()​
+
+    ●​ B) Quotes ""    ✅​
+    ●​ C) Commas ,​
+
+    ●​ D) Hyphens –​
+
+
+Correct Feedback:​
+‫ !صحیح‬Strings ‫ ہمیشہ‬double ‫ یا‬single quotes ‫میں لکھے جاتے ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Quotes ‫ کے بغیر‬text ‫ کو‬Python ‫ — نہیں پہچانتا‬Lesson 7.1 ‫دیکھیں۔‬
+
+
+
+
+STEP 4 — Micro Lesson 7.2: Printing Strings with Variables
+
+Example:
+
+
+
+
+                                                            ​
+Output:​
+
+
+
+                              ​
+​
+Explanation:​
+ Strings ‫ اور‬variables ‫ کو ایک ساتھ‬print ‫کیا جا سکتا ہے۔‬
+
+
+
+
+STEP 5 — Quiz 2 (Fill-in-the-blank)
+Question:​
+print("Hi", name) ‫" میں‬Hi" ‫​کیا ہے؟‬
+Answer: string
+
+Correct Feedback:​
+‫" !بالکل‬Hi" ‫ ایک‬string ‫ ہے کیونکہ وہ‬quotes ‫میں ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Quotes ‫ کے اندر ہر چیز‬string ‫ — ہوتی ہے‬Lesson 7.2 ‫دیکھیں۔‬
+
+
+
+
+STEP 6 — Micro Lesson 7.3: Concatenation (Joining Strings)
+
+Definition:​
+Strings ‫ استعمال ہوتا ہے۔‬+ ‫کو آپس میں جوڑنے کے لیے‬
+
+Example:
+
+​
+
+
+
+
+                                                             ​
+​
+Output:​
+ Ali Khan
+
+
+
+
+STEP 7 — Quiz 3 (MCQ)
+
+Question:​
+Strings ‫کو جوڑنے کے لیے کیا استعمال ہوتا ہے؟‬
+
+    ●​ A) ,​
+
+    ●​ B) .​
+
+    ●​ C) +    ✅​
+    ●​ D) -​
+
+
+Correct Feedback:​
+‫ !بالکل‬Strings ‫ استعمال ہوتا ہے۔‬+ ‫کو جوڑنے کے لیے‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Strings ‫ سے جڑتی ہیں‬+ ‫ — آپس میں‬Lesson 7.3 ‫دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 7.4: String Length
+
+Function:
+
+
+
+
+                                                    ​
+Output:​
+8 (8 letters)
+
+Explanation:​
+len() ‫ سے ہم جان سکتے ہیں کہ کسی‬string ‫ میں کتنے‬letters ‫ یا‬characters ‫ہیں۔‬
+
+
+
+
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+len("ZOR") ‫کا نتیجہ کیا ہوگا؟‬
+
+    ●​ A) 2​
+
+    ●​ B) 3    ✅​
+    ●​ C) 4​
+
+    ●​ D) error​
+
+
+Correct Feedback:​
+‫ !صحیح‬ZOR ‫ میں تین‬letters ‫ — ہیں‬Z, O, R
+Incorrect Feedback:​
+ ‫ !غلط‬len() characters count ‫ — کرتا ہے‬Lesson 7.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 7.5: Slicing Strings
+
+Definition:​
+Python ‫ میں ہم‬strings ‫" کے حصے نکال سکتے ہیں — جیسے‬Pak" ‫" کو‬Pakistan" ‫سے‬
+
+Example:
+
+​
+
+
+
+
+                                     ​
+​
+Output: Pak
+
+
+
+
+STEP 11 — Quiz 5 (MCQ)
+
+Question:​
+"Zoraiz"[1:4] ‫کا نتیجہ کیا ہوگا؟‬
+
+    ●​ A) zor​
+
+    ●​ B) ora    ✅​
+    ●​ C) aiz​
+
+    ●​ D) error​
+
+
+Correct Feedback:​
+‫ !صحیح‬Index 1 ‫ سے پہلے رک جائے گا — یعنی‬4 ‫" سے شروع ہو کر‬ora"
+
+Incorrect Feedback:​
+ ‫ !غلط‬Slicing ‫ میں آخری‬number include ‫ — نہیں ہوتا‬Lesson 7.5 ‫دیکھیے۔‬
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+
+
+
+
+                                                                                      ​
+​
+‫ پھر‬string ‫"!کو بدل کر دوبارہ کوشش کریں‬
+
+
+
+
+STEP 13 — Flashcard Summary
+
+    ●​ String = Text in quotes​
+
+    ●​ + → Strings ‫​کو جوڑتا ہے‬
+
+    ●​ len() → length ‫​چیک کرتا ہے‬
+
+    ●​ [x:y] → Slicing​
+
+    ●​ Strings ‫ کو‬variables ‫ کے ساتھ‬print ‫​کیا جا سکتا ہے‬
+
+
+
+
+STEP 14 — Completion Message
+
+Text:​
+ "‫ زبردست! آپ نے‬strings ‫ کے ساتھ کام کرنا سیکھا — اب ہم سیکھیں گے کہ‬computer ‫ آپ سے‬input ‫کیسے لیتا‬
+‫"!ہے‬
+
+Action: Unlock Level 8 → Button: “‫”اگال سبق‬
+
+​
+
+LEVEL 8: Input — ‫کمپیوٹر کو جواب دینا سکھائیں‬
+Title: ‫​کمپیوٹر کو انسان سے بات کرنا سکھائیں‬
+Estimated Duration: 1.5–2 hours​
+ Main Concept: Learning how to take user input in Python and use it in logic​
+ Learning Goal: Learners will be able to write interactive Python programs that ask users
+for information and respond
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 7​
+
+                   🔓
+      Level 8 is now unlocked​
+      User taps:    Level 8: Input — ‫کمپیوٹر کو جواب دینا سکھائیں‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫​آپ کسی دوست سے بات کرتے ہیں تو وہ جواب دیتا ہے۔‬
+ Python ‫ میں بھی ہم‬user ‫​سے سوال پوچھ سکتے ہیں — اور جواب لے کر اس پر کام کر سکتے ہیں۔‬
+‫ یہی سیکھیں گے ہم آج‬: input!"
+
+
+
+
+STEP 2 — Micro Lesson 8.1: What is input()?
+
+Definition:​
+input() ‫ ایک‬built-in function ‫ ہے جو‬user ‫سے کچھ لینے کے لیے استعمال ہوتا ہے۔‬
+
+Example:
+
+
+
+
+                                                                                ​
+​
+Explanation:​
+ User ‫ کے جواب کو‬variable ‫ میں‬save ‫کیا جاتا ہے۔‬
+
+
+
+
+STEP 3 — Quiz 1 (MCQ)
+
+Question:​
+Python ‫ میں‬user ‫ سے‬input ‫ لینے کے لیے کون سا‬function ‫استعمال ہوتا ہے؟‬
+    ●​ A) ask()​
+
+    ●​ B) get()​
+
+    ●​ C) input()   ✅​
+    ●​ D) receive()​
+
+
+Correct Feedback:​
+‫ !بالکل‬input() user ‫سے جواب لینے کے لیے استعمال ہوتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬input() ‫ صحیح‬function ‫ — ہے‬Lesson 8.1 ‫دیکھیں۔‬
+
+
+
+
+STEP 4 — Micro Lesson 8.2: Using Input in Sentences
+
+Example:
+
+​
+
+
+
+
+                                                                              ​
+Explanation:​
+User ‫ جو بھی‬input ‫ وہ‬،‫ دیتا ہے‬string ‫ کی صورت میں‬variable ‫ میں‬save ‫ہوتا ہے۔‬
+
+
+
+
+STEP 5 — Quiz 2 (Fill-in-the-blank)
+
+Question:​
+input("Enter your age: ") ‫​سے کیا ہوگا؟‬
+Answer: user ‫سے عمر پوچھی جائے گی‬
+
+Correct Feedback:​
+‫ !بالکل‬User ‫ سے‬question ‫ پوچھا جائے گا اور جواب‬variable ‫ میں‬save ‫ہوگا۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬input() ‫ ہمیشہ‬user ‫ — سے کچھ لینے کے لیے ہوتا ہے‬Lesson 8.2 ‫دیکھیے۔‬
+STEP 6 — Micro Lesson 8.3: Converting Input to Number
+
+Problem:​
+input() always returns a string → for math, convert to number
+
+Example:
+
+​
+
+
+
+
+                                                                                  ​
+​
+STEP 7 — Quiz 3 (MCQ)
+
+Question:​
+‫ اگر‬input ‫ سے حاصل شدہ‬value ‫ کو‬number ‫میں تبدیل کرنا ہو تو کیا کریں گے؟‬
+
+    ●​ A) str()​
+
+    ●​ B) int()   ✅​
+    ●​ C) float()​
+
+    ●​ D) range()​
+
+
+Correct Feedback:​
+‫ !صحیح‬int() ‫ سے‬string ‫ کو‬number ‫میں بدال جاتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬int() number ‫ میں‬convert ‫ — کرنے کے لیے استعمال ہوتا ہے‬Lesson 8.3 ‫دیکھیے۔‬
+
+
+
+
+STEP 8 — Micro Lesson 8.4: Input with Conditions
+
+Example:
+​
+
+
+
+
+                                                                                 ​
+Explanation:​
+Input ‫ کو‬if-else ‫ کے ساتھ بھی‬use ‫ — کیا جا سکتا ہے‬program smart ‫!ہو جاتا ہے‬
+
+
+
+
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+‫ کیا‬input ‫ کو‬conditional statements ‫کے ساتھ استعمال کیا جا سکتا ہے؟‬
+
+    ●​ A) ‫ہاں‬   ✅​
+    ●​ B) ‫​نہیں‬
+
+    ●​ C) ‫​کبھی کبھار‬
+
+    ●​ D) ‫ صرف‬loops ‫​میں‬
+
+
+Correct Feedback:​
+‫ !بالکل‬Input ‫ کو‬if-else ‫کے ساتھ استعمال کیا جا سکتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Input + condition programs ‫ کو‬interactive ‫ — بناتے ہیں‬Lesson 8.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 8.5: Multiple Inputs
+
+Example:
+​
+
+
+
+
+                                                                           ​
+​
+Explanation:​
+ ‫ ایک سے زیادہ‬inputs ‫ ایک ہی‬program ‫میں لیے جا سکتے ہیں۔‬
+
+
+
+
+STEP 11 — Quiz 5 (True/False)
+
+Question:​
+Python ‫ میں ایک ہی وقت میں دو‬input() functions ‫استعمال نہیں کیے جا سکتے؟‬
+
+    ●​ A) ‫​درست‬
+
+    ●​ B) ‫غلط‬   ✅​
+Correct Feedback:​
+‫ صحیح! ہم جتنے چاہیں‬input() functions ‫استعمال کر سکتے ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Python ‫ میں‬multiple inputs allowed ‫ — ہیں‬Lesson 8.5 ‫دیکھیں۔‬
+
+
+
+
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+
+​
+
+
+
+
+                                                                               ​
+‫ اب مختلف‬inputs ‫"!کے ساتھ دوبارہ کوشش کریں‬
+STEP 13 — Flashcard Summary
+
+    ●​ input() → user ‫ سے‬data ‫​لینا‬
+
+    ●​ Input ‫ ہمیشہ‬string ‫​دیتا ہے‬
+
+    ●​ Number ‫ میں‬convert ‫ کرنے کے لیے‬int()​
+
+    ●​ Inputs + conditions = smart programs​
+
+    ●​ Multiple inputs allowed​
+
+
+
+
+STEP 14 — Completion Message
+
+Text:​
+ "‫ واہ! اب تو‬Python ‫ آپ سے سوال بھی کر سکتا ہے — اگلے‬lesson ‫میں ہم سیکھیں گے‬: Functions — ‫یعنی بار‬
+‫ بار استعمال ہونے واال‬code!"
+
+Action: Unlock Level 9 → Button: “‫”اگال سبق‬
+
+​
+​
+
+LEVEL 9: Functions — ‫ اپنا‬Code ‫خود لکھیں اور‬
+‫بار بار استعمال کریں‬
+Title: ‫ وہ‬code ‫​جو بار بار کام آئے‬
+Estimated Duration: 1.5–2 hours​
+Main Concept: Understanding functions in Python — writing, calling, and reusing them​
+Learning Goal: Learners understand how to define reusable blocks of code using def,
+pass parameters, and get results using return
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+       ‫​‪User completes Level 8‬‬
+
+                     ‫🔓‬
+       ‫​‪Level 9 is now unlocked‬‬
+       ‫‪User taps:‬‬    ‫خود لکھیں اور بار بار استعمال کریں ‪ Code‬اپنا — ‪Level 9: Functions‬‬
+
+
+
+
+‫‪STEP 1 — Intro Popup‬‬
+
+‫​‪Text (Urdu):‬‬
+ ‫​لکھی ہو؟ یا ہدایت نامہ؟ ‪ recipe‬آپ نے کبھی کوئی"‬
+ ‫بھی ویسے ہی ہوتے ہیں — آپ ایک بار بتاتے ہیں کہ کیا کرنا ہے‪ ،‬پھر جب چاہیں وہی کام دوہرایا جا سکتا ‪Functions‬‬
+‫"!ہے‬
+
+
+
+
+‫?‪STEP 2 — Micro Lesson 9.1: What is a Function‬‬
+
+‫​‪Definition:‬‬
+‫ہو سکتا ہے۔ ‪ use‬ہوتا ہے جو خاص کام انجام دیتا ہے اور بار بار ‪ block‬وہ ‪Function‬‬
+
+‫‪Example:‬‬
+
+‫​‬
+
+
+
+
+                                                               ‫​‬
+‫​‬
+‫)‪STEP 3 — Quiz 1 (True/False‬‬
+
+‫​‪Question:‬‬
+‫ہوتا ہے جو صرف ایک بار چلتا ہے؟ ‪ code‬وہ ‪Function‬‬
+
+    ‫​درست )‪●​ A‬‬
+
+    ‫غلط )‪●​ B‬‬   ‫​✅‬
+‫​‪Correct Feedback:‬‬
+‫کر سکتے ہیں۔ ‪ call‬کو جتنی بار چاہیں ‪! Function‬صحیح‬
+
+‫​‪Incorrect Feedback:‬‬
+ ‫دیکھیں۔ ‪ — Lesson 9.1‬ہوتا ہے ‪ use‬بار بار ‪! Function‬غلط‬
+STEP 4 — Micro Lesson 9.2: Calling a Function
+
+Example:
+
+
+
+
+                                                                     ​
+​
+Output:​
+​
+
+
+
+
+                                                   ​
+​
+Explanation:​
+ Function call ‫ کرنے سے وہ‬code ‫ چلتا ہے جو‬def ‫کے اندر لکھا گیا ہو۔‬
+
+
+
+
+STEP 5 — Quiz 2 (MCQ)
+
+Question:​
+Function ‫کو چالنے کے لیے کیا کرنا پڑتا ہے؟‬
+
+    ●​ A) def ‫​دوبارہ لکھنا‬
+
+    ●​ B) print ‫​کرنا‬
+
+    ●​ C) ‫ اسے‬call ‫کرنا‬   ✅​
+    ●​ D) ‫ دوبارہ‬define ‫​کرنا‬
+Correct Feedback:​
+‫ !بالکل‬Function call ‫کرنا ضروری ہے۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! صرف‬define ‫کرنا کافی نہیں‬، call ‫ — کرنا ضروری ہے‬Lesson 9.2 ‫دیکھیں۔‬
+
+
+
+
+STEP 6 — Micro Lesson 9.3: Parameters (Giving Inputs to Functions)
+
+Example:
+
+
+
+
+                                                           ​
+​
+Output:​
+
+
+
+
+                                         ​
+​
+Explanation:​
+ Function ‫ کو‬inputs ‫ دینے کے لیے‬parentheses ‫ میں‬parameters ‫لکھتے ہیں۔‬
+
+
+
+
+STEP 7 — Quiz 3 (MCQ)
+
+Question:​
+def greet(name): ‫ میں‬name ‫کیا ہے؟‬
+
+   ●​ A) function​
+
+   ●​ B) output​
+
+   ●​ C) parameter     ✅​
+   ●​ D) loop​
+
+
+Correct Feedback:​
+‫ !بالکل‬name ‫ ایک‬parameter ‫ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Parameters ‫ وہ‬values ‫ ہوتے ہیں جو‬function ‫ — استعمال کرتا ہے‬Lesson 9.3 ‫دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 9.4: Returning Values
+
+Example:
+
+
+
+
+                                                    ​
+​
+Output: 8
+
+Explanation:​
+return ‫ کا مطلب ہے کہ‬function ‫ کوئی‬value ‫واپس دے۔‬
+
+
+
+
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+return statement ‫کیا کام کرتی ہے؟‬
+
+   ●​ A) print ‫​کرتی ہے‬
+
+   ●​ B) loop ‫​چالتی ہے‬
+
+   ●​ C) result ‫واپس دیتی ہے‬   ✅​
+   ●​ D) function ‫ کو‬delete ‫​کرتی ہے‬
+
+
+Correct Feedback:​
+‫ !صحیح‬return ‫ سے‬result ‫ — واپس ملتا ہے‬use ‫کہیں اور کیا جا سکتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Return result ‫ — کو واپس کرتا ہے‬Lesson 9.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 9.5: Functions and Logic
+
+Example:
+
+
+
+
+                                                                     ​
+​
+​
+Explanation:​
+ Functions ‫ میں‬if-else, loops، ‫ اور‬input ‫سب استعمال ہو سکتے ہیں۔‬
+
+
+
+
+STEP 11 — Quiz 5 (True/False)
+
+Question:​
+Functions ‫ میں صرف‬print statements ‫استعمال ہو سکتی ہیں؟‬
+
+   ●​ A) ‫​درست‬
+    ●​ B) ‫غلط‬    ✅​
+Correct Feedback:​
+‫ !بالکل‬Functions ‫ میں‬logic، input، return، ‫سب کچھ استعمال کیا جا سکتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Functions ‫ بہت‬flexible ‫ — ہوتے ہیں‬Lesson 9.5 ‫دیکھیے۔‬
+
+
+
+
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+
+
+
+
+                                                                            ​
+​
+‫"!اب دوسرا نام ڈال کر چالئیں‬
+
+
+
+
+STEP 13 — Flashcard Summary
+
+    ●​ def → function define ‫​کرنے کے لیے‬
+
+    ●​ Call → function ‫ کو‬activate ‫​کرنا‬
+
+    ●​ Parameters → inputs​
+
+    ●​ return → result ‫​واپس دینا‬
+
+    ●​ Function = block of reusable, smart code​
+STEP 14 — Completion Message
+
+Text:​
+ "‫ کیا بات ہے! آپ نے اپنا پہال‬smart reusable code ‫لکھ لیا — اگال سبق ہے‬: Lists — ‫ یعنی‬items ‫"!کی قطار‬
+
+Action: Unlock Level 10 → Button: “‫”اگال سبق‬
+
+​
+​
+
+ LEVEL 10: Lists — ‫ ایک سے زیادہ‬values ‫کو‬
+‫اکٹھا رکھنا سیکھیں‬
+Title: ‫​کئی چیزوں کو ایک ساتھ سنبھالنا‬
+ Estimated Duration: 1.5–2 hours​
+ Main Concept: Understanding lists in Python — creating, accessing, modifying, and
+looping through them​
+ Learning Goal: Learners will be able to create and use lists to store multiple values, and
+perform basic operations on them
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 9​
+
+                    🔓
+      Level 10 is now unlocked​
+      User taps:    Level 10: Lists — ‫ ایک سے زیادہ‬values ‫کو اکٹھا رکھنا سیکھیں‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫ جیسے آپ چیزوں کو ایک تھیلی یا‬box ‫ — میں اکٹھا رکھتے ہیں‬Python ‫ میں بھی ہم‬values ‫' کو ایک‬list' ‫میں اکٹھا‬
+‫​رکھتے ہیں۔‬
+‫ نمبر یا رنگ — سب ایک‬،‫ چاہے نام ہوں‬list ‫"!میں‬
+
+
+
+
+STEP 2 — Micro Lesson 10.1: What is a List?
+
+Definition:​
+List ‫ ایک‬variable ‫ ہوتا ہے جس میں کئی‬values ‫رکھی جا سکتی ہیں۔‬
+Syntax:
+
+​
+
+
+
+
+                                                                        ​
+​
+Explanation:​
+ Lists ‫ کو‬square brackets [ ] ‫ میں‬define ‫کیا جاتا ہے۔‬
+
+
+
+
+STEP 3 — Quiz 1 (MCQ)
+
+Question:​
+List ‫ بنانے کے لیے کون سی‬brackets ‫استعمال ہوتی ہیں؟‬
+
+    ●​ A) ()​
+
+    ●​ B) {}​
+
+    ●​ C) []   ✅​
+    ●​ D) <>​
+
+
+Correct Feedback:​
+‫ !بالکل‬Lists ‫ہمیشہ [ ] میں لکھی جاتی ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬List ‫ کے لیے‬square brackets [ ] ‫ — ضروری ہیں‬Lesson 10.1 ‫دیکھیں۔‬
+
+
+
+
+STEP 4 — Micro Lesson 10.2: Accessing List Elements
+
+Explanation:​
+List ‫ کے‬items ‫ کو‬index number ‫ سے‬access ‫کیا جاتا ہے۔‬
+
+Example:
+
+​
+​
+​
+                                                           ​
+​
+Note:​
+ Python ‫ میں‬counting 0 ‫!سے شروع ہوتی ہے‬
+
+
+
+
+STEP 5 — Quiz 2 (MCQ)
+
+Question:​
+colors = ["red", "blue", "green"]​
+colors[1] ‫ کا‬output ‫کیا ہوگا؟‬
+
+   ●​ A) red​
+
+   ●​ B) blue   ✅​
+   ●​ C) green​
+
+   ●​ D) error​
+
+
+Correct Feedback:​
+‫ !صحیح‬Index 1 ‫" پر‬blue" ‫ — ہے‬counting 0 ‫سے شروع ہوتی ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Indexing ‫ سے ہوتی ہے‬0 ‫ — ہمیشہ‬Lesson 10.2 ‫دیکھیں۔‬
+
+
+
+
+STEP 6 — Micro Lesson 10.3: Changing List Elements
+
+Example:
+
+
+
+
+                                                               ​
+​
+Explanation:​
+ Lists ‫ میں‬values ‫ کو‬update ‫!کیا جا سکتا ہے‬
+STEP 7 — Quiz 3 (True/False)
+
+Question:​
+List ‫ کی‬values ‫ ہمیشہ‬fix ‫رہتی ہیں؟‬
+
+    ●​ A) ‫​درست‬
+
+    ●​ B) ‫غلط‬   ✅​
+Correct Feedback:​
+‫ !صحیح‬List ‫ کو‬update ‫بھی کیا جا سکتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Lists change ‫ — ہو سکتی ہیں‬Lesson 10.3 ‫دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 10.4: Looping through a List
+
+Example:
+
+
+
+
+                                                       ​
+Output:​
+​
+
+
+
+
+                                             ​
+​
+Explanation:​
+ List ‫ کے ہر‬item ‫ پر‬loop ‫لگایا جا سکتا ہے۔‬
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+for item in list: ‫کا مطلب کیا ہے؟‬
+
+    ●​ A) ‫ ہر‬item ‫ کو‬print ‫​کرنا‬
+
+    ●​ B) ‫ ہر‬item ‫ کو‬delete ‫​کرنا‬
+
+    ●​ C) ‫ ہر‬item ‫ پر‬action ‫کرنا‬   ✅​
+    ●​ D) ‫ ایک‬item ‫ پر‬action ‫​کرنا‬
+
+
+Correct Feedback:​
+‫ بالکل! یہ ہر‬item ‫ پر ایک جیسے‬steps apply ‫کرتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Loop ‫ ہر‬item ‫ — پر چلتا ہے‬Lesson 10.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 10.5: List Length & Append
+
+Examples:
+
+​
+
+
+
+
+                                                      ​
+​
+Explanation:
+
+    ●​ len() → List ‫ میں کتنے‬items ‫​ہیں‬
+
+    ●​ append() → ‫ نیا‬item ‫​شامل کرنے کے لیے‬
+
+
+
+
+STEP 11 — Quiz 5 (Select All That Apply)
+Question:​
+‫ کون سے‬functions list ‫کے ساتھ استعمال ہوتے ہیں؟‬
+
+   ●​ append() (CORRECT)​
+
+   ●​ len() (CORRECT)​
+
+   ●​ input()​
+
+   ●​ return​
+
+   ●​ print()​
+
+
+Correct Feedback:​
+‫ !زبردست‬append ‫ اور‬len ‫ دونوں‬lists ‫ کے ساتھ‬use ‫ہوتے ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬append ‫ اور‬len lists ‫ — کے لیے مخصوص ہیں‬Lesson 10.5 ‫دیکھیں۔‬
+
+
+
+
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+
+
+
+
+                                                      ​
+​
+‫ پھر خود سے ایک رنگ‬add ‫"!کریں‬
+
+
+
+
+STEP 13 — Flashcard Summary
+    ●​ List = ‫ کئی‬values ‫ کا‬container​
+
+    ●​ Brackets → [ ]​
+
+    ●​ Index → 0 ‫​سے شروع‬
+
+    ●​ append() → ‫ نیا‬item​
+
+    ●​ len() → total items​
+
+    ●​ Loop ‫ سے ہر‬item ‫​پر کام کیا جا سکتا ہے‬
+
+
+
+
+STEP 14 — Completion Message
+
+Text:​
+ "‫ زبردست! اب آپ‬data ‫کو ترتیب دے سکتے ہیں — اگال سبق‬: Dictionaries — ‫ لفظوں کو‬meaning ‫کے ساتھ‬
+‫"!رکھنا‬
+
+Action: Unlock Level 11 → Button: “‫”اگال سبق‬
+
+​
+​
+
+LEVEL 11: Dictionaries — ‫چیزوں کو نام اور‬
+‫مطلب کے ساتھ محفوظ کریں‬
+Title: ‫​کمپیوٹر کو الفاظ اور ان کے مطلب یاد کروائیں‬
+Estimated Duration: 1.5–2 hours​
+Main Concept: Understanding Python dictionaries — storing key-value pairs and
+accessing data​
+Learning Goal: Learners will know how to create, read, update, and use Python
+dictionaries for structured information
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 10​
+
+                   🔓
+      Level 11 is now unlocked​
+      User taps:    Level 11: Dictionaries — ‫چیزوں کو نام اور مطلب کے ساتھ محفوظ کریں‬
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫ جیسے ایک‬dictionary ‫میں ہر لفظ کے ساتھ اس کا مطلب ہوتا ہے‬، Python ‫' میں بھی ہم‬key' ‫' اور‬value' ‫کے جوڑ‬
+‫​سے چیزیں یاد رکھ سکتے ہیں۔‬
+‫ یہی ہے‬dictionary — ‫ ایک بہت‬useful data structure!"
+
+
+
+
+STEP 2 — Micro Lesson 11.1: What is a Dictionary?
+
+Definition:​
+Dictionary ‫ ایک خاص قسم کا‬variable ‫" ہے جو‬key" ‫" اور‬value" ‫ کے جوڑ میں‬data ‫رکھتا ہے۔‬
+
+Example:
+
+​
+
+
+
+
+                                                        ​
+​
+STEP 3 — Quiz 1 (MCQ)
+
+Question:​
+Dictionary ‫ میں‬data ‫کیسے رکھا جاتا ہے؟‬
+
+    ●​ A) list ‫​کی صورت‬
+
+    ●​ B) if-else ‫​کی صورت‬
+
+    ●​ C) key: value ‫کے جوڑ سے‬     ✅​
+    ●​ D) ‫ صرف‬strings ‫​کی صورت‬
+Correct Feedback:​
+‫ !بالکل‬Dictionary ‫ میں ہر چیز‬key: value ‫کی صورت میں ہوتی ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Dictionary key-value ‫ — جوڑ پر مشتمل ہوتی ہے‬Lesson 11.1 ‫دیکھیں۔‬
+
+
+
+
+STEP 4 — Micro Lesson 11.2: Accessing Values in a Dictionary
+
+Example:
+
+
+
+
+                                                                        ​
+​
+Explanation:​
+ List ‫ میں‬index ‫ — استعمال ہوتا ہے‬dictionary ‫ میں‬keys!
+
+
+
+
+STEP 5 — Quiz 2 (MCQ)
+
+Question:​
+‫ اگر‬person = {"name": "Ali"},​
+‫ تو‬person["name"] ‫ کا‬output ‫کیا ہوگا؟‬
+
+   ●​ A) name​
+
+   ●​ B) person​
+
+   ●​ C) Ali   ✅​
+   ●​ D) error​
+
+
+Correct Feedback:​
+‫ !صحیح‬Key "name" ‫ سے‬value "Ali" ‫حاصل کی جا رہی ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Key ‫ کے ذریعے ہی‬value ‫ — نکالی جاتی ہے‬Lesson 11.2 ‫دیکھیں۔‬
+
+
+
+
+STEP 6 — Micro Lesson 11.3: Adding & Updating Dictionary Entries
+Example (Add):
+
+
+
+
+                                                          ​
+​
+Example (Update):​
+​
+
+
+
+                                              ​
+​
+Explanation:
+
+   ●​ ‫ نیا‬key add ‫ → کرنے کے لیے‬dict["newkey"] = value​
+
+
+   ●​ ‫ پرانا‬key update ‫ → کرنے کے لیے‬dict["key"] = new value​
+
+
+
+
+STEP 7 — Quiz 3 (True/False)
+
+Question:​
+Dictionary ‫ میں‬value update ‫نہیں ہو سکتی؟‬
+
+   ●​ A) ‫​درست‬
+
+   ●​ B) ‫غلط‬   ✅​
+Correct Feedback:​
+‫ !صحیح‬Dictionary ‫ میں‬values update ‫ہو سکتی ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Dictionary flexible ‫ — ہوتی ہے‬Lesson 11.3 ‫دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 11.4: Looping Through a Dictionary
+Example:​
+
+
+
+
+                                                                   ​
+​
+Output:​
+
+
+
+
+Explanation:​
+Loop ‫ سے ہر‬key ‫ اور اس کی‬value ‫حاصل کی جا سکتی ہے۔‬
+
+
+
+
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+Dictionary ‫ کو‬loop ‫کرنے پر ہمیں کیا ملتا ہے؟‬
+
+    ●​ A) ‫ صرف‬values​
+
+    ●​ B) ‫ صرف‬keys​
+
+    ●​ C) keys ‫ اور ان کی‬values   ✅​
+    ●​ D) ‫​کچھ نہیں‬
+
+
+Correct Feedback:​
+‫ بالکل! ہم‬keys ‫ سے‬values ‫ نکال سکتے ہیں‬loop ‫کے ذریعے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Loop ‫ — سے دونوں چیزیں حاصل ہو سکتی ہیں‬Lesson 11.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 11.5: Using get() to Access Safely
+Example:
+
+
+
+
+                                                                                               ​
+​
+Explanation:​
+ get() function error ‫ نہیں دیتا اگر‬key ‫ — نہ ہو‬optional default message ‫بھی دیا جا سکتا ہے۔‬
+
+
+
+
+STEP 11 — Quiz 5 (MCQ)
+
+Question:​
+student.get("grade", "N/A") ‫کیا کرتا ہے؟‬
+
+   ●​ A) key ‫ کو‬delete ‫​کرتا ہے‬
+
+   ●​ B) error ‫​دیتا ہے‬
+
+   ●​ C) "grade" ‫ کی‬value ‫" یا‬N/A" ‫دیتا ہے‬   ✅​
+   ●​ D) loop ‫​چالتا ہے‬
+
+
+Correct Feedback:​
+‫" صحیح! اگر‬grade" ‫ موجود نہ ہو تو‬default message "N/A" ‫دیا جائے گا۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬get() error ‫ نہیں دیتا بلکہ‬fallback value ‫ — دیتا ہے‬Lesson 11.5 ‫دیکھیں۔‬
+
+
+
+
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+                                                                                             ​
+​
+‫ پھر خود سے ایک نیا‬key add ‫"!کریں‬
+
+
+
+
+STEP 13 — Flashcard Summary
+
+   ●​ Dictionary = key: value ‫​جوڑ‬
+
+   ●​ Access with ["key"]​
+
+
+   ●​ Add = dict["new"] = value​
+
+
+   ●​ Update = dict["key"] = new_value​
+
+
+   ●​ get() = safe access​
+
+   ●​ Loop ‫ سے ہر‬key-value ‫​نکاال جا سکتا ہے‬
+
+
+
+
+STEP 14 — Completion Message
+
+Text:​
+ "‫ واہ! اب آپ‬data ‫ کو بہت‬smart ‫طریقے سے سنبھال سکتے ہیں — اگلے سبق میں ہم سیکھیں گے‬: Errors and
+Debugging — ‫"!غلطیاں کیسے پہچانیں اور دور کریں‬
+
+Action: Unlock Level 12 → Button: “‫”اگال سبق‬
+
+
+
+LEVEL 12: Errors & Debugging — ‫اپنی غلطیاں‬
+‫خود پکڑیں اور ٹھیک کریں‬
+Title: ‫ جب‬Code ‫ تو کیسے سمجھے کہاں غلطی ہوئی؟‬،‫​نہ چلے‬
+ Estimated Duration: 1.5–2 hours​
+ Main Concept: Introducing errors in Python — types of errors, reading error messages,
+and basic debugging​
+ Learning Goal: Learners will understand how to identify and fix syntax, runtime, and
+logical errors in simple Python code
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 11​
+
+                    🔓
+      Level 12 is now unlocked​
+      User taps:    Level 12: Errors & Debugging — ‫اپنی غلطیاں خود پکڑیں اور ٹھیک کریں‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫ جب آپ‬spelling mistake ‫ کرتے ہیں یا حساب غلط ہوتا ہے — تو‬result ‫​بھی غلط آتا ہے۔‬
+ Python ‫' میں ایسی غلطیوں کو‬Errors' ‫' کہتے ہیں — اور انہیں ٹھیک کرنا‬Debugging'‫​۔‬
+‫ آج سیکھیں گے کیسے‬code ‫"کی غلطیاں پکڑیں اور درست کریں۔‬
+
+
+
+
+STEP 2 — Micro Lesson 12.1: What is an Error?
+
+Definition:​
+ Error ‫ وہ ہوتی ہے جب‬code ‫ — صحیح طریقے سے نہ چلے‬Python ‫ایک پیغام دکھاتا ہے جو ہمیں بتاتا ہے کہ کہاں‬
+‫مسئلہ ہے۔‬
+
+Example (error):
+
+
+
+
+                            ​
+​
+Output:​
+
+
+
+
+                                                                                               ​
+​
+​
+STEP 3 — Quiz 1 (MCQ)
+
+Question:​
+‫ جب‬Python code ‫نہ چلے تو وہ کیا دکھاتا ہے؟‬
+
+    ●​ A) nothing​
+
+    ●​ B) red light​
+
+    ●​ C) error message      ✅​
+    ●​ D) output anyway​
+
+
+Correct Feedback:​
+‫ !بالکل‬Python ‫ ہمیشہ‬error ‫کے بارے میں پیغام دیتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! جب‬code ‫صحیح نہ ہو‬، Python error ‫ — دکھاتا ہے‬Lesson 12.1 ‫دیکھیں۔‬
+
+
+
+
+STEP 4 — Micro Lesson 12.2: Syntax Errors
+
+Definition:​
+‫ جب‬code ‫ کے‬rules ‫ توڑے جائیں (جیسے‬bracket ‫نہ لگانا‬، quotes ‫ بھول جانا) — تو یہ‬SyntaxError ‫ہوتی ہے۔‬
+
+Example:
+
+​
+
+
+                                                                                              ​
+​
+Error Message:​
+​
+
+
+
+                                                                                          ​
+​
+STEP 5 — Quiz 2 (MCQ)
+
+Question:​
+‫ کون سی غلطی‬syntax error ‫ہوگی؟‬
+    ●​ A) print("Hello"        ✅​
+    ●​ B) 5 + 3​
+
+
+    ●​ C) a = input("Name: ")​
+
+
+    ●​ D) print(len("ZOR"))​
+
+
+
+Correct Feedback:​
+‫ !صحیح‬Quotes ‫ مکمل نہ ہونے سے‬SyntaxError ‫آتی ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬SyntaxError code ‫ کے‬rules ‫ — کے خالف ہوتی ہے‬Lesson 12.2 ‫دیکھیں۔‬
+
+
+
+
+STEP 6 — Micro Lesson 12.3: Runtime Errors
+
+Definition:​
+ Code ‫ لکھنے میں کوئی‬syntax mistake ‫ جیسے کسی‬،‫ نہیں — لیکن چالنے پر غلطی آئے‬variable ‫ کا‬exist ‫نہ‬
+‫کرنا۔‬
+
+Example:
+
+
+
+
+                                    ​
+Error Message:​
+​
+
+
+
+                                                                                            ​
+​
+STEP 7 — Quiz 3 (True/False)
+
+Question:​
+‫ اگر‬variable define ‫ نہ ہو اور اسے‬print ‫ کریں تو‬error ‫آئے گی؟‬
+
+    ●​ A) ‫درست‬   ✅​
+    ●​ B) ‫​غلط‬
+Correct Feedback:​
+‫ بالکل! ایسا کرنا‬runtime error ‫دیتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Variable ‫ پہلے‬define ‫ — کرنا ضروری ہوتا ہے‬Lesson 12.3 ‫دیکھیں۔‬
+
+
+
+
+STEP 8 — Micro Lesson 12.4: Logical Errors
+
+Definition:​
+‫ جب‬code ‫ لیکن‬،‫ صحیح چلے‬result ‫ غلط ہو تو یہ‬logical error ‫ ہوتی ہے — جیسے‬calculation ‫ میں‬mistake‫۔‬
+
+Example:
+
+​
+
+
+
+
+                                                                         ​
+​
+Issue:​
+ Percentage ‫ غلط‬formula ‫ سے‬calculate ‫ہو رہا ہے‬
+
+
+
+
+STEP 9 — Quiz 4 (MCQ)
+
+Question:​
+Logical error ‫میں کیا ہوتا ہے؟‬
+
+    ●​ A) Syntax ‫​غلط ہوتی ہے‬
+
+    ●​ B) Code ‫​ہی نہیں چلتا‬
+
+    ●​ C) Output ‫آتا ہے مگر غلط‬    ✅​
+    ●​ D) Computer hang ‫​ہو جاتا ہے‬
+
+
+Correct Feedback:​
+‫ !بالکل‬Logical error result ‫غلط دیتی ہے‬، syntax ‫صحیح ہوتا ہے۔‬
+Incorrect Feedback:​
+ ‫ !غلط‬Logical errors tricky ‫ ہوتی ہیں کیونکہ‬error message ‫ — نہیں آتا‬Lesson 12.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 10 — Micro Lesson 12.5: Debugging Tips
+
+Tips:
+
+    ●​ Code ‫ کو‬step-by-step ‫​پڑھیں‬
+
+    ●​ Print statements ‫ سے‬values ‫​چیک کریں‬
+
+    ●​ Error message ‫​کو غور سے پڑھیں‬
+
+    ●​ Variable names ‫​دھیان سے دیکھیں‬
+
+    ●​ Break code into smaller parts​
+
+
+Example:
+
+​
+
+
+
+
+                                                                                           ​
+Helps in: Finding which line is causing trouble
+
+
+
+
+STEP 11 — Quiz 5 (Select All That Apply)
+
+Question:​
+Debugging ‫ میں کیا‬helpful ‫ہو سکتا ہے؟‬
+
+    ●​ Print statements (CORRECT)
+    ●​ Error message ‫( پڑھنا‬CORRECT)​
+    ●​ Ignore ‫​کرنا‬
+
+    ●​ Code ‫( کو حصہ حصہ کرنا‬CORRECT)​
+
+    ●​ ‫​رونا دھونا‬
+
+
+Correct Feedback:​
+‫ !زبردست‬Debugging ‫ ایک‬calm ‫ اور‬logical process ‫ ہوتی ہے — آپ نے صحیح‬choices ‫کیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Debugging ‫ میں‬error ‫ کو‬analyze ‫ کرنا اور‬testing ‫ — ضروری ہوتی ہے‬Lesson 12.5 ‫دیکھیں۔‬
+
+
+
+
+STEP 12 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ جیسے‬،‫کھولیں اور جان بوجھ کر کچھ غلطیاں کریں‬:
+
+
+
+
+                               ​
+​
+‫ اور دیکھیں‬Python ‫ کیا‬error message ‫"!دیتا ہے — پھر اسے ٹھیک کریں‬
+
+
+
+
+STEP 13 — Flashcard Summary
+
+    ●​ SyntaxError: code rule ‫​ٹوٹے‬
+
+    ●​ RuntimeError: variable ‫ یا‬logic ‫​مسئلہ‬
+
+    ●​ LogicalError: code ‫ چلے لیکن‬result ‫​غلط‬
+
+    ●​ Debug = print, check, fix​
+
+
+
+
+STEP 14 — Completion Message
+Text:​
+ "‫ کیا بات ہے! اب اگر‬code ‫ میں‬error !‫​ہو — تو آپ گھبرائیں گے نہیں‬
+‫ اگال سبق ہے‬: File Handling — ‫ کمپیوٹر کی‬memory ‫"سے بات کریں‬
+
+Action: Unlock Level 13 → Button: “‫”اگال سبق‬
+
+​
+
+LEVEL 13: File Handling — ‫فائلز کے ساتھ کام‬
+‫کرنا سیکھیں‬
+Title: ‫​کمپیوٹر کی یادداشت سے بات کرنا‬
+ Estimated Duration: 1.5–2 hours​
+ Main Concept: Reading from and writing to text files using Python​
+ Learning Goal: Learners will know how to open a file, read content, write to it, and close
+it properly using Python’s open(), read(), write() and close() functions
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+       User completes Level 12​
+
+                     🔓
+       Level 13 is now unlocked​
+       User taps:    Level 13: File Handling — ‫فائلز کے ساتھ کام کرنا سیکھیں‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫جیسے ہم اپنی باتیں کاپی یا ڈائری میں لکھ لیتے ہیں‬، Python ‫ بھی‬files ‫ میں‬data save ‫ یا‬read ‫​کر سکتا ہے۔‬
+‫ آج سیکھیں گے کیسے ہم‬code ‫ پڑھیں اور اس میں لکھیں‬،‫"!سے فائل بنائیں‬
+
+
+
+
+STEP 2 — Micro Lesson 13.1: Why Use Files?
+
+Explanation:
+
+    ●​ Variable memory ‫ لیکن‬،‫ ختم ہو جاتی ہے‬file ‫​میں چیزیں محفوظ رہتی ہیں‬
+
+    ●​ File ‫ سے‬program ‫ کو بار بار وہی‬data ‫​دوبارہ مل سکتا ہے‬
+Example:
+
+   ●​ Save student marks​
+
+   ●​ Read settings from a file​
+
+   ●​ Write logs of data​
+
+
+
+
+STEP 3 — Micro Lesson 13.2: Opening a File
+
+Syntax:
+
+
+
+
+                                                   ​
+​
+Explanation:
+
+   ●​ "r" means read mode​
+
+   ●​ "w" means write mode​
+
+   ●​ "a" means append mode​
+
+   ●​ File name must be in quotes​
+
+   ●​ File must be in the same folder (for now)​
+
+
+
+
+STEP 4 — Quiz 1 (MCQ)
+
+Question:​
+open("file.txt", "r") ‫کیا کرے گا؟‬
+
+   ●​ A) ‫ فائل‬delete ‫​کرے گا‬
+
+   ●​ B) ‫ فائل‬read ‫کرے گا‬   ✅​
+    ●​ C) ‫ فائل‬write ‫​کرے گا‬
+
+    ●​ D) ‫​کچھ نہیں کرے گا‬
+
+
+Correct Feedback:​
+‫" !بالکل‬r" ‫ سے فائل‬read ‫ہوتی ہے۔‬
+
+Incorrect Feedback:​
+ ‫" !غلط‬r" ‫ کا مطلب ہے‬read — Lesson 13.2 ‫دیکھیں۔‬
+
+
+
+
+STEP 5 — Micro Lesson 13.3: Reading a File
+
+Example:
+
+​
+
+
+
+
+                                                     ​
+Explanation:
+
+    ●​ read() → ‫ پوری فائل کا‬text​
+
+    ●​ close() → ‫​فائل بند کرنا ضروری‬
+
+
+
+
+STEP 6 — Quiz 2 (True/False)
+
+Question:​
+file.close() optional ‫ — ہے‬use ‫نہ کریں تو بھی ٹھیک ہے؟‬
+
+    ●​ A) ‫​درست‬
+
+    ●​ B) ‫غلط‬   ✅​
+Correct Feedback:​
+‫ !صحیح‬close() ‫ بہت ضروری ہے تاکہ فائل‬damage ‫نہ ہو۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! فائل بند کرنا بہت‬important ‫ — ہے‬Lesson 13.3 ‫دیکھیں۔‬
+
+
+
+
+STEP 7 — Micro Lesson 13.4: Writing to a File
+
+Example:
+
+​
+
+
+
+
+                                                             ​
+Explanation:
+
+    ●​ write() ‫ سے‬text ‫​فائل میں لکھا جاتا ہے‬
+
+    ●​ ‫ تو‬،‫ اگر فائل پہلے سے موجود ہو‬overwrite ‫​ہو جائے گی‬
+
+
+
+
+STEP 8 — Quiz 3 (MCQ)
+
+Question:​
+Write mode "w" ‫سے کیا خطرہ ہوتا ہے؟‬
+
+    ●​ A) ‫​کچھ بھی نہیں ہوتا‬
+
+    ●​ B) ‫ فائل‬read-only ‫​بن جاتی ہے‬
+
+    ●​ C) ‫ پرانی‬values delete ‫ہو سکتی ہیں‬   ✅​
+    ●​ D) ‫ فائل‬corrupt ‫​ہو جاتی ہے‬
+
+
+Correct Feedback:​
+‫" !بالکل‬w" ‫ سے پرانی‬values overwrite ‫ہو سکتی ہیں۔‬
+Incorrect Feedback:​
+ ‫" !غلط‬w" ‫ سے لکھائی ہوتی ہے اور پرانی چیز‬delete ‫ — ہو سکتی ہے‬Lesson 13.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 9 — Micro Lesson 13.5: Appending to a File
+
+Example:
+
+​
+
+
+
+
+                                                                   ​
+Explanation:
+
+    ●​ "a" → new content ‫ فائل کے‬end ‫ میں‬add ‫​ہوتا ہے‬
+
+    ●​ Use carefully when you want to add not overwrite​
+
+
+
+
+STEP 10 — Quiz 4 (True/False)
+
+Question:​
+Append mode ‫ میں پرانا‬data ‫بھی محفوظ رہتا ہے؟‬
+
+    ●​ A) ‫درست‬   ✅​
+    ●​ B) ‫​غلط‬
+
+
+Correct Feedback:​
+‫ !صحیح‬Append mode ‫ پرانا‬data delete ‫نہیں کرتا۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Append ‫ صرف‬add ‫ — کرتا ہے‬Lesson 13.5 ‫دیکھیں۔‬
+
+
+
+
+STEP 11 — Micro Lesson 13.6: Reading Line by Line
+Example:
+
+
+
+
+                                                            ​
+Explanation:
+
+   ●​ Loop ‫ سے‬file ‫ کی ہر‬line ‫​کو الگ الگ پڑھا جا سکتا ہے‬
+
+   ●​ Useful for large files​
+
+
+
+
+STEP 12 — Quiz 5 (MCQ)
+
+Question:​
+for line in file: ‫کیا کرتا ہے؟‬
+
+   ●​ A) ‫ فائل‬delete ‫​کرتا ہے‬
+
+   ●​ B) ‫ ہر‬line ‫کو الگ الگ پڑھتا ہے‬   ✅​
+   ●​ C) ‫ فائل کو‬close ‫​کرتا ہے‬
+
+   ●​ D) ‫ ہر‬character ‫ کو‬print ‫​کرتا ہے‬
+
+
+Correct Feedback:​
+‫ !بالکل‬Loop ‫ سے ہر‬line separately print ‫ہو سکتی ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬for line in file ‫ ہر‬line ‫ کو الگ‬handle ‫ — کرتا ہے‬Lesson 13.6 ‫دیکھیں۔‬
+
+
+
+
+STEP 13 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+​
+
+
+
+
+                                                              ​
+‫ پھر‬try ‫ کریں‬append mode ‫ سے نئی الئن‬add ‫"!کرنا‬
+
+
+
+
+STEP 14 — Flashcard Summary
+
+    ●​ open(filename, mode) → ‫​فائل کھولنا‬
+
+    ●​ read() → text ‫​لینا‬
+
+    ●​ write() → text ‫​لکھنا‬
+
+    ●​ a → append mode​
+
+    ●​ close() → ‫​فائل بند کرنا ضروری‬
+
+    ●​ Loop ‫ سے فائل‬line by line ‫​پڑھی جا سکتی ہے‬
+
+
+
+
+STEP 15 — Completion Message
+
+Text:​
+ "‫ اب آپ کمپیوٹر کی‬memory !‫​کے ساتھ بھی بات کر سکتے ہیں‬
+‫ اگال سبق ہے‬: Modules — Python ‫ کی مزید‬powers unlock ‫"!کریں‬
+
+Action: Unlock Level 14 → Button: “‫”اگال سبق‬
+
+​
+
+LEVEL 14: Modules — Python ‫کی طاقت کو‬
+‫بڑھائیں‬
+Title: ‫ جب‬Python ‫ "میرے پاس ایک اور‬:‫ خود کہے‬tool ‫​"ہے‬
+ Estimated Duration: 1.5–2 hours​
+ Main Concept: Understanding Python modules — what they are, how to use built-in and
+external modules using import, and practical examples​
+ Learning Goal: Learners will be able to import modules, use pre-built Python
+functionality, and understand the power of modular coding
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 13​
+
+                   🔓
+      Level 14 is now unlocked​
+      User taps:    Level 14: Modules — Python ‫کی طاقت کو بڑھائیں‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "Python ‫ لیکن اس کے ساتھ بےشمار‬،‫ خود ایک زبان ہے‬tools ‫ اور‬helpers ‫بھی آتے ہیں — انہیں کہتے ہیں‬
+Modules‫​۔‬
+‫ آج ہم سیکھیں گے‬:
+
+   ●​ Modules ‫​کیا ہوتے ہیں؟‬
+
+   ●​ Built-in modules ‫ کیسے‬use ‫​ہوتے ہیں؟‬
+
+   ●​ ‫ اور ہم خود بھی‬modules import ‫​"کیسے کر سکتے ہیں؟‬
+
+
+
+
+STEP 2 — Micro Lesson 14.1: What is a Module?
+
+Definition:​
+ Module ‫ ایک الگ‬Python file ‫ ہوتا ہے جس میں‬functions، variables، ‫ یا‬classes ‫پہلے سے بنے ہوتے ہیں‬
+‫ تاکہ ہم‬reuse ‫کر سکیں۔‬
+
+Example:​
+Python ‫ میں کچھ مشہور‬built-in modules ‫ہیں‬:
+
+   ●​ math → ‫​حساب‬
+    ●​ random → ‫​تصادفی چیزیں‬
+
+    ●​ datetime → ‫​تاریخ اور وقت‬
+
+
+
+
+STEP 3 — Micro Lesson 14.2: Using import
+
+Syntax:
+
+
+
+
+                                  ​
+​
+Explanation:
+
+    ●​ import ‫ ایک‬keyword ‫ ہے جو‬module ‫ کو‬load ‫​کرتا ہے‬
+
+    ●​ ‫ اس کے بعد ہم‬module ‫ کے‬functions ‫​استعمال کر سکتے ہیں‬
+
+
+
+
+STEP 4 — Quiz 1 (MCQ)
+
+Question:​
+‫ اگر ہمیں‬math module use ‫ تو ہم کیا لکھیں گے؟‬،‫کرنا ہو‬
+
+    ●​ A) use math​
+
+    ●​ B) def math​
+
+    ●​ C) import math     ✅​
+    ●​ D) call math​
+
+
+Correct Feedback:​
+‫ !صحیح‬import keyword module ‫ کو‬Python ‫میں لے آتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Module ‫ کے لیے‬import ‫ — لکھنا ضروری ہوتا ہے‬Lesson 14.2 ‫دیکھیں۔‬
+STEP 5 — Micro Lesson 14.3: Using Module Functions
+
+Example:
+
+​
+
+
+
+
+                                                            ​
+​
+Explanation:
+
+    ●​ math.sqrt() → square root function​
+
+    ●​ Dot (.) ‫ سے ہم‬module ‫ کا‬function access ‫​کرتے ہیں‬
+
+
+
+
+STEP 6 — Quiz 2 (MCQ)
+
+Question:​
+math.sqrt(16) ‫ کا‬output ‫کیا ہوگا؟‬
+
+    ●​ A) 8​
+
+    ●​ B) 4   ✅​
+    ●​ C) 2​
+
+    ●​ D) 16​
+
+
+Correct Feedback:​
+‫ !بالکل‬Square root of 16 → 4
+
+Incorrect Feedback:​
+ ‫ !غلط‬sqrt() number ‫ — کی جڑ نکالتا ہے‬Lesson 14.3 ‫دیکھیں۔‬
+STEP 7 — Micro Lesson 14.4: random Module
+
+Example:
+
+
+
+
+                                                                    ​
+​
+Explanation:
+
+   ●​ random.randint(a, b) → a ‫ اور‬b ‫ کے درمیان کوئی بھی‬random number ‫​دیتا ہے‬
+
+
+
+
+STEP 8 — Quiz 3 (True/False)
+
+Question:​
+random.randint(1, 10) ‫ دیتا ہے؟‬5 ‫ہمیشہ‬
+
+   ●​ A) ‫​درست‬
+
+   ●​ B) ‫غلط‬   ✅​
+Correct Feedback:​
+‫ !صحیح‬random ‫ ہر بار‬different number ‫ دیتا ہے — اسی لیے یہ‬random ‫کہالتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬random unpredictable ‫ — ہوتا ہے‬Lesson 14.4 ‫دیکھیں۔‬
+
+
+
+
+STEP 9 — Micro Lesson 14.5: Importing Specific Functions
+
+Syntax:
+​
+
+
+
+
+                                                     ​
+​
+Explanation:
+
+    ●​ ‫ اس طریقے میں ہمیں‬math. ‫​بار بار نہیں لکھنا پڑتا‬
+
+    ●​ ‫ ہم صرف مخصوص‬function import ‫​کر سکتے ہیں‬
+
+
+
+
+STEP 10 — Quiz 4 (MCQ)
+
+Question:​
+from math import sqrt ‫سے ہم‬:
+
+    ●​ A) ‫ پورا‬math module import ‫​کرتے ہیں‬
+
+    ●​ B) sqrt function directly use ‫کر سکتے ہیں‬          ✅​
+    ●​ C) nothing happens​
+
+    ●​ D) syntax error ‫​آتا ہے‬
+
+
+Correct Feedback:​
+‫ بالکل! اب ہم‬sqrt() directly use ‫کر سکتے ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Specific function import ‫ کے بعد وہ‬function ‫ — برا ِہ راست استعمال کیا جا سکتا ہے‬Lesson 14.5
+‫دیکھیں۔‬
+
+
+
+
+STEP 11 — Micro Lesson 14.6: External Modules
+
+Explanation:
+    ●​ Python ‫ میں ہزاروں‬modules Internet ‫​پر موجود ہیں‬
+
+    ●​ ‫ انہیں‬install ‫ کرنے کے لیے ہم‬pip ‫​استعمال کرتے ہیں‬
+
+    ●​ ‫ ابھی ہم صرف‬built-in modules ‫ پر‬focus ‫​رکھیں گے‬
+
+
+
+
+STEP 12 — Quiz 5 (MCQ)
+
+Question:​
+‫ کون سا‬module Python ‫ کے ساتھ‬built-in ‫آتا ہے؟‬
+
+    ●​ A) Instagram​
+
+    ●​ B) math    ✅​
+    ●​ C) TikTok​
+
+    ●​ D) Excel​
+
+
+Correct Feedback:​
+‫ !صحیح‬math, random, datetime ‫ جیسے‬modules ‫ پہلے سے‬Python ‫میں موجود ہوتے ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! کچھ‬modules external ‫ لیکن‬،‫ ہوتے ہیں‬math built-in ‫ — ہے‬Lesson 14.6 ‫دیکھیں۔‬
+
+
+
+
+STEP 13 — Popup: Try it Yourself
+
+Text (Instruction):​
+ "IDLE ‫ کھولیں اور یہ‬code ‫لکھیں‬:
+
+​
+
+
+
+
+                                                                                   ​
+‫ پھر‬try ‫ کریں‬math module ‫ کے ساتھ‬square root ‫"!نکالنا‬
+STEP 14 — Flashcard Summary
+
+    ●​ import → module ‫​کو لے آتا ہے‬
+
+    ●​ math.sqrt() → ‫​جڑ نکالنا‬
+
+    ●​ random.randint() → random number​
+
+    ●​ from module import function → ‫ مخصوص چیز‬import​
+
+    ●​ Modules → extra power!​
+
+
+
+
+STEP 15 — Completion Message
+
+Text:​
+ "‫ زبردست! آپ نے‬Python ‫کی اصل طاقت دیکھ لی — اگال سبق ہے‬: Final Project — ‫ سب کچھ مال کر ایک‬smart
+‫"!چیز بنائیں‬
+
+Action: Unlock Level 15 → Button: “‫”اگال سبق‬
+
+​
+
+LEVEL 15: Final Project — ‫سیکھے گئے سب‬
+concepts ‫ کو جوڑ کر ایک‬mini app ‫بنائیں‬
+Title: Python ‫​!سے ایک چھوٹا سا جادو کریں‬
+ Estimated Duration: 1.5–2 hours​
+ Main Concept: Apply everything learned across previous levels by building a simple,
+real-world Python program​
+ Learning Goal: Learners will combine variables, input/output, loops, conditionals, lists,
+dictionaries, and file handling to build a functional mini project
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+      User completes Level 14​
+
+                   🔓
+      Level 15 is now unlocked​
+      User taps:      Level 15: Final Project — ‫ سیکھے گئے سب‬concepts ‫کو جوڑ کر ایک‬
+      mini app ‫بنائیں‬
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫ مبارک ہو! آپ نے‬Python ‫ کی بنیادیں سیکھ لیں۔ اب ہم ان سب چیزوں کو جوڑ کر ایک سادہ مگر کارآمد‬project ‫بنائیں‬
+‫ گے — ایک‬Student Report Card App!"
+
+
+
+
+STEP 2 — Project Overview (Micro Lesson)
+
+Explanation:​
+‫ ہم ایک ایسا‬program ‫بنائیں گے جو‬:
+
+    1.​ Student ‫ کا نام اور‬subjects input ‫​کرے‬
+
+    2.​ Marks enter ‫​کروائے‬
+
+    3.​ Average ‫​نکالے‬
+
+    4.​ Result pass/fail ‫​بتائے‬
+
+    5.​ Data ‫ کو‬file ‫ میں‬save ‫​کرے‬
+
+    6.​ Dictionary، loop، input، condition، file handling — ‫ سب‬use ‫​!کرے‬
+
+
+
+
+STEP 3 — Step-by-Step Code Guide
+
+
+
+📘 Part 1: Welcome Message & Input
+​
+
+
+
+
+                                                                                               ​
+​
+Explanation:
+
+    ●​ Student ‫​کا نام لیا گیا‬
+
+    ●​ Subjects ‫ پہلے سے‬list ‫​میں موجود‬
+
+    ●​ Dictionary marks results ‫​رکھنے کے لیے‬
+
+
+
+
+📘 Part 2: Loop to Take Marks
+​
+​
+
+
+
+
+                                                  ​
+​
+Explanation:
+
+    ●​ Loop ‫ ہر‬subject ‫ کے لیے‬number ‫​پوچھتا ہے‬
+
+    ●​ Dictionary ‫ میں‬store ‫​کرتا ہے‬
+
+
+
+
+📘 Part 3: Average Calculation & Result Logic
+​
+​
+                                                    ​
+​
+Explanation:
+
+   ●​ sum() ‫ سے‬total​
+
+   ●​ Average ‫ نکال کر‬condition check ‫​کی جاتی ہے‬
+
+
+
+
+📘 Part 4: Saving to File
+​
+
+
+
+
+                                                                ​
+​
+Explanation:
+
+    ●​ File ‫ میں تمام‬data ‫​لکھا جاتا ہے‬
+
+    ●​ w mode use ‫​کیا گیا‬
+
+    ●​ Final confirmation print ‫​ہوتا ہے‬
+
+
+
+
+STEP 4 — Quiz: Review Before Completion
+
+Question:​
+‫ کون کون سے‬concepts ‫ اس‬project ‫( میں استعمال ہوئے؟‬Select all)
+
+    ●​ Variables (CORRECT)​
+
+    ●​ Input (CORRECT)​
+
+    ●​ Lists (CORRECT)​
+    ●​ Loops (CORRECT)​
+
+    ●​ Dictionaries (CORRECT)​
+
+    ●​ File Handling (CORRECT)​
+
+    ●​ Conditions (CORRECT)​
+
+    ●​ Images​
+
+    ●​ Animations​
+
+
+Correct Feedback:​
+‫ زبردست! آپ نے تقریبا ً ہر‬concept ‫ کو‬apply ‫!کیا‬
+
+Incorrect Feedback:​
+ ‫ تھوڑا رہ گیا — ہم نے‬animation ‫ یا‬images use ‫ مگر باقی سب‬،‫ نہیں کیے‬concepts use ‫!ہوئے ہیں‬
+
+
+
+
+STEP 5 — Popup: Try it Yourself
+
+Instruction (Urdu):​
+ "IDLE ‫ کھولیں اور پورا‬code ‫ خود لکھیں — ہر‬part ‫​کو سمجھتے ہوئے۔‬
+‫ پھر خود سے‬subjects ‫ یا‬،‫ میں اضافہ کریں‬result ‫( کا معیار‬e.g., 60% pass) ‫"!بدل کر دیکھیں‬
+
+
+
+
+STEP 6 — Flashcard Summary
+
+    ●​ Python ‫ کے بنیادی‬concepts ‫​کو ایک جگہ اکٹھا کیا‬
+
+    ●​ Real-world project ‫​بنانے کی مشق‬
+
+    ●​ User input + loops + dict + conditions + files = complete app!​
+
+
+
+
+STEP 7 — Completion Message
+
+Text:​
+ "‫ مبارک ہو! آپ نے‬Python ‫ میں ایک مکمل چھوٹا‬app ‫​بنایا۔‬
+‫ اب آپ‬coding ‫​کی دنیا میں پہال قدم بااعتماد طریقے سے رکھ چکے ہیں۔‬
+‫ ایک جامع‬:‫ اگال اور آخری مرحلہ‬QUIZ ‫ جس سے آپ اپنی‬progress ‫ کو‬test ‫"!کر سکیں گے‬
+
+Action: Unlock Level 16 → Button: “Final Quiz ‫”آزمائیں‬
+
+
+
+
+LEVEL 16: Final Quiz — ‫ ہر‬Level ‫ سوال‬1 ‫سے‬
+‫!پر مشتمل امتحان‬
+Title: ‫​اپنے سفر کا جائزہ لیں — ایک آخری آزمائش‬
+Estimated Duration: ~30 minutes​
+Main Concept: Cumulative review of all 15 levels​
+Learning Goal: To reinforce concepts, identify weak areas, and help the learner revisit
+any specific lesson if needed
+
+
+
+
+🧩 DEVELOPER INTEGRATION FLOW
+       User completes Level 15​
+
+                       🔓
+       Level 16 is now unlocked​
+       User taps:    Level 16: Final Quiz — ‫ ہر‬Level ‫ سوال پر مشتمل امتحان‬1 ‫!سے‬
+
+
+
+
+STEP 1 — Intro Popup
+
+Text (Urdu):​
+ "‫ یہ ایک جائزہ ہے — ہر‬Level !‫​سے ایک سوال پر مشتمل‬
+‫ تو ہم آپ کو واپس اس‬،‫ اگر آپ کسی سوال میں غلطی کرتے ہیں‬Level ‫ کا‬option ‫دیں گے تاکہ آپ اسے دوبارہ دیکھ‬
+‫​سکیں۔‬
+‫"! تیار ہیں؟ آیئے آزمائیں‬
+
+Q1: Level 1 – ‫کمپیوٹر کیا ہے؟‬
+
+Question:​
+‫کمپیوٹر کیا کرتا ہے؟‬
+    ●​ A) ‫ صرف‬games ‫​کھیلتا ہے‬
+
+    ●​ B) Data ‫ کو‬process ‫کرتا ہے‬      ✅​
+    ●​ C) ‫ صرف‬internet ‫​چالتا ہے‬
+
+    ●​ D) ‫ صرف‬movies ‫​دکھاتا ہے‬
+
+
+Correct Feedback:​
+‫ زبردست! کمپیوٹر‬data ‫ کو‬process ‫کرتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ غلط! آپ‬Level 1 ‫دوبارہ دیکھ سکتے ہیں تاکہ سمجھ سکیں کمپیوٹر کیا کرتا ہے۔‬
+
+
+
+
+Q2: Level 2 – Input/Output Devices
+
+Question:​
+Mouse ‫ کس قسم کا‬device ‫ہے؟‬
+
+    ●​ A) Output​
+
+    ●​ B) Storage​
+
+    ●​ C) Input    ✅​
+    ●​ D) Power Supply​
+
+
+Correct Feedback:​
+‫ !بالکل‬Mouse ‫ ایک‬input device ‫ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Input/Output devices ‫ کا فرق جاننے کے لیے‬Level 2 ‫دوبارہ دیکھیں۔‬
+
+
+
+
+Q3: Level 3 – Storage Devices
+
+Question:​
+Hard disk ‫ کی‬storage ‫کس قسم کی ہوتی ہے؟‬
+   ●​ A) Temporary​
+
+   ●​ B) Permanent     ✅​
+   ●​ C) Volatile​
+
+   ●​ D) Cache only​
+
+
+Correct Feedback:​
+‫ !صحیح‬Hard disk ‫ ایک‬permanent storage ‫ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Storage types ‫ کو بہتر سمجھنے کے لیے‬Level 3 ‫دہرائیں۔‬
+
+
+
+
+Q4: Level 4 – Software & Applications
+
+Question:​
+MS Paint ‫ کس قسم کی‬software ‫ہے؟‬
+
+   ●​ A) Utility​
+
+   ●​ B) System​
+
+   ●​ C) Graphics Application      ✅​
+   ●​ D) Browser​
+
+
+Correct Feedback:​
+‫ !زبردست‬MS Paint ‫ ایک‬graphics app ‫ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Software types ‫ کو سمجھنے کے لیے‬Level 4 ‫پڑھیں۔‬
+
+
+
+
+Q5: Level 5 – Operating Systems
+
+Question:​
+Operating System ‫کیا کرتا ہے؟‬
+
+   ●​ A) Games ‫​کھیلتا ہے‬
+    ●​ B) User ‫ اور‬hardware ‫کے درمیان رابطہ بناتا ہے‬   ✅​
+    ●​ C) ‫ صرف‬documents save ‫​کرتا ہے‬
+
+    ●​ D) Music ‫​سناتا ہے‬
+
+
+Correct Feedback:​
+‫ !بالکل‬OS ‫ ایک‬interface ‫فراہم کرتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Operating System ‫ کی اہمیت جاننے کے لیے‬Level 5 ‫دیکھیے۔‬
+
+
+
+
+Q6: Level 6 – Internet Basics
+
+Question:​
+Web browser ‫کی مثال کیا ہے؟‬
+
+    ●​ A) Excel​
+
+    ●​ B) Firefox   ✅​
+    ●​ C) Paint​
+
+    ●​ D) MS Word​
+
+
+Correct Feedback:​
+‫ !صحیح‬Firefox ‫ ایک‬browser ‫ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Internet ‫ سے متعلق مزید جاننے کے لیے‬Level 6 ‫دیکھیے۔‬
+
+
+
+
+Q7: Level 7 – Computer Networks
+
+Question:​
+WiFi ‫ایک قسم کا کیا ہے؟‬
+
+    ●​ A) Keyboard​
+
+    ●​ B) Network     ✅​
+   ●​ C) Input device​
+
+   ●​ D) Operating System​
+
+
+Correct Feedback:​
+‫ !بالکل‬WiFi ‫ ایک‬wireless network ‫ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Network concepts ‫ — کو دہرائیں‬Level 7 ‫میں۔‬
+
+
+
+
+Q8: Level 8 – Cyber Safety
+
+Question:​
+Strong password ‫کی خصوصیت کیا ہے؟‬
+
+   ●​ A) ‫ صرف‬numbers​
+
+   ●​ B) Short ‫​ہو‬
+
+   ●​ C) Letters, numbers ‫ اور‬symbols ‫شامل ہوں‬     ✅​
+   ●​ D) User ‫​کا نام ہو‬
+
+
+Correct Feedback:​
+‫ !زبردست‬Password ‫ جتنا‬complex ‫ اتنا محفوظ۔‬،‫ہو‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Cyber Safety ‫ کو بہتر سمجھنے کے لیے‬Level 8 ‫دیکھیے۔‬
+
+
+
+
+Q9: Level 9 – Introduction to Programming
+
+Question:​
+Python ‫کس لیے استعمال ہوتی ہے؟‬
+
+   ●​ A) ‫ صرف‬videos ‫​دیکھنے کے لیے‬
+
+   ●​ B) Coding    ✅​
+   ●​ C) Files open ‫​کرنے کے لیے‬
+    ●​ D) Mouse ‫​چالنے کے لیے‬
+
+
+Correct Feedback:​
+‫ !بالکل‬Python ‫ ایک‬programming language ‫ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Programming ‫ کی تعریف کے لیے‬Level 9 ‫دیکھیے۔‬
+
+
+
+
+Q10: Level 10 – Lists
+
+Question:​
+Python ‫ میں‬list ‫کیسے بنتی ہے؟‬
+
+    ●​ A) {}​
+
+    ●​ B) ()​
+
+    ●​ C) []   ✅​
+    ●​ D) <>​
+
+
+Correct Feedback:​
+‫ !صحیح‬Lists square brackets ‫سے بنتی ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬List ‫ بنانے کا طریقہ جاننے کے لیے‬Level 10 ‫دیکھیے۔‬
+
+
+
+
+Q11: Level 11 – Dictionaries
+
+Question:​
+Dictionary ‫ میں‬data ‫کس صورت میں ہوتا ہے؟‬
+
+    ●​ A) List form​
+
+    ●​ B) Index-based​
+
+    ●​ C) Key-value    ✅​
+    ●​ D) One word​
+Correct Feedback:​
+‫ !بالکل‬Dictionaries key-value pairs ‫پر بنی ہوتی ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Dictionaries ‫ کا‬format ‫ جاننے کے لیے‬Level 11 ‫دیکھیے۔‬
+
+
+
+
+Q12: Level 12 – Errors & Debugging
+
+Question:​
+Syntax error ‫کب آتی ہے؟‬
+
+   ●​ A) ‫ جب‬logic ‫​غلط ہو‬
+
+   ●​ B) ‫ جب‬internet ‫​بند ہو‬
+
+   ●​ C) ‫ جب‬rules break ‫ہوں‬     ✅​
+   ●​ D) ‫ جب‬result ‫​غلط ہو‬
+
+
+Correct Feedback:​
+‫ !صحیح‬Syntax error rules ‫کے خالف جانے پر آتی ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Errors ‫ کی‬types ‫ یاد کرنے کے لیے‬Level 12 ‫دیکھیے۔‬
+
+
+
+
+Q13: Level 13 – File Handling
+
+Question:​
+Append mode "a" ‫کیا کرتا ہے؟‬
+
+   ●​ A) ‫ فائل‬delete ‫​کرتا ہے‬
+
+   ●​ B) ‫ فائل‬read ‫​کرتا ہے‬
+
+   ●​ C) ‫ نئی چیزیں پرانی کے ساتھ‬add ‫کرتا ہے‬   ✅​
+   ●​ D) error ‫​دیتا ہے‬
+Correct Feedback:​
+‫ !زبردست‬Append mode ‫ نئی الئن‬add ‫ پرانی‬،‫ کرتا ہے‬delete ‫نہیں ہوتی۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬File modes ‫ کے لیے‬Level 13 ‫دوبارہ دیکھیے۔‬
+
+
+
+
+Q14: Level 14 – Modules
+
+Question:​
+Python module import ‫کرنے کے لیے کیا لکھتے ہیں؟‬
+
+   ●​ A) from​
+
+   ●​ B) def​
+
+   ●​ C) import    ✅​
+   ●​ D) use​
+
+
+Correct Feedback:​
+‫ !بالکل‬import ‫ سے‬module add ‫ہوتا ہے۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Modules import ‫ کرنے کے لیے‬Level 14 ‫دیکھیں۔‬
+
+
+
+
+Q15: Level 15 – Final Project
+
+Question:​
+Student report card project ‫ میں‬marks ‫ کہاں‬store ‫کیے گئے؟‬
+
+   ●​ A) List​
+
+   ●​ B) String​
+
+   ●​ C) Dictionary     ✅​
+   ●​ D) Variable​
+Correct Feedback:​
+‫ !صحیح‬marks = {} ‫ ایک‬dictionary ‫ ہے جس میں‬subject-wise marks save ‫ہوتے ہیں۔‬
+
+Incorrect Feedback:​
+ ‫ !غلط‬Project structure ‫ کو بہتر سمجھنے کے لیے‬Level 15 ‫دیکھیے۔‬
+
+
+
+
+STEP 2 — Completion Message
+
+Text (Urdu):​
+ "‫ مبارک ہو! آپ نے پورے‬Course ‫ کو مکمل کیا — اور خود کو‬test ‫​بھی کیا۔‬
+‫ تو آپ کسی بھی‬،‫ اگر آپ نے کوئی غلطی کی‬Level ‫ پر واپس جا سکتے ہیں اور اسے‬revise ‫​کر سکتے ہیں۔‬
+ ZOR ‫"!آپ کا ساتھ دے گا — آگے کے مراحل میں بھی‬
+
+Action: Show badge “Python Beginner Certified!”​
+Button: “View My Progress”​
+Option: “Go back to home page”
+
+​
+
