@@ -36,6 +36,18 @@ The content of this README was written entirely by me (Zoraiz). Grok AI was used
 - Toggle course visibility/activation
 - Structured level-based learning path
 
+
+## Design & Development Process
+
+- All screens and user flows were designed by me in **Figma** before any code was written
+- Component-based React architecture for reusable UI
+- Client-side routing with protected routes (authentication required for learning pages)
+- Global auth & language context for instant UI updates
+- Firebase backend:
+  - **Authentication** — Email/password + Google OAuth
+  - **Firestore** — Database for users, courses, progress
+  - **Storage** — Profile pictures & course media
+
 ## Demo
 
 ## Tech Stack
